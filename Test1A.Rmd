@@ -1,0 +1,148 @@
+---
+title: "Section 2: Datafication où les promesses de la mise en données du monde"
+subtitle: "Culture générale des données"
+author: "Datactivist"
+date: "2018-2019"
+output:
+  SlidesDatactivist::moon_reader:
+    css: [default, datactivist, datactivist-fonts]
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+params:
+  event: Culture générale des données, Sciences Po Saint-Germain-en-Laye
+---
+
+layout: true
+  
+
+`r paste0("<div class='my-footer'><span>", params$event, "</span> <center><div class=logo><img src='", system.file('rmarkdown', 'templates', 'xaringan', 'resources', 'img', 'fond_noir_monochrome.png', package='SlidesDatactivist'), "' width='100px'></center></span></div>")` 
+
+---
+
+class: center, middle
+
+Ces slides en ligne : http://datactivist.coop/SPoSGL/
+
+Sources : https://github.com/datactivist/SPoSGL
+
+
+Les productions de Datactivist sont librement réutilisables selon les termes de la licence [Creative Commons 4.0 BY-SA](https://creativecommons.org/licenses/by-sa/4.0/legalcode.fr).
+
+<BR>
+<BR>
+
+![](./img/ccbysa.png)
+
+
+
+---
+## Qui sommes nous ?
+
+<BR><BR><BR><BR>
+
+[![](./img/logo.png)](https://datactivist.coop)
+
+### We .red[open data], we make them .red[useful]
+
+---
+## Qui sommes nous ?
+
+- Datactivist est un .red[**pure player de l’open data**] créé en 2016, par Samuel Goëta et Joël Gombin.
+
+- Se positionnant sur .red[**toutes les étapes du travail d’ouverture des données**], Datactivist travaille tant avec les producteurs de données qu’avec les réutilisateurs et participe à l’appropriation des données par chacun.
+
+- Nous appliquons nos propres .red[**valeurs**] : nous sommes une coopérative ; nos supports de formation et nos contenus sont librement réutilisables, publiés en licence Creative Commons.
+
+- Une approche issue de la recherche : voir notamment **https://datactivist.coop/these**. 
+
+- Nous animons la communauté [#TeamOpenData](https://teamopendata.org).
+
+---
+## Nos activités
+
+- Conseil sur les .red[**stratégies d’ouverture de données**] : nous aidons les organisations dans la conception et la mise en œuvre de leur stratégie d’ouverture de données.
+
+
+- .red[**Accompagnement dans la réutilisation de données ouvertes**] : nous aidons les organisations à utiliser les données au quotidien. 
+
+- .red[**Sensibilisation et formation à la donnée**] : nous formons à la culture générale des données, nous enseignons les grands principes et bonnes pratiques de l'open data et nous introduisons à la data science. 
+
+- .red[**Médiation de données**] : nous organisons des hackathons, des open data camps, des expéditions de données...
+
+???
+
+La médiation de données est aussi fondamentalement une animation de communauté(s). 
+
+---
+## Notre vision
+
+### D'un open data de l'offre à un .red[open data de la demande]
+
+Aujourd’hui, les administrations choisissent les données à ouvrir, elles décident du quand et du comment .red[**sans consulter les usagers**].
+
+Les rares données ouvertes sont souvent décevantes : pas à jour, trop agrégées, mal documentées, mal formatées, parfois inutilisables. 
+
+Il faut aujourd’hui passer à l’étape supérieure : .red[**un open data piloté par la demande**].
+
+Mais c'est difficile : demande peu visible, pas de possibilité de soumettre la communication des données à l'expression d'une demande. Leviers : demandes d'ouverture, plateformes, animations (ex : hackathon), gouvernance partagée... 
+
+---
+## Ouvrir ses données : les étapes
+
+![](./img/etapes.png)
+
+???
+
+La collectivité est toujours la première réutilisatrice de ses propres données
+
+---
+## Réussir sa stratégie d'ouverture des données 
+
+- Au-delà de l'obligation légale : .red[**poser les objectifs**] poursuivis par la stratégie
+
+- Se donner les moyens de connaître la .red[**demande de données**] pour y répondre (voir par ex. [DODOdata.io](https://dododata.io))
+
+- Travailler à la .red[**qualité des données**], garante d'usages réels
+
+- Mener le projet d'ouverture des données comme un projet de modernisation de l'administration (transversalité, agilité, lean...)
+
+???
+
+Une stratégie qui peut/doit englober la question de la data en général.
+Croiser aussi avec le RGPD ! 
+
+---
+## Réussir sa stratégie d'ouverture des données 
+
+- Une ouverture des données .red[**orientée vers l'utilisateur**] : pousser les données là où sont les usagers et non l'inverse. Enjeu essentiel de la .red[**découvrabilité**] des données
+
+- Construire une .red[**offre de services**] pour son écosystème (public et privé)
+
+- Distinguer ouverture de ses données, et infrastructures de partage des données en termes de gouvernance.
+
+???
+
+Le premier est le métier de l'acteur public, le deuxième l'est-il ? Quelle gouvernance des plateformes d'ouverture des données ?
+Aller vers un Etat(collectivité)-plateforme
+Tiers de confiance
+
+---
+## Réussir sa stratégie d'ouverture des données 
+
+- Aller vers un .red[**service métropolitain de la donnée**]
+
+- Poser la question des .red[**données d'intérêt général**]
+
+- .red[**Réarmer le service public**] à l'heure de la révolution des données : big data, algorithmie... 
+
+---
+class: inverse, center, middle
+
+# Merci !
+
+Contact : [joel@datactivist.coop](mailto:joel@datactivist.coop)
+
+
