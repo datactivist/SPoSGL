@@ -1,0 +1,67 @@
+---
+title: "Section 2: Datafication où les promesses de la mise en données du monde"
+subtitle: "Culture générale des données"
+author: "Datactivist"
+date: "2018-2019"
+output:
+  SlidesDatactivist::moon_reader:
+    css: [default, datactivist, datactivist-fonts]
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+params:
+  event: Culture générale des données, Sciences Po Saint-Germain-en-Laye
+---
+
+layout: true
+  
+
+`r paste0("<div class='my-footer'><span>", params$event, "</span> <center><div class=logo><img src='", system.file('rmarkdown', 'templates', 'xaringan', 'resources', 'img', 'accidents.png', package='SlidesDatactivist'), "' width='100px'></center></span></div>")` 
+
+---
+
+class: center, middle
+
+Ces slides en ligne : http://datactivist.coop/SPoSGL/
+
+Sources : https://github.com/datactivist/SPoSGL/
+
+
+Les productions de Datactivist sont librement réutilisables selon les termes de la licence [Creative Commons 4.0 BY-SA](https://creativecommons.org/licenses/by-sa/4.0/legalcode.fr).
+
+<BR>
+<BR>
+
+<img src="./img/ccbysa.png" height="100"/> 
+
+
+
+---
+## Plan du cours
+<BR>
+
+### 1. La .red[nombrification] du monde
+
+
+### 2. Les .red[données "brutes"], un oxymore ?
+
+
+### 3. .red[L'absence de données] : compter pour être pris en compte
+
+---
+class: middle
+
+## Introduction 
+
+#### Ecoutez le .red[podcast introductif] de la section 2 
+
+.pull-center[<img src="./img/using_data.png" height="400" />]
+
+---
+class: inverse, center, middle
+
+# Merci !
+
+Contact : [timothee@datactivi.st](mailto:joel@datactivist.coop)
