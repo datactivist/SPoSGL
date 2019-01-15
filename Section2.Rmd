@@ -1,8 +1,8 @@
 ---
 title: "Section 2: Datafication où les promesses de la mise en données du monde"
 subtitle: "Culture générale des données"
-author: "Datactivist"
-date: "2018-2019"
+author: "Datactivist, 2018-2019"
+date: ""
 output:
   SlidesDatactivist::moon_reader:
     css: [default, datactivist, datactivist-fonts]
@@ -38,52 +38,53 @@ Les productions de Datactivist sont librement réutilisables selon les termes de
 
 
 
----
-## Plan du cours
-<BR>
-
-### 1. La .red[nombrification] du monde
-
-
-### 2. Les .red[données "brutes"], un oxymore ?
-
-
-### 3. .red[L'absence de données] : compter pour être pris en compte
 
 ---
 ## Plan du cours
 
-.center[**Podcast introductif section 2, par Timothée Gidoin**]
+.center[*Podcast introductif section 2, par Timothée Gidoin*]
 
-#### **1. .red[La nombrification du monde]**
-
-Ressource complémentaire : lire xxx / écouter xxx / regarder xxx
-
-#### **2. .red[Les données "brutes", un oxymore ?]**
+#### .red[1- La nombrification du monde]
 
 Ressource complémentaire : lire xxx / écouter xxx / regarder xxx
 
-#### **3. .red[L'absence de données : compter pour être pris en compte]**
+#### .red[2- Les données "brutes", un oxymore ?]
+
+Ressource complémentaire : lire xxx / écouter xxx / regarder xxx
+
+#### .red[3- L'absence de données : compter pour être pris en compte]
 
 Ressource complémentaire : lire xxx / écouter xxx / regarder xxx
 
 **Bibliographie**
 
-.center[**Quizz**]
+.center[*Quizz*]
 ---
 ## Introduction 
 
-#### Ecoutez le .red[podcast introductif] de la section X 
+#### Ecoutez le .red[podcast introductif] de la section 2 
 
-.center[<img src="./img/using_data.png" height="400"/>]
+.center[![](//cdn.andertoons.com/img/toons/cartoon6410.png)]
 
 ---
 class: inverse, center, middle
 
-## Grain 1
+## 1. La nombrification du monde
 
 ---
-## Grain 1
+## 1er sous-titre Grain 1
+
+- 5/6 slides d'accompagnement du grain 1
+
+- Quelques images
+
+---
+class: inverse, center, middle
+
+## 2. Les données "brutes", un oxymore ?
+
+---
+## 1er sous-titre Grain 2
 
 - 5/6 slides d'accompagnement du grain 2
 
@@ -92,26 +93,36 @@ class: inverse, center, middle
 ---
 class: inverse, center, middle
 
-## Grain 2
+## 3. L'absence de données : compter pour être pris en compte
 
 ---
-## Grain 2
-
-- 5/6 slides d'accompagnement du grain 2
-
-- Quelques images
-
----
-class: inverse, center, middle
-
-## Grain 3
-
----
-## Grain 3
+## 1er sous-titre Grain 3
 
 - 5/6 slides d'accompagnement du grain 3
 
 - Quelques images
+
+---
+class: inverse, center, middle
+
+## Bibliographie
+
+---
+## Bibliographie
+
+- Ceci est une ressource bibliographique
+
+- Ceci est une 2ème ressource bibliographique
+
+- Ceci est une 3ème ressource bibliographique
+
+
+.center[![](https://upload.wikimedia.org/wikipedia/en/b/b9/MagrittePipe.jpg)]
+
+---
+class: inverse, center, middle
+
+## Quizz section 2 : rdv sur votre espace e-campus !
 
 ---
 class: inverse, center, middle

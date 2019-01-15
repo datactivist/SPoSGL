@@ -1,8 +1,8 @@
 ---
-title: "Section X: XXXXX"
+title: "Section X: XXXX"
 subtitle: "Culture générale des données"
-author: "Datactivist"
-date: "2018-2019"
+author: "Datactivist, 2018-2019"
+date: ""
 output:
   SlidesDatactivist::moon_reader:
     css: [default, datactivist, datactivist-fonts]
@@ -13,12 +13,13 @@ output:
       countIncrementalSlides: false
 params:
   event: Culture générale des données, Sciences Po Saint-Germain-en-Laye, section X
+  slug: SPoSGL/
 ---
 
 layout: true
   
 
-`r paste0("<div class='my-footer'><span>", params$event, "</span> <center><div class=logo><img src='", system.file('rmarkdown', 'templates', 'xaringan', 'resources', 'img', 'accidents.png', package='SlidesDatactivist'), "' width='100px'></center></span></div>")` 
+`r paste0("<div class='my-footer'><span>", params$event, "</span> <center><div class=logo><img src='", system.file('rmarkdown', 'templates', 'xaringan', 'resources', 'img', 'accidents.png', package='SlidesDatactivist'), "' width='100px'></center></span></div>")`
 
 ---
 
@@ -55,7 +56,7 @@ Les productions de Datactivist sont librement réutilisables selon les termes de
 
 **Ressource complémentaire** : lire xxx / écouter xxx / regarder xxx
 
-**Bibliographie**
+*Bibliographie*
 
 .center[**Quizz section X**]
 ---
@@ -71,10 +72,10 @@ Les productions de Datactivist sont librement réutilisables selon les termes de
 ---
 class: inverse, center, middle
 
-## Grain 1
+## 1. Grain 1
 
 ---
-## Grain 1
+## 1er sous-titre Grain 1
 
 - 5/6 slides d'accompagnement du grain 2
 
@@ -83,7 +84,7 @@ class: inverse, center, middle
 ---
 class: inverse, center, middle
 
-## Grain 2
+## 2. 1er sous-titre Grain 2
 
 ---
 ## Grain 2
@@ -95,10 +96,10 @@ class: inverse, center, middle
 ---
 class: inverse, center, middle
 
-## Grain 3
+## 3. Grain 3
 
 ---
-## Grain 3
+## 1er sous-titre Grain 3
 
 - 5/6 slides d'accompagnement du grain 3
 
