@@ -1,5 +1,5 @@
 ---
-title: "Section 2: Datafication où les promesses de la mise en données du monde"
+title: "Section X: XXXXX"
 subtitle: "Culture générale des données"
 author: "Datactivist"
 date: "2018-2019"
@@ -12,7 +12,7 @@ output:
       highlightLines: true
       countIncrementalSlides: false
 params:
-  event: Culture générale des données, Sciences Po Saint-Germain-en-Laye
+  event: Culture générale des données, Sciences Po Saint-Germain-en-Laye, section X
 ---
 
 layout: true
@@ -34,30 +34,73 @@ Les productions de Datactivist sont librement réutilisables selon les termes de
 <BR>
 <BR>
 
-.align.right[<img src="./img/ccbysa.png" height="100"/>] 
+<img src="./img/ccbysa.png" height="100"/> 
 
 
 
 ---
 ## Plan du cours
-<BR>
 
-### 1. La .red[nombrification] du monde
+.center[**Podcast introductif section X**]
 
+**1. .red[Grain 1]**
 
-### 2. Les .red[données "brutes"], un oxymore ?
+**Ressource complémentaire** : lire xxx / écouter xxx / regarder xxx
 
+**2. .red[Grain 2]**
 
-### 3. .red[L'absence de données] : compter pour être pris en compte
+**Ressource complémentaire** : lire xxx / écouter xxx / regarder xxx
 
+**3. .red[Grain 3]**
+
+**Ressource complémentaire** : lire xxx / écouter xxx / regarder xxx
+
+**Bibliographie**
+
+.center[**Quizz**]
 ---
-class: middle
 
 ## Introduction 
 
-#### Ecoutez le .red[podcast introductif] de la section 2 
+#### Ecoutez le .red[podcast introductif] de la section X 
 
-.reduite2[.center[![](img/using_data.png)]]
+[***Image éventuelle***]
+
+---
+class: inverse, center, middle
+
+## Grain 1
+
+---
+## Grain 1
+
+- 5/6 slides d'accompagnement du grain 2
+
+- Quelques images
+
+---
+class: inverse, center, middle
+
+## Grain 2
+
+---
+## Grain 2
+
+- 5/6 slides d'accompagnement du grain 2
+
+- Quelques images
+
+---
+class: inverse, center, middle
+
+## Grain 3
+
+---
+## Grain 3
+
+- 5/6 slides d'accompagnement du grain 3
+
+- Quelques images
 
 ---
 class: inverse, center, middle
