@@ -12,7 +12,7 @@ output:
       highlightLines: true
       countIncrementalSlides: false
 params:
-  event: Culture générale des données, Sciences Po Saint-Germain-en-Laye
+  event: Culture générale des données, Sciences Po Saint-Germain-en-Laye, section 2
 ---
 
 layout: true
@@ -34,7 +34,7 @@ Les productions de Datactivist sont librement réutilisables selon les termes de
 <BR>
 <BR>
 
-.align.right[<img src="./img/ccbysa.png" height="100"/>] 
+.center[<img src="./img/ccbysa.png" height="100"/>] 
 
 
 
@@ -51,13 +51,67 @@ Les productions de Datactivist sont librement réutilisables selon les termes de
 ### 3. .red[L'absence de données] : compter pour être pris en compte
 
 ---
-class: middle
+## Plan du cours
 
+.center[**Podcast introductif section 2, par Timothée Gidoin**]
+
+#### **1. .red[La nombrification du monde]**
+
+Ressource complémentaire : lire xxx / écouter xxx / regarder xxx
+
+#### **2. .red[Les données "brutes", un oxymore ?]**
+
+Ressource complémentaire : lire xxx / écouter xxx / regarder xxx
+
+#### **3. .red[L'absence de données : compter pour être pris en compte]**
+
+Ressource complémentaire : lire xxx / écouter xxx / regarder xxx
+
+**Bibliographie**
+
+.center[**Quizz**]
+---
 ## Introduction 
 
-#### Ecoutez le .red[podcast introductif] de la section 2 
+#### Ecoutez le .red[podcast introductif] de la section X 
 
-.reduite2[.center[![](img/using_data.png)]]
+.center[<img src="./img/using_data.png" height="400"/>]
+
+---
+class: inverse, center, middle
+
+## Grain 1
+
+---
+## Grain 1
+
+- 5/6 slides d'accompagnement du grain 2
+
+- Quelques images
+
+---
+class: inverse, center, middle
+
+## Grain 2
+
+---
+## Grain 2
+
+- 5/6 slides d'accompagnement du grain 2
+
+- Quelques images
+
+---
+class: inverse, center, middle
+
+## Grain 3
+
+---
+## Grain 3
+
+- 5/6 slides d'accompagnement du grain 3
+
+- Quelques images
 
 ---
 class: inverse, center, middle

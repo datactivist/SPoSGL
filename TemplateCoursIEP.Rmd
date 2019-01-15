@@ -57,12 +57,14 @@ Les productions de Datactivist sont librement réutilisables selon les termes de
 
 **Bibliographie**
 
-.center[**Quizz**]
+.center[**Quizz section X**]
 ---
 
 ## Introduction 
 
 #### Ecoutez le .red[podcast introductif] de la section X 
+
+<BR>
 
 [***Image éventuelle***]
 
@@ -101,6 +103,28 @@ class: inverse, center, middle
 - 5/6 slides d'accompagnement du grain 3
 
 - Quelques images
+
+---
+class: inverse, center, middle
+
+## Bibliographie
+
+---
+## Bibliographie
+
+- Ceci est une ressource bibliographique
+
+- Ceci est une 2ème ressource bibliographique
+
+- Ceci est une 3ème ressource bibliographique
+
+
+.center[![](https://upload.wikimedia.org/wikipedia/en/b/b9/MagrittePipe.jpg)]
+
+---
+class: inverse, center, middle
+
+## Quizz section X : rdv sur votre espace e-campus !
 
 ---
 class: inverse, center, middle
