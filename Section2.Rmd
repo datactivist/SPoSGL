@@ -1,5 +1,5 @@
 ---
-title: "Section 2: Datafication où les promesses de la mise en données du monde"
+title: "Section 2: Datafication ou les promesses de la mise en données du monde"
 subtitle: "Culture générale des données"
 author: "Datactivist, 2018-2019"
 date: ""
