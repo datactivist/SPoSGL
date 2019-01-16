@@ -118,7 +118,7 @@ David Brooks, éditorialiste du New York Times, ["The Philosophy of Data"](https
 ---
 ## Le nouveau positivisme des données
 
-- Attention, avoir des données, même provenant de sources officielles, ne signifient pas pour autant qu'elles sont neutres, irréprochables (voir section 5, partie 3 "**Les limites inhérentes aux données et aux indicateurs**" )
+- Attention, les données, même provenant de sources officielles, ne sont pour autant neutres, irréprochables ou porteuses de "LA" vérité (voir section 5, partie 3 "**Les limites inhérentes aux données et aux indicateurs**" )
 
 .center[<img src="./img/baddata.png" height="250"/>] 
 
@@ -192,10 +192,33 @@ Les données peuvent être des :
 - symboles]
 
 ---
+Class:
+## La pyramide Data-Information-Knowledge-Wisdom
+
+- Les **.red[données]** sont la matière "brute" d'où naît l'information.
+
+- **.red[L'information]** pourrait être définie comme des données qui ont été consignées,
+classées, organisées, raccordées ou interprétées dans un cadre qui en dégage le sens
+
+- En donnant du sens à de l'information, on obtient de la **.red[connaissance]**
+
+- En donnant du sens à la **.red[connaissance]** on obtient du savoir
+
+---
+Class:
+## La pyramide Data-Information-Knowledge-Wisdom
+
+.center[<img src="./img/competence.png" height="300"/>]
+
+_NB : le haut de la pyramide, est parfois remplacé par "compétence"_
+
+---
+Classe:
 ## Vers une définition des données
+
 .pull-left.reduite2[
-![](img/kitchin.jpg)
-]
+![](img/kitchin.png)]
+
 .pull-right[
 > *Data are commonly understood to be the raw material produced by **abstracting the world** into categories, measures and other representational forms – numbers, characters, symbols, images,sounds, electromagnetic waves, bits – that constitute the **building blocks** from which information and knowledge are created.*
 
@@ -208,6 +231,8 @@ Les données peuvent être des :
 ## Data or capta ?
 
 > *Technically, then, what we understand as data are actually **capta** (derived from the Latin capere, meaning ‘to take’); those units of data that have been selected and harvested from the sum of all potential data.*
+
+> Techniquement, ce que nous nous appelons "donnée" est généralement "capturé" (issu du latin "capere", signifiant "prendre"); ces unités de données qui ont été sélectionnées et collectées parmi l'ensemble de toutes les données possibles
 
 [Kitchin, 2014](https://books.google.fr/books?hl=fr&lr=&id=GfOICwAAQBAJ&oi=fnd&pg=PP1&dq=kitchin+data+revolution&ots=pcyfMTZh-V&sig=dQyPTL3AIN_4RdWvtBFw4VjdAa4#v=onepage&q=kitchin%20data%20revolution&f=false)
 
