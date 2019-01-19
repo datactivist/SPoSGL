@@ -1,0 +1,171 @@
+---
+title: "Section 4: L’écosystème des sources de données publiques"
+subtitle: "Culture générale des données"
+author: "Datactivist, 2018-2019"
+date: ""
+output:
+  SlidesDatactivist::moon_reader:
+    css: [default, datactivist, datactivist-fonts]
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+params:
+  event: Culture générale des données, Sciences Po Saint-Germain-en-Laye, section 4
+  slug: SPoSGL/
+---
+
+layout: true
+  
+
+`r paste0("<div class='my-footer'><span>", params$event, "</span> <center><div class=logo><img src='", system.file('rmarkdown', 'templates', 'xaringan', 'resources', 'img', 'accidents.png', package='SlidesDatactivist'), "' width='100px'></center></span></div>")`
+
+---
+
+class: center, middle
+
+Ces slides en ligne : http://datactivist.coop/SPoSGL/
+
+Sources : https://github.com/datactivist/SPoSGL/
+
+
+Les productions de Datactivist sont librement réutilisables selon les termes de la licence [Creative Commons 4.0 BY-SA](https://creativecommons.org/licenses/by-sa/4.0/legalcode.fr).
+
+<BR>
+<BR>
+
+<img src="./img/ccbysa.png" height="100"/> 
+
+
+
+---
+## Plan du cours
+
+.center[*Podcast introductif section 4, par Timothée Gidoin*]
+
+#### .red[**1. Les multiples sources et producteurs de données publiques**]
+
+Lire xxx / écouter xxx / regarder xxx
+
+#### .red[**2. Comment bien distinguer les sources ?**]
+
+Lire xxx / écouter xxx / regarder xxx
+
+#### .red[**3. L’importance de croiser les sources**]
+
+Lire xxx / écouter xxx / regarder xxx
+
+*Bibliographie*
+
+.center[**Quizz section 4**]
+---
+
+## Introduction 
+
+#### Ecoutez le .red[podcast introductif] de la section 4 
+
+.center[<img src="./img/Acronyms.png" height="400"/>]
+
+.footnote[© Jorge Cham, 2008]
+
+---
+class: inverse, center, middle
+
+## 1. Les multiples sources et producteurs de données publiques
+
+---
+## Qui produit des données publiques ?
+
+- A quels acteurs pensez-vous naturellement lorsqu'on parle de données ou de statistiques publiques ?
+
+<BR>
+
+.center[<img src="./img/thinking.png" height="150"/>]
+
+---
+## Qui produit des données publiques ?
+
+- A quels acteurs pensez-vous naturellement lorsqu'on parle de données ou de statistiques publiques ?
+
+##### Généralement, à des producteurs de statistiques ou d'études comme l'Insee, Eurostat ou l'OCDE
+
+.pull-left[![](https://upload.wikimedia.org/wikipedia/fr/1/10/Logo_Insee.svg)]
+
+.pull-right[![](https://upload.wikimedia.org/wikipedia/fr/thumb/8/8e/OCDE_logo.svg/1280px-OCDE_logo.svg.png)]
+
+<img src="https://ec.europa.eu/eurostat/statistics-explained/images/0/09/Logo_RGB-POS.png" height="150"/>
+---
+## Qui produit des données publiques ?
+
+- Les organismes officiels produisant des **statistiques publiques** sont loin d'être les seuls à produire des données publiques
+
+- **La plupart des administrations ou collectivités produisent des données** dont beaucoup d'entre elles peuvent être ouvertes et réutilisées par tous (cf section 6 et 8 autour de l'*Open data*) et faire l'objet, par la suite de statistiques
+
+**.red[Point définition]** : les statistiques visent d'abord à fournir des renseignements utiles à l'aide de chiffres. La statistique pourrait donc être définie comme de **l'information qu'on peut obtenir à partir d'opérations mathématiques sur des données numériques**. Les statistiques peuvent servir de base à la **prise de décisions**
+
+---
+## Qui produit des données publiques ?
+
+Quelques thématiques sur lesquelles on peut collecter des données publiques 
+- Transport : 
+- Délinquance : nombre de dépôts de plainte 
+- Economie : nombre de demandeurs d'emploi
+- Culture : 
+- 
+
+
+Il existe des données sur pratiquement l'ensemble des sujets de l'action publique
+
+---
+class: inverse, center, middle
+
+## 2. 1er sous-titre Grain 2
+
+---
+## Grain 2
+
+- 5/6 slides d'accompagnement du grain 2
+
+- Quelques images
+
+---
+class: inverse, center, middle
+
+## 3. Grain 3
+
+---
+## 1er sous-titre Grain 3
+
+- 5/6 slides d'accompagnement du grain 3
+
+- Quelques images
+
+---
+class: inverse, center, middle
+
+## Bibliographie
+
+---
+## Bibliographie
+
+- Ceci est une ressource bibliographique
+
+- Ceci est une 2ème ressource bibliographique
+
+- Ceci est une 3ème ressource bibliographique
+
+
+.center[![](https://upload.wikimedia.org/wikipedia/en/b/b9/MagrittePipe.jpg)]
+
+---
+class: inverse, center, middle
+
+## Quizz section X : rdv sur votre espace e-campus !
+
+---
+class: inverse, center, middle
+
+# Merci !
+
+Contact : [timothee@datactivi.st](mailto:timothee@datactivi.st)

@@ -56,9 +56,9 @@ Lire l'article ["Entretien avec Jérôme Denis - Le travail invisible des donné
 
 Ecouter le podcast "Section 2 - Absence de données"
 
-**Bibliographie**
+*Bibliographie**
 
-.center[*Quizz*]
+.center[**Quizz section 2**]
 ---
 ## Introduction 
 
