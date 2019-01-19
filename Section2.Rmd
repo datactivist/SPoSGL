@@ -294,9 +294,7 @@ Antoine Pécoud, sociologue
 
 **Ecoutez le .red[podcast "L'absence de données"] de la section 2**
 
-.pull-left[<img src="./img/nodata.png" height="300"/>]
-
-.pull-right[<img src="./img/refugies.png" height="300"/>]
+.center[<img src="./img/comptage.png" height="450"/>]
 
 .center[.footnote[© Xavier Gorce 2018]]
 ---
