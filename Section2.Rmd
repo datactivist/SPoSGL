@@ -46,15 +46,15 @@ Les productions de Datactivist sont librement réutilisables selon les termes de
 
 #### .red[1- La nombrification du monde]
 
-Ressource complémentaire : lire xxx / écouter xxx / regarder xxx
+Lire l'article ["Mise en données du monde, le déluge numérique"](https://www.monde-diplomatique.fr/2013/07/CUKIER/49318)
 
 #### .red[2- Les données "brutes", un oxymore ?]
 
-Ressource complémentaire : lire xxx / écouter xxx / regarder xxx
+Lire l'article ["Entretien avec Jérôme Denis - Le travail invisible des données"](https://www.nonfiction.fr/article-9517-entretien-avec-jerome-denis-a-propos-de-son-livre-le-travail-invisible.htm)
 
 #### .red[3- L'absence de données : compter pour être pris en compte]
 
-Ressource complémentaire : lire xxx / écouter xxx / regarder xxx
+Ecouter le podcast "Section 2 - Absence de données"
 
 **Bibliographie**
 
@@ -79,7 +79,7 @@ Class: middle
 <BR>
 > […] “La mise en données désigne autre chose que la numérisation, laquelle consiste à traduire un contenu analogique - texte, film, photographie - en une séquence de 1 et de 0 lisible par un ordinateur. Elle se réfère à une action bien plus vaste, et aux implications encore insoupçonnées : **numériser non plus des documents, mais tous les aspects de la vie**.”
 
-.footnote[[Kenneth Cukier, “Mise en données du monde, le déluge numérique”](https://www.monde-diplomatique.fr/2013/07/CUKIER/49318)]
+.footnote[[Kenneth Cukier, “Mise en données du monde, le déluge numérique”](https://www.monde-diplomatique.fr/2013/07/CUKIER/49318)  **lecture obligatoire**]
 
 ---
 Class: middle, center
@@ -213,37 +213,44 @@ Class:
 _NB : le haut de la pyramide, est parfois remplacé par "compétence"_
 
 ---
-Classe:
+Classe: middle
+
 ## Vers une définition des données
 
-.pull-left.reduite2[
-![](img/kitchin.png)]
-
+.pull-left[<img src="./img/kitchin.png" height="400"/>]
+ 
 .pull-right[
-> *Data are commonly understood to be the raw material produced by **abstracting the world** into categories, measures and other representational forms – numbers, characters, symbols, images,sounds, electromagnetic waves, bits – that constitute the **building blocks** from which information and knowledge are created.*
+ 
+> ##### *Data are commonly understood to be the raw material produced by **abstracting the world** into categories, measures and other representational forms – numbers, characters, symbols, images,sounds, electromagnetic waves, bits – that constitute the **building blocks** from which information and knowledge are created.*
 
-⏺ enregistrabilité
+- Enregistrabilité
 
-🏗> briques de base ("*buildings blocks*")]
+- Briques de base "*buildings blocks*")]
 
 ---
 
-## Data or capta ?
+## Data or capta ? Donnée ou Capturée ?
 
 > *Technically, then, what we understand as data are actually **capta** (derived from the Latin capere, meaning ‘to take’); those units of data that have been selected and harvested from the sum of all potential data.*
+
 
 > Techniquement, ce que nous nous appelons "donnée" est généralement "capturé" (issu du latin "capere", signifiant "prendre"); ces unités de données qui ont été sélectionnées et collectées parmi l'ensemble de toutes les données possibles
 
 [Kitchin, 2014](https://books.google.fr/books?hl=fr&lr=&id=GfOICwAAQBAJ&oi=fnd&pg=PP1&dq=kitchin+data+revolution&ots=pcyfMTZh-V&sig=dQyPTL3AIN_4RdWvtBFw4VjdAa4#v=onepage&q=kitchin%20data%20revolution&f=false)
 
 ---
-class:middle
-# Données ou obtenues ? 
+class:
+## Données ou obtenues ? 
 
+<BR>
 
 > « Décidément, on ne devrait jamais parler de “données”, mais toujours d’ “obtenues”. » 
 
 Bruno Latour, 1993
+
+> "L’enjeu principal, il me semble, une fois que l’on admet que les données sont toujours des « obtenues » comme le disait Bruno Latour lorsqu’il observait le travail quotidien des scientifiques, c’est de **comprendre dans quelles conditions elles deviennent malgré tout des « données » pour certains.**"
+
+Jérôme Denis, 2018, dans son [entretien avec Nonfiction](https://www.nonfiction.fr/article-9517-entretien-avec-jerome-denis-a-propos-de-son-livre-le-travail-invisible.htm) (**lecture obligatoire**)
 
 ---
 class: inverse, center, middle
@@ -251,11 +258,56 @@ class: inverse, center, middle
 ## 3. L'absence de données : compter pour être pris en compte
 
 ---
-## 1er sous-titre Grain 3
+## Un sujet sans données, peut-il exister dans le débat public ?
 
-- 5/6 slides d'accompagnement du grain 3
+> Être ignoré de la statistique, c’est être exclu de la cité, de la citoyenneté
 
-- Quelques images
+Maryse Marpsat, statisticienne et sociologue (INED)
+
+#### Connaissez-vous des thématiques pour lesquelles il .red[n'existe pas de données officielles] ?
+
+Deux exemples : 
+
+- Le nombre de sans domicile fixe (SDF) en France
+
+- Le nombre de migrants qui décèdent aux portes de l'EUrope
+
+---
+## L'exemple des migrants disparus ou décédés
+
+**Ne pas collecter de données, un acte très .red[politique]**
+
+> Les Etats de l’UE documentent méticuleusement l’état de leur propre population ainsi que l’entrée sur leur territoire de citoyens étrangers, mais ils accordent très peu d’attention, dans leur pratique statistique, aux personnes mortes en tentant de traverser leurs frontières
+
+Antoine Pécoud, sociologue
+
+> **En omettant de recenser ces morts, les Etats européens les condamnent à l’invisibilité**. Faute de statistiques, ils ne sont rien d’autre que des décès fortuits, connus des seuls habitants des rivages concernés ou de quelques rares spécialistes.
+
+##### A l'opposé, depuis 1998, l’agence fédérale chargée de surveiller la frontière avec le Mexique tient un registre statistique précis du nombre de décès
+---
+## L'exemple des migrants disparus ou décédés
+
+**Ecoutez le .red[podcast "L'absence de données"] de la section 2**
+
+.pull-left[<img src="./img/nodata.png" height="300"/>]
+
+.pull-right[<img src="./img/refugies.png" height="300"/>]
+
+---
+## L'exemple des migrants disparus ou décédés
+
+- Cependant l'absence de données officielles peut être en partie contournée. Des personnes ou des organisations peuvent en effet décider de collecter des données par leurs propres moyens de manière à mettre la lumière sur un sujet.
+
+- De nombreuses ONG dénombrent les migrants ou réfugiés qui décèdent dans leur tentative de rejoindre l'Europe. Quelques exemples :
+
+---
+## L'exemple des migrants disparus ou décédés
+
+**.red[1) UNITED Against Refugees Deaths]**
+
+.center[<img src="./img/united.png" height="300"/>]
+
+.footnote[[*The UNITED list of deaths of refugees and migrants while attempting to enter Europe*](http://www.unitedagainstracism.org/wp-content/uploads/2017/06/ListofDeathsActual.pdf)]
 
 ---
 class: inverse, center, middle
@@ -265,14 +317,12 @@ class: inverse, center, middle
 ---
 ## Bibliographie
 
-- Ceci est une ressource bibliographique
+- Samuel Goëta, [« Fred Turner, Aux sources de l’utopie numérique. De la contre-culture à la cyberculture, Stewart Brand un homme d’influence »](http://journals.openedition.org/questionsdecommunication/8619), Questions de communication, 23 | 2013, mis en ligne le 30 septembre 2013
 
-- Ceci est une 2ème ressource bibliographique
+- Nonfiction, [Entretien avec Jérôme Denis à propos de son livre Le travail invisible](https://www.nonfiction.fr/article-9517-entretien-avec-jerome-denis-a-propos-de-son-livre-le-travail-invisible.htm), mis en ligne le 31 août 2018
 
-- Ceci est une 3ème ressource bibliographique
+- Jérôme Denis, Le travail invisible des données, Presses de l'École des Mines de Paris, 208 pages
 
-
-.center[![](https://upload.wikimedia.org/wikipedia/en/b/b9/MagrittePipe.jpg)]
 
 ---
 class: inverse, center, middle
