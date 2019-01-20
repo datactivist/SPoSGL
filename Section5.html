@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Section 5: Manipulation et représentation de données : éviter des écueils classiques</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Datactivist, 2018-2019" />
+    <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
+    <link href="libs/remark-css-0.0.1/datactivist.css" rel="stylesheet" />
+    <link href="libs/remark-css-0.0.1/datactivist-fonts.css" rel="stylesheet" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# Section 5: Manipulation et représentation de données : éviter des écueils classiques
+## Culture générale des données
+### Datactivist, 2018-2019
+
+---
+
+
+layout: true
+  
+
+&lt;div class='my-footer'&gt;&lt;span&gt;Culture générale des données, Sciences Po Saint-Germain-en-Laye, section 5&lt;/span&gt; &lt;center&gt;&lt;div class=logo&gt;&lt;img src='' width='100px'&gt;&lt;/center&gt;&lt;/span&gt;&lt;/div&gt;
+
+---
+
+class: center, middle
+
+Ces slides en ligne : http://datactivist.coop/SPoSGL/
+
+Sources : https://github.com/datactivist/SPoSGL/
+
+
+Les productions de Datactivist sont librement réutilisables selon les termes de la licence [Creative Commons 4.0 BY-SA](https://creativecommons.org/licenses/by-sa/4.0/legalcode.fr).
+
+&lt;BR&gt;
+&lt;BR&gt;
+
+&lt;img src="./img/ccbysa.png" height="100"/&gt; 
+
+
+
+---
+## Plan du cours
+
+.center[*Podcast introductif section 5*]
+
+**1. .red[Les pièges statistiques récurrents]**
+
+**Ressource complémentaire** : lire xxx / écouter xxx / regarder xxx
+
+**2. .red[Représentations graphique et spatiale, attention danger !]**
+
+**Ressource complémentaire** : lire xxx / écouter xxx / regarder xxx
+
+**3. .red[Les limites inhérentes aux indicateurs]**
+
+**Ressource complémentaire** : lire xxx / écouter xxx / regarder xxx
+
+*Bibliographie*
+
+.center[**Quizz section 5**]
+---
+
+## Introduction 
+
+#### Ecoutez le .red[podcast introductif] de la section 5 
+
+.center[&lt;img src="./img/pollution.png" height="400"/&gt;]
+
+.footnote[© Xavier Gorce]
+
+---
+class: inverse, center, middle
+
+## 1. Les pièges statistiques récurrents
+
+---
+## Médiane ou Moyenne ?
+
+- Salaire mensuel **.red[moyen]** net en France en 2014 (secteur privé) : **2 225€**
+- Salaire mensuel **.red[median]** net en France en 2014 (secteur privé) : **1 783€**
+Soit une différence de près de 450€ !
+
+.center[[&lt;img src="./img/SalaireInsee.png" height="370"/&gt;](https://www.insee.fr/fr/statistiques/2121609#consulter)]
+
+---
+## Médiane ou Moyenne ?
+
+Rappelez-vous que **la moyenne est très sensible aux .red[valeurs extrêmes]...**
+
+.center[[&lt;img src="./img/Milliardaire.png" height="400"/&gt;](https://www.insee.fr/fr/statistiques/2121609#consulter)]
+
+---
+## Corrélation ou causalité ?
+
+Rappel : une corrélation fortement positive, avec un coefficient de corrélation (r) &gt; 0,5, signifie seulement que deux variables évoluent dans le même sens. Cela ne dit **rien** sur le possible lien entre elles
+- Faites attention aux **corrélations fallacieuses** !
+- Exemple ici avec la corrélation quasi parfaite entre la consommation de fromage par personne et le nombre de personnes qui décèdent étranglées dans leurs draps
+
+.center[[&lt;img src="./img/spurious.png" height="250"/&gt;](http://tylervigen.com/spurious-correlations)]
+
+---
+## Corrélation ou causalité ?
+
+A l'instar du site parodique ["Spurious Correlations"](http://tylervigen.com/spurious-correlations) dont le graph précédent est issu, les Décodeurs du monde ont récemment lancé un [générateur aléatoire de comparaisons](https://www.lemonde.fr/les-decodeurs/article/2019/01/02/correlation-ou-causalite-brillez-en-societe-avec-notre-generateur-aleatoire-de-comparaisons-absurdes_5404286_4355770.html). Un bon moyen pour ne plus jamais faire la confusion entre corrélation ou causalité !
+
+.center[&lt;img src="./img/decodeurs.png" height="350"/&gt;]
+
+---
+## Corrélation ou causalité ?
+
+- En ce qui concerne les corrélations, il faut être attentif au **.red[nombre d'unités observées]** : moins il y a d'observations, plus la corrélation est forte. Ce n'est pas pareil de regarder la corrélation entre 2 variables sur 13 régions ou sur 35 000 villes
+
+.center[&lt;img src="./img/correlation.png" height="180"/&gt;]
+
+- Il faut également être prudent sur l'échelle spatiale utilisée : la corrélation entre le % d'immigrants et le vote FN est positif à l'échelle du département. Mais à l'intérieur de ces départements, ce sont dans les zones avec la plus faible proportion d'immigrants que les personnes votent FN. Ainsi, au niveau micro la corrélation peut être inversée que ce qui était observé au niveau macro
+
+---
+## Corrélation ou causalité ?
+
+---
+class: inverse, center, middle
+
+## 2. 1er sous-titre Grain 2
+
+---
+## Grain 2
+
+- 5/6 slides d'accompagnement du grain 2
+
+- Quelques images
+
+---
+class: inverse, center, middle
+
+## 3. Grain 3
+
+---
+## 1er sous-titre Grain 3
+
+- 5/6 slides d'accompagnement du grain 3
+
+- Quelques images
+
+---
+class: inverse, center, middle
+
+## Bibliographie
+
+---
+## Bibliographie
+
+- Ceci est une ressource bibliographique
+
+- Ceci est une 2ème ressource bibliographique
+
+- Ceci est une 3ème ressource bibliographique
+
+
+.center[![](https://upload.wikimedia.org/wikipedia/en/b/b9/MagrittePipe.jpg)]
+
+---
+class: inverse, center, middle
+
+## Quizz section X : rdv sur votre espace e-campus !
+
+---
+class: inverse, center, middle
+
+# Merci !
+
+Contact : [timothee@datactivi.st](mailto:timothee@datactivi.st)
+    </textarea>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function() {
+  var d = document, s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})();</script>
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+  }
+});
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
