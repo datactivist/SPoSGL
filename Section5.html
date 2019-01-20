@@ -158,6 +158,8 @@ Il existe des facteurs qu'on ne voit pas ou auxquels on ne pense généralement 
 ---
 ## Les facteurs cachés
 
+Quelques exemples :
+
 - Le **taux d'occupation des voitures** a fortement baissé (donc mécaniquement moins de morts  à accidents comparables)
   
 - Les **conducteurs "novices"**, i.e avec moins de 12 années de pratique, sont de moins en moins nombreux
@@ -167,16 +169,143 @@ Il existe des facteurs qu'on ne voit pas ou auxquels on ne pense généralement 
 - La **qualité des voitures** s'est fortement améliorée, et notamment l'aspect sécurité (airbags)
 
 ---
-class: inverse, center, middle
+## Le périmètre du dénominateur
 
-## 2. 1er sous-titre Grain 2
+Lorsqu'il est question de **.red[ratio]**, il est utile de se demander ce que comprend le dénominateur de ce ratio. Le périmètre du dénominateur influence évidemment le résultat obtenu. 
+
+- Exemple avec le taux de chômage des jeunes en France : à la fin 2017, le taux de chômage des 15-24 ans atteignait 23%
+
+- Est-ce que cela signifie que près d'un jeune sur 4 est au chômage ?
+
+.center[&lt;img src="./img/chomage1.png" height="150"/&gt;]
+
+.footnote[[Source](https://www.huffingtonpost.fr/2012/09/06/taux-chomage-bit-jeunes-dom_n_1860232.html)]
 
 ---
-## Grain 2
+## Le périmètre du dénominateur
 
-- 5/6 slides d'accompagnement du grain 2
+- Est-ce que cela signifie que près d'un jeune sur 4 est au chômage ?
 
-- Quelques images
+- Non ! Le dénominateur prend en compte les **"personnes actives"**, c'est-à-dire ayant un emploi ou à la recherche d'un emploi
+
+- Mais **seulement 37% des 15-24 ans sont actifs** ! Beaucoup des autres sont encore en études secondaires ou tertiaires 
+
+- Et ceux qui sont déjà sur le marché du travail sont souvent ceux qui ont quitté tôt le système scolaire et donc **plus susceptible d'éprouver des difficultés pour trouver un travail**
+
+- Si on rapporte le nombre de 15-24 ans à la recherche d'un emploi sur l'ensemble des 15-24 ans (y compris ceux en études), le taux de chômage tombe à 8,5%, soit près d'un jeune sur 12
+
+.footnote[Regarder la vidéo ["Un jeune sur quatre au chômage ?"](https://education.francetv.fr/matiere/economie/premiere/video/un-jeune-sur-quatre-au-chomage)]
+
+---
+class: inverse, center, middle
+
+## 2. Les représentations graphiques et spatiales problématiques
+
+---
+## Les représentations graphiques problématiques
+
+- Avoir une **.red[échelle discontinue sur les histogrammes]** : il est fréquent de trouver des histogrammes dont l'axe des ordonnées ne démarre pas à 0. Cela a pour conséquence de "tronquer" une partie du graphique et de donner une **présentation biaisée des données**.
+Cela est souvent réalisé consciemment pour faire passer un message
+  - Exemple avec [le communiqué de presse de la SNCF](https://www.sncf.com/sncv1/ressources/cp_taux_de_participation_4_avril_2018.pdf) durant la grève des cheminots (avril 2018) sur le taux de grévistes :
+  
+.center[&lt;img src="./img/greve.png" height="220"/&gt;]
+
+---
+## Les représentations graphiques problématiques
+
+Voici ce que donne le même graphique mais avec l'axe des ordonnées démarrant à 0 :
+
+.pull-left[&lt;img src="./img/greve2.png" height="350"/&gt;]
+
+.pull-right[*Pas le même rendu, n'est-ce pas ? ;)*]
+
+  &lt;BR&gt;&lt;BR&gt;&lt;BR&gt;&lt;BR&gt;&lt;BR&gt;
+
+.pull-right[*NB: de nombreux exemples cités dans cette partie proviennent de [cet article des Décodeurs*](https://abonnes.lemonde.fr/les-decodeurs/article/2018/05/22/sept-conseils-pour-ne-pas-se-faire-avoir-par-les-representations-graphiques_5302680_4355770.html) du Monde]
+
+---
+## Les représentations graphiques problématiques
+
+- Avoir une **.red[échelle discontinue sur les graphiques en courbe]** : même problème que pour les histogrammes. Un autre exemple parlant avec un tract du FN (à gauche) et le même graphique, réalisé par Les Décodeurs, avec l'axe des ordonnées partant de 0 (à droite) :
+
+.center[&lt;img src="./img/tractFN.png" height="300"/&gt;]
+
+---
+## Les représentations graphiques problématiques
+
+- Les **.red[graphiques en camembert]** (pie chart) sont à éviter lorsqu'on souhaite représenter des **proportions** :
+
+.center[[&lt;img src="./img/Camembert.png" height="350"/&gt;](https://twitter.com/maxcroser/status/857389434756505600)]
+
+---
+## Les représentations graphiques problématiques
+
+- Les **.red[graphiques avec une "Base 100"]** : en fonction de l'année sélectionnée pour être la base 100, les évolutions peuvent fortement changer
+
+.center[[&lt;img src="./img/MLP1.png" height="320"/&gt;](https://www.lemonde.fr/les-decodeurs/article/2017/03/21/les-manipulations-graphiques-de-marine-le-pen-sur-l-euro_5098439_4355770.html)]
+
+##### .center[*Marine Le Pen montre un graphique pendant le 1er débat TV de la présidentielle 2017*]
+
+---
+## Les représentations graphiques problématiques
+
+- Les **.red[graphiques avec une "Base 100"]** : en fonction de l'année sélectionnée pour être la base 100, les évolutions peuvent fortement changer
+  - A gauche, Production industrielle en Europe, base 100 = **2010**
+  - A droite, Production industrielle en Europe, base 100 = **1974**
+
+.pull-left[&lt;img src="./img/Indus1.png" height="300"/&gt;]
+
+.pull-right[&lt;img src="./img/Indus2.png" height="300"/&gt;]
+
+---
+## Les représentations graphiques problématiques
+
+Et si on ne prend pas en compte que l'évolution de la production industrielle, mais celle de l'ensemble du PIB, le graphique évolue significativement
+
+.center[[&lt;img src="./img/Indus3.png" height="350"/&gt;](https://twitter.com/henrikenderlein/status/844174756089942016)]
+
+---
+## Les représentations spatiales
+
+En fonction de l'**unité spatiale** retenue pour représenter graphiquement les données, les résultats peuvent différer fortement d'une carte à une autre...
+- Exemple avec la représentation des résultats du 1er tour de l'élection présidentielle française de 2017. A gauche les résultats par commune, à droite une carte à anamorphose où la superficie des communes est proportionnelle au nombre de leurs habitants
+
+
+.center[[&lt;img src="./img/presidentielle.png" height="290"/&gt;](https://www.populationdata.net/cartes/france-elections-presidentielles-2017-1er-tour/)]
+
+---
+## Les représentations spatiales
+
+- A gauche les résultats par département, à droite les résultats par région
+
+.pull-left[&lt;img src="./img/Presidentielle2.png" height="350"/&gt;]
+
+.pull-right[&lt;img src="./img/Presidentielle3.png" height="350"/&gt;]
+
+.footnote[[source](https://abonnes.lemonde.fr/les-decodeurs/article/2017/04/24/premier-tour-de-la-presidentielle-les-resultats-par-region_5116526_4355770.html?)]
+
+---
+## Les représentations spatiales
+
+Lorsqu'elles sont representées sur des cartes, les données doivent souvent être représentées **relativement à la population**, et non pas en valeur absolue
+- Exemple ici avec, à gauche, le nombre de décès liés à l'alcoolisme en France en 2013. Et à droite, les mêmes données représentées relativement à la population de chaque région
+
+.pull-left[&lt;img src="./img/alcoolisme2.png" height="270"/&gt;]
+
+.pull-right[&lt;img src="./img/Alcoolisme1.png" height="270"/&gt;]
+
+.footnote[[source](https://www.scoresante.org/sindicateurs.html)]
+
+---
+## Les représentations spatiales
+
+Soyez attentifs aux couleurs choisies automatiquement par l'outil de visualisation utilisé. Par défaut, **ils adaptent les échelles et les couleurs associées aux nouvelles données,** ce qui peut brouiller les évolutions d'une année à une autre. Ici le taux de décès liés à l'alcoolisme en Bretagne a été divisé par 3 entre 1980 et 2013
+
+.pull-left[&lt;img src="./img/Scor1.png" height="290"/&gt;]
+
+.pull-right[&lt;img src="./img/Scor2.png" height="290"/&gt;]
+
+.footnote[[source](https://www.scoresante.org/sindicateurs.html)]
 
 ---
 class: inverse, center, middle
