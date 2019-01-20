@@ -283,6 +283,24 @@ Plus largement, on peut aussi parfois se poser la question des seuils retenus po
 Lire à ce sujet l'article du blog d'alternatives économiques ["Quel est le « bon » seuil de pauvreté ?"](https://blogs.alternatives-economiques.fr/idies/2018/03/01/quel-est-le-bon-seuil-de-pauvrete) de l'économiste Jean Gadrey (**obligatoire**) en réaction à l'article ["9 millions de pauvres, un chiffre exagéré"](https://blogs.alternatives-economiques.fr/idies/2018/02/27/neuf-millions-depauvres-un-chiffre-exagere) de Louis Maurin, directeur de l'Observatoire des inégalités
 
 ---
+## L'incertitude liée aux estimations
+
+De nombreux indicateurs économiques font l'objet d'estimations de plusieurs acteurs. Les estimations peuvent varier de manière significative. Exemple ici avec les estimations - *au 31/07/18* - de croissance du PIB Français pour 2018 :
+
+.center[<img src="./img/CroissancePIB.png" height="290"/>]
+
+.footnote[*NB: en décembre 2019, l'Insee a abaissé ses prévisions de croissance pour 2018 à 1,5%*]
+
+---
+## L'interprétation des données
+
+Souvent les données sont accompagnées de **contexte et d'analyse**, qui donnent lieu à une certaine .red[**interprétation**]. Ces éléments peuvent différer d'une source à une autre, il est donc utile de les croiser régulièrement. 
+
+.pull-left[<img src="./img/Interpretation.png" height="350"/>]
+
+.pull-right[Ici un exemple classique des divergences d'interprétation des données mensuelles du chômage (Sept 2017). Essayez de remonter directement aux producteurs de données "primaires", ici Pole Emploi, si vous souhaitez approfondir votre analyse en évitant le *"bruit éditorial"*]
+
+---
 class: inverse, center, middle
 
 ## Bibliographie
@@ -290,14 +308,15 @@ class: inverse, center, middle
 ---
 ## Bibliographie
 
-- Ceci est une ressource bibliographique
+- Vidéo [#DATAGUEULE "Gouvernés par les nombres ? Échecs et maths"](https://www.youtube.com/watch?v=3Xct2cLcsWY)
 
-- Ceci est une 2ème ressource bibliographique
+- Le Monde, ["Chômage : pourquoi les chiffres de l’Insee et de Pôle emploi diffèrent"](https://www.lemonde.fr/les-decodeurs/article/2017/08/24/chomage-pourquoi-les-chiffres-de-l-insee-et-de-pole-emploi-different_5176176_4355770.html), mis en ligne le 24 août 2017
 
-- Ceci est une 3ème ressource bibliographique
+- Le Monde, ["Selon l’OCDE, la part des travailleurs pauvres est deux fois plus élevée en France qu’en Allemagne"](https://www.lemonde.fr/economie/article/2018/05/12/selon-l-ocde-la-part-des-travailleurs-pauvres-est-deux-fois-plus-elevee-en-france-qu-en-allemagne_5297878_3234.html), mis en ligne le 12 mai 2018
 
+- Jean Gadrey, blog Alternatives Economiques ["Quel est le « bon » seuil de pauvreté ?"](https://blogs.alternatives-economiques.fr/idies/2018/03/01/quel-est-le-bon-seuil-de-pauvrete), mis en ligne le 1er mars 2018
 
-.center[![](https://upload.wikimedia.org/wikipedia/en/b/b9/MagrittePipe.jpg)]
+- Louis Maurin, blog Alternatives Economiques ["9 millions de pauvres, un chiffre exagéré"](https://blogs.alternatives-economiques.fr/idies/2018/02/27/neuf-millions-depauvres-un-chiffre-exagere), mis en ligne le 27 février 2018
 
 ---
 class: inverse, center, middle
