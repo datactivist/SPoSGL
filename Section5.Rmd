@@ -113,10 +113,57 @@ A l'instar du site parodique ["Spurious Correlations"](http://tylervigen.com/spu
 
 .center[<img src="./img/correlation.png" height="180"/>]
 
-- Il faut également être prudent sur l'échelle spatiale utilisée : la corrélation entre le % d'immigrants et le vote FN est positif à l'échelle du département. Mais à l'intérieur de ces départements, ce sont dans les zones avec la plus faible proportion d'immigrants que les personnes votent FN. Ainsi, au niveau micro la corrélation peut être inversée que ce qui était observé au niveau macro
+- Il faut également être prudent sur l'échelle spatiale utilisée : la corrélation entre le % d'immigrants et le vote FN est positif à l'échelle du département. Mais à l'intérieur de ces départements, **ce sont dans les zones avec la plus faible proportion d'immigrants que les personnes votent FN**. Ainsi, au niveau micro la corrélation peut être inversée que ce qui était observé au niveau macro
 
 ---
 ## Corrélation ou causalité ?
+
+.center[<img src="./img/LeBras.png" height="350"/>]
+
+.footnotes[Credits Hervé Le Bras]
+
+---
+## Corrélation ou causalité ?
+
+- Les zones combinant le plus de difficultés sont corrélées avec celles ayant une part des suffrages élevée pour Marine Le Pen à la présidentielle de 2012
+
+- Est-ce que cela signifie que les personnes qui ont le plus de difficultés votent FN ?
+  - Pas forcément, pourquoi ?
+  
+> Il serait cependant inexact d’en déduire que ce vote est celui des pauvres et des laissés pour compte. Ces derniers s’abstiennent le plus souvent. On doit plutôt constater que c’est le vote des régions pauvres, celles où beaucoup craignent les accidents de la vie car ils voient leurs proches atteints par eux.
+
+Hervé Le Bras, dans son article pour The Conversation ["La France inégale : Qui vote FN ? Pas forcément ceux à qui l’on pense"](https://theconversation.com/la-france-inegale-qui-vote-fn-pas-forcement-ceux-a-qui-lon-pense-75977) (**obligatoire**)
+
+---
+## Corrélation ou causalité ?
+
+<BR><BR><BR>
+.center[<img src="./img/causalite.png" height="150"/>]
+
+.footnotes[Credits XKCD]
+
+---
+## Les facteurs cachés
+
+Il existe des facteurs qu'on ne voit pas ou auxquels on ne pense généralement pas mais qui peuvent fortement influer sur des résultats.
+- Exemple ici avec la forte baisse du nombre de décès sur les routes en France entre 2003 et 2014
+
+.center[<img src="./img/routes.png" height="100"/>]
+
+- Est-ce que les politiques actives de lutte contre l'insécurité routière mises en place dans les années 2000 sont la seule explication de cette baisse ? D'autres facteurs "cachés" peuvent aussi avoir eu un rôle significatif
+
+---
+## Les facteurs cachés
+
+Quelques exemples :
+
+- Le **taux d'occupation des voitures** a fortement baissé (donc mécaniquement moins de morts  à accidents comparables)
+  
+- Les **conducteurs "novices"**, i.e avec moins de 12 années de pratique, sont de moins en moins nombreux
+
+- Les personnes blessées dans des accidents de la route sont **mieux pris en charge par les services d'urgence** que par le passé
+
+- La **qualité des voitures** s'est fortement améliorée, et notamment l'aspect sécurité (airbags)
 
 ---
 class: inverse, center, middle
