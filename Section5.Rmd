@@ -46,15 +46,15 @@ Les productions de Datactivist sont librement réutilisables selon les termes de
 
 **1. .red[Les pièges statistiques récurrents]**
 
-**Ressource complémentaire** : lire xxx / écouter xxx / regarder xxx
+Lire l'article d'Hervé le Bras ["La France inégale : Qui vote FN ? Pas forcément ceux à qui l’on pense"](https://theconversation.com/la-france-inegale-qui-vote-fn-pas-forcement-ceux-a-qui-lon-pense-75977)
 
 **2. .red[Représentations graphique et spatiale, attention danger !]**
 
-**Ressource complémentaire** : lire xxx / écouter xxx / regarder xxx
+Ecouter le podcast .red["Section 5 - La tyrannie des chiffres"]
 
 **3. .red[Les limites inhérentes aux indicateurs]**
 
-**Ressource complémentaire** : lire xxx / écouter xxx / regarder xxx
+Lire l'article du Monde ["Pourquoi les chiffres sur la délinquance sont à prendre avec précaution"](https://www.lemonde.fr/les-decodeurs/article/2018/08/27/pourquoi-les-chiffres-sur-la-delinquance-sont-a-manipuler-avec-precaution_5346721_4355770.html)
 
 *Bibliographie*
 
@@ -102,14 +102,14 @@ Rappel : une corrélation fortement positive, avec un coefficient de corrélatio
 ---
 ## Corrélation ou causalité ?
 
-A l'instar du site parodique ["Spurious Correlations"](http://tylervigen.com/spurious-correlations) dont le graph précédent est issu, les Décodeurs du monde ont récemment lancé un [générateur aléatoire de comparaisons](https://www.lemonde.fr/les-decodeurs/article/2019/01/02/correlation-ou-causalite-brillez-en-societe-avec-notre-generateur-aleatoire-de-comparaisons-absurdes_5404286_4355770.html). Un bon moyen pour ne plus jamais faire la confusion entre corrélation ou causalité !
+A l'instar du site parodique ["Spurious Correlations"](http://tylervigen.com/spurious-correlations) dont le graphique précédent est issu, les Décodeurs du monde ont récemment lancé un [générateur aléatoire de comparaisons](https://www.lemonde.fr/les-decodeurs/article/2019/01/02/correlation-ou-causalite-brillez-en-societe-avec-notre-generateur-aleatoire-de-comparaisons-absurdes_5404286_4355770.html). Un bon moyen pour ne plus jamais faire la confusion entre corrélation ou causalité !
 
 .center[<img src="./img/decodeurs.png" height="350"/>]
 
 ---
 ## Corrélation ou causalité ?
 
-- En ce qui concerne les corrélations, il faut être attentif au **.red[nombre d'unités observées]** : moins il y a d'observations, plus la corrélation est forte. Ce n'est pas pareil de regarder la corrélation entre 2 variables sur 13 régions ou sur 35 000 villes
+- En ce qui concerne les corrélations, il faut être attentif au **.red[nombre d'unités observées]** : moins il y a d'observations, plus la corrélation est facilement élevée. Ce n'est pas pareil de regarder la corrélation entre 2 variables sur 13 régions ou sur 35 000 villes
 
 .center[<img src="./img/correlation.png" height="180"/>]
 
@@ -138,7 +138,7 @@ Hervé Le Bras, dans son article pour The Conversation ["La France inégale : Qu
 ## Corrélation ou causalité ?
 
 <BR><BR><BR>
-.center[<img src="./img/causalite.png" height="150"/>]
+.center[<img src="./img/causalite.png" height="200"/>]
 
 .footnotes[Credits XKCD]
 
@@ -279,7 +279,7 @@ En fonction de l'**unité spatiale** retenue pour représenter graphiquement les
 
 .pull-right[<img src="./img/Presidentielle3.png" height="350"/>]
 
-.footnote[[source](https://abonnes.lemonde.fr/les-decodeurs/article/2017/04/24/premier-tour-de-la-presidentielle-les-resultats-par-region_5116526_4355770.html?)]
+.footnote[[source](https://abonnes.lemonde.fr/les-decodeurs/article/2017/04/24/premier-tour-de-la-presidentielle-les-resultats-par-region_5116526_4355770.html)]
 
 ---
 ## Les représentations spatiales
@@ -307,14 +307,161 @@ Soyez attentifs aux couleurs choisies automatiquement par l'outil de visualisati
 ---
 class: inverse, center, middle
 
-## 3. Grain 3
+## 3. Les limites inhérentes aux indicateurs
 
 ---
-## 1er sous-titre Grain 3
+## Les indicateurs sont-ils neutres ?
 
-- 5/6 slides d'accompagnement du grain 3
+- Les indicateurs statistiques sont toujours le fruit de conventions humaines. **Il n'y a pas d'indicateurs .red["purs" ou neutres]**
 
-- Quelques images
+- Un exemple classique est le PIB. Son calcul provient d'une **convention statistique** pour estimer la valeur économique créée par un pays. Quelles limites ?
+  - L'impact sur l'environnement ou les inégalités n'est pas pris en compte
+  
+  - **La façon dont il est calculé peut changer dans le temps**. Par exemple les revenus tirés de l'activité clandestine de drogues ou de prostitution sont pris en compte dans le calcul du PIB italien depuis 2014, ce qui, mécaniquement, l'a tiré vers le haut
+  
+  - L'insee vient d'accepter d'intégrer le trafic de stupéfiants dans le calcul du PIB français
+  
+---
+## Les indicateurs ne sont pas neutres
+
+.center[<img src="./img/Drogue.png" height="380"/>]
+
+.footnote[[Source](http://www.lefigaro.fr/conjoncture/2018/01/30/20002-20180130ARTFIG00342-le-trafic-de-drogue-va-bientot-entrer-dans-le-calcul-du-pib-francais.php)]
+
+---
+## Les indicateurs ne sont pas neutres
+
+Exemple avec les **statistiques sur la criminalité**. En France, il y a une base de données dénommée "Etat 4001" qui agrège les faits connus par la police et la gendarmerie, soit parce qu'il y a eu un dépot de plainte, soit parce que le fait a été décelé grâce à l'action des forces de l'ordre. 
+
+*Peut-on déduire l'évolution de la criminalité à partir de cette base de données ?*
+
+**Non** ! Plusieurs raisons pour cela :
+
+- Ce n'est pas une base de données "à jour" : **les faits sont datés en fonction du moment où ils ont été enregistrés dans Etat 4001 et non quand ils ont été commis**. Si quelqu'un dépose une plainte en 2019 pour un fait commis en 2018, le fait sera daté 2019, ce qui brouille évidemment les comparaisons annuelles..
+
+.footnote[Lire l'article du Monde ["Pourquoi les chiffres sur la délinquance sont à prendre avec précaution"](https://www.lemonde.fr/les-decodeurs/article/2018/08/27/pourquoi-les-chiffres-sur-la-delinquance-sont-a-manipuler-avec-precaution_5346721_4355770.html) (**obligatoire**)]
+
+---
+## Les indicateurs ne sont pas neutres
+
+- Par ailleurs, qu'en est-il de tous les crimes ou délits commis qui n'aboutissent pas à un dépôt de plainte ? 
+- Selon une [étude d'Interstats](https://www.interieur.gouv.fr/content/download/104138/823089/file/IA17.pdf), le service statistique du ministère de l'intérieur, **seulement une victime sur 12 effectue un signalement auprès des forces de sécurité.**
+
+.center[<img src="./img/Plainte.png" height="200"/>]
+
+- En conclusion, l'Etat 4001 reflète davantage les évolutions de l'activité des forces de l'ordre que de la criminalité à proprement parler
+
+---
+## La loi de Goodhart
+
+La **.red[loi de Goodhart]** est un concept qui met en lumière la difficulté de concevoir et mesurer des indicateurs fiables qui sont associés à des enjeux politiques, financiers ou sociaux. Ainsi, **lorsqu'une mesure devient un objectif, elle cesse d'être une bonne mesure**
+
+> Tout indicateur statistique cesse d’être un indicateur statistique fiable dès lors qu’il fait l’objet d’enjeux car il devient sujet à des manipulations
+
+Charles Goodhart, économiste
+
+**Connaissez-vous des exemples d'indicateurs où la loi de Goodhart peut être observée ?**
+
+---
+## La loi de Goodhart
+
+La **.red[loi de Goodhart]** est un concept qui met en lumière la difficulté de concevoir et mesurer des indicateurs fiables qui sont associés à des enjeux politiques, financiers ou sociaux. Ainsi, **lorsqu'une mesure devient un objectif, elle cesse d'être une bonne mesure**
+
+> Tout indicateur statistique cesse d’être un indicateur statistique fiable dès lors qu’il fait l’objet d’enjeux car il devient sujet à des manipulations
+
+Charles Goodhart, économiste
+
+**Connaissez-vous des exemples d'indicateurs où la loi de Goodhart peut être observée ?**
+
+Le taux de chômage ! On se concentre la plupart du temps sur **le nombre d'inscrits en catégorie A** (et ce sont ces chiffres qui font les gros titres de la presse généralement).
+Mais est-ce bien pertinent ?
+
+---
+## La loi de Goodhart
+
+Exemple : le taux de chômage
+
+- En fonction de la catégorie à laquelle on s'intéresse, le taux de chômage peut prendre des directions très différentes... Ici focus **catégorie A**
+
+.center[<img src="./img/Cat1.png" height="350"/>]
+
+---
+## La loi de Goodhart
+
+Exemple : le taux de chômage
+
+- En fonction de la catégorie à laquelle on s'intéresse, le taux de chômage peut prendre des directions très différentes... Ici focus **catégorie A/B/C**
+
+.center[<img src="./img/Cat2.png" height="350"/>]
+
+---
+## La loi de Goodhart
+
+Exemple : le taux de chômage
+
+- En fonction de la catégorie à laquelle on s'intéresse, le taux de chômage peut prendre des directions très différentes... Ici focus **catégorie A/B/C, moins de 25 ans**
+
+.center[<img src="./img/Cat3.png" height="350"/>]
+
+---
+## La loi de Goodhart
+
+Exemple : le taux de chômage
+
+- En fonction de la catégorie à laquelle on s'intéresse, le taux de chômage peut prendre des directions très différentes... Ici focus **catégorie A/B/C, 50 ans ou plus**
+
+.center[<img src="./img/Cat4.png" height="350"/>]
+
+---
+## La loi de Goodhart
+
+Exemple : le taux de chômage
+
+- Qu'en est-il du **.red[taux d'activité]** ? Les chiffres du chômage ne prennent pas en compte les personnes qui sont démotivées et ne recherchant pas ou plus de travail
+
+- **Il peut y avoir des situations où le taux de chômage baisse et le taux d'activité également**. Cela signifie qu'il y a moins de demandeurs d'emplois "officiels" mais de plus en plus de personnes en âge de travailler qui sont inactives 
+
+- C'est la situation que connaît les Etats-Unis : Entre 2009 et 2017, le taux de chômage est passé de 9,2% à 4,4% mais parallèlement le taux d'activité est passée de 70% à 67,5%
+
+---
+## La loi de Goodhart
+
+Exemple : le taux de chômage
+
+.center[<img src="./img/ChomUS1.png" height="380"/>]
+
+.footnote[Taux de chômage US entre 2009 et 2017]
+
+---
+## La loi de Goodhart
+
+Exemple : le taux de chômage
+
+.center[<img src="./img/ChomUS2.png" height="380"/>]
+
+.footnote[Taux d'activité US entre 2009 et 2017]
+
+---
+## La loi de Goodhart
+
+Exemple : le taux de chômage
+
+- Au-delà du chômage, qu'en est-il du **.red[halo autour du chômage]** ? Comprend le travail occasionnel, le sous-emploi ou les personnes inactives
+
+.center[<img src="./img/halo1.png" height="300"/>]
+
+Le taux de chômage (au sens du BIT) en France a plutôt eu tendance à baisser depuis 2015
+
+---
+## La loi de Goodhart
+
+Exemple : le taux de chômage
+
+- Au-delà du chômage, qu'en est-il du **.red[halo autour du chômage]** ? Comprend le travail occasionnel, le sous-emploi ou les personnes inactives
+
+.center[<img src="./img/halo2.png" height="300"/>]
+
+Alors que le Halo du chômage en France a lui fortement augmenté sur la même période..
 
 ---
 class: inverse, center, middle
@@ -324,19 +471,24 @@ class: inverse, center, middle
 ---
 ## Bibliographie
 
-- Ceci est une ressource bibliographique
+- Desrosières, Alain, 2008, L’argument statistique II. Gouverner par les nombres, Paris, Mines ParisTech, les Presses.
 
-- Ceci est une 2ème ressource bibliographique
+- La statistique dans la cité n°8, Société Française de Statistique, Février 2018
 
-- Ceci est une 3ème ressource bibliographique
+- Hervé le Bras, The Conversation ["La France inégale : Qui vote FN ? Pas forcément ceux à qui l’on pense"](https://theconversation.com/la-france-inegale-qui-vote-fn-pas-forcement-ceux-a-qui-lon-pense-75977) mis en ligne le 30/01/2018
 
+- Le Figaro ["Le trafic de drogue va bientôt entrer dans le calcul du PIB français"](http://www.lefigaro.fr/conjoncture/2018/01/30/20002-20180130ARTFIG00342-le-trafic-de-drogue-va-bientot-entrer-dans-le-calcul-du-pib-francais.php)] mis en ligne le 31/01/2018
 
-.center[![](https://upload.wikimedia.org/wikipedia/en/b/b9/MagrittePipe.jpg)]
+- Le Monde ["Pourquoi les chiffres sur la délinquance sont à prendre avec précaution"](https://www.lemonde.fr/les-decodeurs/article/2018/08/27/pourquoi-les-chiffres-sur-la-delinquance-sont-a-manipuler-avec-precaution_5346721_4355770.html) mis en ligne le 27/08/2018
+
+- Le Monde ["Présidentielle 2017 : les résultats du premier tour région par région"](https://abonnes.lemonde.fr/les-decodeurs/article/2017/04/24/premier-tour-de-la-presidentielle-les-resultats-par-region_5116526_4355770.html) mis en ligne le 24/04/2017
+
+- Le Monde ["Corrélation ou causalité ? Brillez en société avec notre générateur aléatoire de comparaisons absurdes""](https://www.lemonde.fr/les-decodeurs/article/2019/01/02/correlation-ou-causalite-brillez-en-societe-avec-notre-generateur-aleatoire-de-comparaisons-absurdes_5404286_4355770.html)
 
 ---
 class: inverse, center, middle
 
-## Quizz section X : rdv sur votre espace e-campus !
+## Quizz section 5 : rdv sur votre espace e-campus !
 
 ---
 class: inverse, center, middle
