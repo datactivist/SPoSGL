@@ -1,0 +1,454 @@
+\documentclass[]{article}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{eurosym}
+\else % if luatex or xelatex
+  \ifxetex
+    \usepackage{mathspec}
+  \else
+    \usepackage{fontspec}
+  \fi
+  \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
+  \newcommand{\euro}{€}
+\fi
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+% use microtype if available
+\IfFileExists{microtype.sty}{%
+\usepackage{microtype}
+\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\usepackage[margin=1in]{geometry}
+\usepackage{hyperref}
+\hypersetup{unicode=true,
+            pdftitle={Section 5: Manipulation et reprÃ©sentation de donnÃ©es : Ã©viter des Ã©cueils classiques},
+            pdfauthor={Datactivist, 2018-2019},
+            pdfborder={0 0 0},
+            breaklinks=true}
+\urlstyle{same}  % don't use monospace font for urls
+\usepackage{graphicx,grffile}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+\IfFileExists{parskip.sty}{%
+\usepackage{parskip}
+}{% else
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{0}
+% Redefines (sub)paragraphs to behave more like sections
+\ifx\paragraph\undefined\else
+\let\oldparagraph\paragraph
+\renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+\let\oldsubparagraph\subparagraph
+\renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+%%% Use protect on footnotes to avoid problems with footnotes in titles
+\let\rmarkdownfootnote\footnote%
+\def\footnote{\protect\rmarkdownfootnote}
+
+%%% Change title format to be more compact
+\usepackage{titling}
+
+% Create subtitle command for use in maketitle
+\newcommand{\subtitle}[1]{
+  \posttitle{
+    \begin{center}\large#1\end{center}
+    }
+}
+
+\setlength{\droptitle}{-2em}
+  \title{Section 5: Manipulation et reprÃ©sentation de donnÃ©es : Ã©viter des
+Ã©cueils classiques}
+  \pretitle{\vspace{\droptitle}\centering\huge}
+  \posttitle{\par}
+\subtitle{Culture gÃ©nÃ©rale des donnÃ©es}
+  \author{Datactivist, 2018-2019}
+  \preauthor{\centering\large\emph}
+  \postauthor{\par}
+  \date{}
+  \predate{}\postdate{}
+
+
+\begin{document}
+\maketitle
+
+layout: true
+
+{Culture gÃ©nÃ©rale des donnÃ©es, Sciences Po Saint-Germain-en-Laye,
+section 5}
+
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
+
+class: center, middle
+
+Ces slides en ligne : \url{http://datactivist.coop/SPoSGL/}
+
+Sources : \url{https://github.com/datactivist/SPoSGL/}
+
+Les productions de Datactivist sont librement rÃ©utilisables selon les
+termes de la licence
+\href{https://creativecommons.org/licenses/by-sa/4.0/legalcode.fr}{Creative
+Commons 4.0 BY-SA}.
+
+\subsection{Introduction}\label{introduction}
+
+\paragraph{Ecoutez le .red{[}podcast introductif{]} de la section
+5}\label{ecoutez-le-.redpodcast-introductif-de-la-section-5}
+
+.center{[}{]}
+
+.footnote{[}Â© Xavier Gorce{]}
+
+\subsection{MÃ©diane ou Moyenne ?}\label{madiane-ou-moyenne}
+
+\begin{itemize}
+\tightlist
+\item
+  Salaire mensuel \textbf{.red{[}moyen{]}} net en France en 2014
+  (secteur privÃ©) : \textbf{2 225â‚¬}
+\item
+  Salaire mensuel \textbf{.red{[}median{]}} net en France en 2014
+  (secteur privÃ©) : \textbf{1 783â‚¬} Soit une diffÃ©rence de prÃ¨s de
+  450â‚¬ !
+\end{itemize}
+
+.center{[}\href{https://www.insee.fr/fr/statistiques/2121609\#consulter}{}{]}
+
+\subsection{CorrÃ©lation ou causalitÃ©
+?}\label{corralation-ou-causalita}
+
+Rappel : une corrÃ©lation fortement positive, avec un coefficient de
+corrÃ©lation (r) \textgreater{} 0,5, signifie seulement que deux
+variables Ã©voluent dans le mÃªme sens. Cela ne dit \textbf{rien} sur le
+possible lien entre elles - Faites attention aux \textbf{corrÃ©lations
+fallacieuses} ! - Exemple ici avec la corrÃ©lation quasi parfaite entre
+la consommation de fromage par personne et le nombre de personnes qui
+dÃ©cÃ¨dent Ã©tranglÃ©es dans leurs draps
+
+.center{[}\href{http://tylervigen.com/spurious-correlations}{}{]}
+
+\subsection{CorrÃ©lation ou causalitÃ©
+?}\label{corralation-ou-causalita-1}
+
+\begin{itemize}
+\tightlist
+\item
+  En ce qui concerne les corrÃ©lations, il faut Ãªtre attentif au
+  \textbf{.red{[}nombre d'unitÃ©s observÃ©es{]}} : moins il y a
+  d'observations, plus la corrÃ©lation est facilement Ã©levÃ©e. Ce n'est
+  pas pareil de regarder la corrÃ©lation entre 2 variables sur 13
+  rÃ©gions ou sur 35 000 villes
+\end{itemize}
+
+.center{[}{]}
+
+\begin{itemize}
+\tightlist
+\item
+  Il faut Ã©galement Ãªtre prudent sur l'Ã©chelle spatiale utilisÃ©e :
+  la corrÃ©lation entre le \% d'immigrants et le vote FN est positif Ã~
+  l'Ã©chelle du dÃ©partement. Mais Ã~ l'intÃ©rieur de ces dÃ©partements,
+  \textbf{ce sont dans les zones avec la plus faible proportion
+  d'immigrants que les personnes votent FN}. Ainsi, au niveau micro la
+  corrÃ©lation peut Ãªtre inversÃ©e que ce qui Ã©tait observÃ© au niveau
+  macro
+\end{itemize}
+
+\subsection{CorrÃ©lation ou causalitÃ©
+?}\label{corralation-ou-causalita-2}
+
+\begin{itemize}
+\item
+  Les zones combinant le plus de difficultÃ©s sont corrÃ©lÃ©es avec
+  celles ayant une part des suffrages Ã©levÃ©e pour Marine Le Pen Ã~ la
+  prÃ©sidentielle de 2012
+\item
+  Est-ce que cela signifie que les personnes qui ont le plus de
+  difficultÃ©s votent FN ?
+\item
+  Pas forcÃ©ment, pourquoi ?
+\end{itemize}
+
+\begin{quote}
+Il serait cependant inexact dâ\euro{}™en dÃ©duire que ce vote est celui
+des pauvres et des laissÃ©s pour compte. Ces derniers
+sâ\euro{}™abstiennent le plus souvent. On doit plutÃ´t constater que
+câ\euro{}™est le vote des rÃ©gions pauvres, celles oÃ¹ beaucoup
+craignent les accidents de la vie car ils voient leurs proches atteints
+par eux.
+\end{quote}
+
+HervÃ© Le Bras, dans son article pour The Conversation
+\href{https://theconversation.com/la-france-inegale-qui-vote-fn-pas-forcement-ceux-a-qui-lon-pense-75977}{``La
+France inÃ©gale : Qui vote FN ? Pas forcÃ©ment ceux Ã~ qui lâ\euro{}™on
+pense''} (\textbf{obligatoire})
+
+\subsection{Les facteurs cachÃ©s}\label{les-facteurs-cachas}
+
+Il existe des facteurs qu'on ne voit pas ou auxquels on ne pense
+gÃ©nÃ©ralement pas mais qui peuvent fortement influer sur des
+rÃ©sultats. - Exemple ici avec la forte baisse du nombre de dÃ©cÃ¨s sur
+les routes en France entre 2003 et 2014
+
+.center{[}{]}
+
+\begin{itemize}
+\tightlist
+\item
+  Est-ce que les politiques actives de lutte contre l'insÃ©curitÃ©
+  routiÃ¨re mises en place dans les annÃ©es 2000 sont la seule
+  explication de cette baisse ? D'autres facteurs ``cachÃ©s'' peuvent
+  aussi avoir eu un rÃ´le significatif
+\end{itemize}
+
+\subsection{Le pÃ©rimÃ¨tre du
+dÃ©nominateur}\label{le-parimatre-du-danominateur}
+
+Lorsqu'il est question de \textbf{.red{[}ratio{]}}, il est utile de se
+demander ce que comprend le dÃ©nominateur de ce ratio. Le pÃ©rimÃ¨tre du
+dÃ©nominateur influence Ã©videmment le rÃ©sultat obtenu.
+
+\begin{itemize}
+\item
+  Exemple avec le taux de chÃ´mage des jeunes en France : Ã~ la fin
+  2017, le taux de chÃ´mage des 15-24 ans atteignait 23\%
+\item
+  Est-ce que cela signifie que prÃ¨s d'un jeune sur 4 est au chÃ´mage ?
+\end{itemize}
+
+.center{[}{]}
+
+.footnote{[}\href{https://www.huffingtonpost.fr/2012/09/06/taux-chomage-bit-jeunes-dom_n_1860232.html}{Source}{]}
+
+class: inverse, center, middle
+
+\subsection{2. Les reprÃ©sentations graphiques et spatiales
+problÃ©matiques}\label{les-reprasentations-graphiques-et-spatiales-problamatiques}
+
+\subsection{Les reprÃ©sentations graphiques
+problÃ©matiques}\label{les-reprasentations-graphiques-problamatiques}
+
+Voici ce que donne le mÃªme graphique mais avec l'axe des ordonnÃ©es
+dÃ©marrant Ã~ 0 :
+
+.pull-left{[}{]}
+
+.pull-right{[}\emph{Pas le mÃªme rendu, n'est-ce pas ? ;)}{]}
+
+.pull-right{[}*NB: de nombreux exemples citÃ©s dans cette partie
+proviennent de
+\href{https://abonnes.lemonde.fr/les-decodeurs/article/2018/05/22/sept-conseils-pour-ne-pas-se-faire-avoir-par-les-representations-graphiques_5302680_4355770.html}{cet
+article des DÃ©codeurs*} du Monde{]}
+
+\subsection{Les reprÃ©sentations graphiques
+problÃ©matiques}\label{les-reprasentations-graphiques-problamatiques-1}
+
+\begin{itemize}
+\tightlist
+\item
+  Les \textbf{.red{[}graphiques en camembert{]}} (pie chart) sont Ã~
+  Ã©viter lorsqu'on souhaite reprÃ©senter des \textbf{proportions} :
+\end{itemize}
+
+.center{[}\href{https://twitter.com/maxcroser/status/857389434756505600}{}{]}
+
+\subsection{Les reprÃ©sentations graphiques
+problÃ©matiques}\label{les-reprasentations-graphiques-problamatiques-2}
+
+\begin{itemize}
+\tightlist
+\item
+  Les \textbf{.red{[}graphiques avec une ``Base 100''{]}} : en fonction
+  de l'annÃ©e sÃ©lectionnÃ©e pour Ãªtre la base 100, les Ã©volutions
+  peuvent fortement changer
+\item
+  A gauche, Production industrielle en Europe, base 100 = \textbf{2010}
+\item
+  A droite, Production industrielle en Europe, base 100 = \textbf{1974}
+\end{itemize}
+
+.pull-left{[}{]}
+
+.pull-right{[}{]}
+
+\subsection{Les reprÃ©sentations
+spatiales}\label{les-reprasentations-spatiales}
+
+En fonction de l'\textbf{unitÃ© spatiale} retenue pour reprÃ©senter
+graphiquement les donnÃ©es, les rÃ©sultats peuvent diffÃ©rer fortement
+d'une carte Ã~ une autre\ldots{} - Exemple avec la reprÃ©sentation des
+rÃ©sultats du 1er tour de l'Ã©lection prÃ©sidentielle franÃ§aise de
+2017. A gauche les rÃ©sultats par commune, Ã~ droite une carte Ã~
+anamorphose oÃ¹ la superficie des communes est proportionnelle au nombre
+de leurs habitants
+
+.center{[}\href{https://www.populationdata.net/cartes/france-elections-presidentielles-2017-1er-tour/}{}{]}
+
+\subsection{Les reprÃ©sentations
+spatiales}\label{les-reprasentations-spatiales-1}
+
+Lorsqu'elles sont representÃ©es sur des cartes, les donnÃ©es doivent
+souvent Ãªtre reprÃ©sentÃ©es \textbf{relativement Ã~ la population}, et
+non pas en valeur absolue - Exemple ici avec, Ã~ gauche, le nombre de
+dÃ©cÃ¨s liÃ©s Ã~ l'alcoolisme en France en 2013. Et Ã~ droite, les
+mÃªmes donnÃ©es reprÃ©sentÃ©es relativement Ã~ la population de chaque
+rÃ©gion
+
+.pull-left{[}{]}
+
+.pull-right{[}{]}
+
+.footnote{[}\href{https://www.scoresante.org/sindicateurs.html}{source}{]}
+
+class: inverse, center, middle
+
+\subsection{3. Les limites inhÃ©rentes aux
+indicateurs}\label{les-limites-inharentes-aux-indicateurs}
+
+\subsection{Les indicateurs ne sont pas
+neutres}\label{les-indicateurs-ne-sont-pas-neutres}
+
+.center{[}{]}
+
+.footnote{[}\href{http://www.lefigaro.fr/conjoncture/2018/01/30/20002-20180130ARTFIG00342-le-trafic-de-drogue-va-bientot-entrer-dans-le-calcul-du-pib-francais.php}{Source}{]}
+
+\subsection{Les indicateurs ne sont pas
+neutres}\label{les-indicateurs-ne-sont-pas-neutres-1}
+
+\begin{itemize}
+\tightlist
+\item
+  Par ailleurs, qu'en est-il de tous les crimes ou dÃ©lits commis qui
+  n'aboutissent pas Ã~ un dÃ©pÃ´t de plainte ?
+\item
+  Selon une
+  \href{https://www.interieur.gouv.fr/content/download/104138/823089/file/IA17.pdf}{Ã©tude
+  d'Interstats}, le service statistique du ministÃ¨re de l'intÃ©rieur,
+  \textbf{seulement une victime sur 12 effectue un signalement auprÃ¨s
+  des forces de sÃ©curitÃ©.}
+\end{itemize}
+
+.center{[}{]}
+
+\begin{itemize}
+\tightlist
+\item
+  En conclusion, l'Etat 4001 reflÃ¨te davantage les Ã©volutions de
+  l'activitÃ© des forces de l'ordre que de la criminalitÃ© Ã~ proprement
+  parler
+\end{itemize}
+
+\subsection{La loi de Goodhart}\label{la-loi-de-goodhart}
+
+La \textbf{.red{[}loi de Goodhart{]}} est un concept qui met en lumiÃ¨re
+la difficultÃ© de concevoir et mesurer des indicateurs fiables qui sont
+associÃ©s Ã~ des enjeux politiques, financiers ou sociaux. Ainsi,
+\textbf{lorsqu'une mesure devient un objectif, elle cesse d'Ãªtre une
+bonne mesure}
+
+\begin{quote}
+Tout indicateur statistique cesse dâ\euro{}™Ãªtre un indicateur
+statistique fiable dÃ¨s lors quâ\euro{}™il fait lâ\euro{}™objet
+dâ\euro{}™enjeux car il devient sujet Ã~ des manipulations
+\end{quote}
+
+Charles Goodhart, Ã©conomiste
+
+\textbf{Connaissez-vous des exemples d'indicateurs oÃ¹ la loi de
+Goodhart peut Ãªtre observÃ©e ?}
+
+Le taux de chÃ´mage ! On se concentre la plupart du temps sur \textbf{le
+nombre d'inscrits en catÃ©gorie A} (et ce sont ces chiffres qui font les
+gros titres de la presse gÃ©nÃ©ralement). Mais est-ce bien pertinent ?
+
+\subsection{La loi de Goodhart}\label{la-loi-de-goodhart-1}
+
+Exemple : le taux de chÃ´mage
+
+\begin{itemize}
+\tightlist
+\item
+  En fonction de la catÃ©gorie Ã~ laquelle on s'intÃ©resse, le taux de
+  chÃ´mage peut prendre des directions trÃ¨s diffÃ©rentes\ldots{} Ici
+  focus \textbf{catÃ©gorie A/B/C}
+\end{itemize}
+
+.center{[}{]}
+
+\subsection{La loi de Goodhart}\label{la-loi-de-goodhart-2}
+
+Exemple : le taux de chÃ´mage
+
+\begin{itemize}
+\tightlist
+\item
+  En fonction de la catÃ©gorie Ã~ laquelle on s'intÃ©resse, le taux de
+  chÃ´mage peut prendre des directions trÃ¨s diffÃ©rentes\ldots{} Ici
+  focus \textbf{catÃ©gorie A/B/C, 50 ans ou plus}
+\end{itemize}
+
+.center{[}{]}
+
+\subsection{La loi de Goodhart}\label{la-loi-de-goodhart-3}
+
+Exemple : le taux de chÃ´mage
+
+.center{[}{]}
+
+.footnote{[}Taux de chÃ´mage US entre 2009 et 2017{]}
+
+\subsection{La loi de Goodhart}\label{la-loi-de-goodhart-4}
+
+Exemple : le taux de chÃ´mage
+
+\begin{itemize}
+\tightlist
+\item
+  Au-delÃ~ du chÃ´mage, qu'en est-il du \textbf{.red{[}halo autour du
+  chÃ´mage{]}} ? Comprend le travail occasionnel, le sous-emploi ou les
+  personnes inactives
+\end{itemize}
+
+.center{[}{]}
+
+Le taux de chÃ´mage (au sens du BIT) en France a plutÃ´t eu tendance Ã~
+baisser depuis 2015
+
+class: inverse, center, middle
+
+\subsection{Bibliographie}\label{bibliographie}
+
+class: inverse, center, middle
+
+\subsection{Quizz section 5 : rdv sur votre espace e-campus
+!}\label{quizz-section-5-rdv-sur-votre-espace-e-campus}
+
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
+
+class: inverse, center, middle
+
+\section{Merci !}\label{merci}
+
+Contact :
+\href{mailto:timothee@datactivi.st}{\nolinkurl{timothee@datactivi.st}}
+
+
+\end{document}
