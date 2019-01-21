@@ -176,7 +176,7 @@ Class:
 
 ]
 .pull-right[
-![](./img/unitemesure.png)
+![](./img/Unitemesure.PNG)
 
 .footnote[© Xavier Gorce 2018]]
 
