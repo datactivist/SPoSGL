@@ -34,7 +34,7 @@ Les productions de Datactivist sont librement réutilisables selon les termes de
 <BR>
 <BR>
 
-.center[<img src="./img/ccbysa.png" height="100"/>] 
+.center[<img src="./img/ccbysa.PNG" height="100"/>] 
 
 
 
@@ -176,7 +176,7 @@ Class:
 
 ]
 .pull-right[
-![](./img/unitemesure.png)
+![](./img/Unitemesure.PNG)
 
 .footnote[© Xavier Gorce 2018]]
 
