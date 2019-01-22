@@ -14,6 +14,7 @@ output:
 params:
   event: Culture générale des données, Sciences Po Saint-Germain-en-Laye, section 5
   slug: SPoSGL/
+  
 ---
 
 layout: true
