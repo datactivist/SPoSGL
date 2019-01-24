@@ -54,7 +54,13 @@ img {
   max-width: 100%;
 }
 .reduite img {
-  max-height: 500px;
+  max-height: 450px;
+}
+.reduite2 img {
+  max-height: 400px;
+}
+.reduite3 img {
+  max-height: 350px;
 }
 .mini img {
   max-height: 50px;
