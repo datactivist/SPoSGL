@@ -289,7 +289,7 @@ De nombreux indicateurs économiques font l'objet d'estimations de plusieurs act
 
 .center[<img src="./img/CroissancePIB.png" height="290"/>]
 
-.footnote[*NB: en décembre 2019, l'Insee a abaissé ses prévisions de croissance pour 2018 à 1,5%*]
+.footnote[*NB: en décembre 2018, l'Insee a abaissé ses prévisions de croissance pour 2018 à 1,5%*]
 
 ---
 ## L'interprétation des données
