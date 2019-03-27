@@ -165,7 +165,7 @@ class:middle, center
 ## Echauffement :
 ### 2 minutes, 10 données
 
-Vous avez 5 minutes
+Vous avez 2 minutes
 
 Vous devez trouver 10 données dans notre environnement immédiat
 
