@@ -46,6 +46,8 @@ Les productions de Datactivist sont librement réutilisables selon les termes de
 
 Lire l'article ["Mise en données du monde, le déluge numérique"](https://www.monde-diplomatique.fr/2013/07/CUKIER/49318)
 
+Ecouter le podcast France Culture ["Quand le monde s’est fait nombre" avec Olivier Rey](https://www.franceculture.fr/emissions/les-nouveaux-chemins-de-la-connaissance/quand-le-monde-sest-fait-nombre-dolivier-rey)
+
 #### .red[2- Les données "brutes", un oxymore ?]
 
 Lire l'article ["Entretien avec Jérôme Denis - Le travail invisible des données"](https://www.nonfiction.fr/article-9517-entretien-avec-jerome-denis-a-propos-de-son-livre-le-travail-invisible.htm)
@@ -57,14 +59,6 @@ Ecouter le podcast "Section 2 - Absence de données"
 **Bibliographie**
 
 .center[**quiz section 2**]
----
-## Introduction 
-
-#### Ecoutez le .red[podcast introductif] de la section 2 : ["Quand le monde s’est fait nombre" d'Olivier Rey](https://www.franceculture.fr/emissions/les-nouveaux-chemins-de-la-connaissance/quand-le-monde-sest-fait-nombre-dolivier-rey) (Les chemins de la philosophie, France Culture par Adèle Van Reeth)
-
-.center[<img src="./img/anderson.jpg" height="350"/>]
-
-.footnote[© Mark Anderson]
 
 ---
 class: inverse, center, middle
@@ -105,6 +99,15 @@ Class: middle, center
 > La numérisation ne serait pas survenue sans une "nombrification" préalable qui consiste à quantifier de plus en plus d'aspects de notre expérience du réel.
 > **Au commencement était le verbe, il semble à la fin que tout devient nombre.**
 > Personne ne saurait parler sérieusement de l'état de la société et discuter politique sans se référer aux informations quantitatives.]
+
+---
+## La "nombrification" du monde
+
+#### Ecoutez le podcast : ["Quand le monde s’est fait nombre" avec Olivier Rey](https://www.franceculture.fr/emissions/les-nouveaux-chemins-de-la-connaissance/quand-le-monde-sest-fait-nombre-dolivier-rey) (Les chemins de la philosophie, France Culture par Adèle Van Reeth)
+
+.center[<img src="./img/anderson.jpg" height="350"/>]
+
+.footnote[© Mark Anderson]
 
 ---
 ## Le nouveau positivisme des données
@@ -351,7 +354,7 @@ class: inverse, center, middle
 ---
 ## Bibliographie
 
-- Podcast France Culture, Les chemins de la philosophies par Adèle Van Reeth : [Quand le monde s’est fait nombre" d'Olivier Rey](https://www.franceculture.fr/emissions/les-nouveaux-chemins-de-la-connaissance/quand-le-monde-sest-fait-nombre-dolivier-rey)
+- Podcast France Culture, Les chemins de la philosophies par Adèle Van Reeth : [Quand le monde s’est fait nombre" avec Olivier Rey](https://www.franceculture.fr/emissions/les-nouveaux-chemins-de-la-connaissance/quand-le-monde-sest-fait-nombre-dolivier-rey)
 
 - Samuel Goëta, [« Fred Turner, Aux sources de l’utopie numérique. De la contre-culture à la cyberculture, Stewart Brand un homme d’influence »](http://journals.openedition.org/questionsdecommunication/8619), Questions de communication, 23 | 2013, mis en ligne le 30 septembre 2013
 

@@ -60,7 +60,7 @@ Lire l'article du Monde ["Pourquoi les chiffres sur la délinquance sont à pren
 .center[**quiz section 5**]
 ---
 
-## Introduction 
+## En guise d'introduction... 
 
 #### Ecoutez le .red[podcast introductif] de la section 5 
 

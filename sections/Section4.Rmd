@@ -57,15 +57,6 @@ Lire l'article d'Alternatives Economiques .red[["Quel est le « bon » seuil de 
 *Bibliographie*
 
 .center[**quiz section 4**]
----
-
-## Introduction 
-
-#### Ecoutez le .red[podcast introductif] de la section 4 
-
-.center[<img src="./img/source.png" height="400"/>]
-
-.footnote[© Xavier Gorce]
 
 ---
 class: inverse, center, middle
@@ -202,8 +193,10 @@ Au-delà de cette typologie approximative, il y a des **critères objectifs** su
 ## Distinguer les sources
 
 **Ecoutez le .red[podcast "La jungle d'acronymes"] de la section 4**
+<BR>
 
-.center[<img src="./img/comptage.png" height="400"/>]
+.pull-left[<img src="./img/source.png" height="300"/>]
+.pull-right[<img src="./img/comptage.png" height="300"/>]
 
 .footnote[© Xavier Gorce 2018]
 
