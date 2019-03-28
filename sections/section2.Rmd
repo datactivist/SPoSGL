@@ -24,7 +24,6 @@ layout: true
 
 class: center, middle
 
-Ces slides en ligne : http://datactivist.coop/SPoSGL/
 
 Sources : https://github.com/datactivist/SPoSGL/
 
@@ -42,7 +41,6 @@ Les productions de Datactivist sont librement réutilisables selon les termes de
 ---
 ## Plan du cours
 
-.center[*Podcast introductif section 2*]
 
 #### .red[1- La nombrification du monde]
 
@@ -58,7 +56,7 @@ Ecouter le podcast "Section 2 - Absence de données"
 
 **Bibliographie**
 
-.center[**Quizz section 2**]
+.center[**quiz section 2**]
 ---
 ## Introduction 
 
@@ -369,7 +367,7 @@ class: inverse, center, middle
 ---
 class: inverse, center, middle
 
-## Quizz section 2 : rdv sur votre espace e-campus !
+## quiz section 2 : rdv sur votre espace e-campus !
 
 ---
 class: inverse, center, middle

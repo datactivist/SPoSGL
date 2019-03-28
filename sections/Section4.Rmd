@@ -25,7 +25,6 @@ layout: true
 
 class: center, middle
 
-Ces slides en ligne : http://datactivist.coop/SPoSGL/
 
 Sources : https://github.com/datactivist/SPoSGL/
 
@@ -42,7 +41,6 @@ Les productions de Datactivist sont librement réutilisables selon les termes de
 ---
 ## Plan du cours
 
-.center[*Podcast introductif section 4, par Timothée Gidoin*]
 
 #### .red[**1. Les multiples sources et producteurs de données publiques**]
 
@@ -58,7 +56,7 @@ Lire l'article d'Alternatives Economiques .red[["Quel est le « bon » seuil de 
 
 *Bibliographie*
 
-.center[**Quizz section 4**]
+.center[**quiz section 4**]
 ---
 
 ## Introduction 
@@ -321,7 +319,7 @@ class: inverse, center, middle
 ---
 class: inverse, center, middle
 
-## Quizz section 4 : rdv sur votre espace e-campus !
+## quiz section 4 : rdv sur votre espace e-campus !
 
 ---
 class: inverse, center, middle
