@@ -35,10 +35,6 @@ Les productions de Datactivist sont librement réutilisables selon les termes de
 <BR>
 
 .center[<img src="./img/ccbysa.png" height="100"/>] 
-
-
-
-
 ---
 ## Plan du cours
 
@@ -59,21 +55,144 @@ Big Data : est-ce que le déluge de données va rendre la méthode scientifique 
 
 .center[**Quizz section 1**]
 ---
+class:center, middle, inverse
+
+# 1 - Au fait, c'est quoi une donnée ?
+---
 ## Introduction 
 
-#### Ecoutez le .red[podcast introductif] de la section 1 
+#### Ecoutez ["l'interview de Serge Abiteboul, commissaire scientifique de l’exposition Terradata et directeur de recherche à l’Inria"](commissaire scientifique de l’exposition et directeur de recherche à l’Inria)
 
-.center.reduite[![](./img/asterix.png)]
-
-.footnote[© Editions Albert René]
-
+.center.reduite[![](./img/abiteboul.png)]
 
 ---
-class: inverse, center, middle
+## Les données sont partout !
+.center.reduite[![](./img/dataeverywhere.png)]
 
-## Quizz section 2 : rdv sur votre espace e-campus !
+#### Identifiez autour de vous 3 appareils qui collectent des données 
+
+.footnote[source : [The Economist](https://www.emc.com/collateral/analyst-reports/ar-the-economist-data-data-everywhere.pdf)]
+---
+## Data or capta ? Donnée ou Capturée ?
+
+> *Technically, then, what we understand as data are actually **capta** (derived from the Latin capere, meaning ‘to take’); those units of data that have been selected and harvested from the sum of all potential data.*
+
+
+> Techniquement, ce que nous nous appelons "donnée" est généralement "capturé" (issu du latin "capere", signifiant "prendre"); ces unités de données qui ont été sélectionnées et collectées parmi l'ensemble de toutes les données possibles
+
+[Kitchin, 2014](https://books.google.fr/books?hl=fr&lr=&id=GfOICwAAQBAJ&oi=fnd&pg=PP1&dq=kitchin+data+revolution&ots=pcyfMTZh-V&sig=dQyPTL3AIN_4RdWvtBFw4VjdAa4#v=onepage&q=kitchin%20data%20revolution&f=false)
 
 ---
+Classe: middle
+
+## Une définition des données
+
+.pull-left[
+![](./img/kitchin.png)
+]
+ 
+.pull-right[
+ 
+> *Les données sont couramment comprises comme les matériaux bruts produits dans l’abstraction du monde en catégories, mesures et toute autre forme de représentation-nombres, caractères, symboles, images, sons, ondes électromagnétiques, bits qui constituent les fondations sur lesquelles l’information et le savoir sont créés.*
+]
+
+---
+### La pyramide Data-Information-Knowledge-Wisdom
+
+.pull-left[
+![largeur](./img/DIKW_Pyramid.svg)]
+
+.pull-right[Attribuée à [Russell Ackoff](http://en.wikipedia.org/wiki/Russell_L._Ackoff), 1989
+
+Les données peuvent être des :
+
+- faits
+- signal/stimulis
+- symboles]
+
+---
+## La pyramide Data-Information-Knowledge-Wisdom
+
+- Les **.red[données]** sont la matière "brute" d'où naît l'information.
+
+- **.red[L'information]** pourrait être définie comme des données qui ont été consignées,
+classées, organisées, raccordées ou interprétées dans un cadre qui en dégage le sens
+
+- En donnant du sens à de l'information, on obtient de la **.red[connaissance]**
+
+- En donnant du sens à la **.red[connaissance]** on obtient du savoir
+
+---
+### Les données, c'est aussi tout ce qui circule dans un ordinateur
+
+.pull-left[![](./img/volume.png)]
+.pull-right[
+Les données ne sont pas seulement le fondement du savoir, elles sont aussi la base de l'informatique. Tout ce qui circule dans un ordinateur, ce sont des données.
+
+Pensez à votre abonnement téléphonique, chaque mois, vous payez pour consommer un certain volume de données quantifié en octet ou en bit. 
+
+Le volume des données créées et traitées ne cesse de croitre en même temps que les capacités de calcul des ordinateurs. 
+]
+
+---
+class:center, middle, inverse
+
+# 2 - L'industrialisation de la production des données
+
+---
+### La tablette mésopotanienne : inscrire une réalité complexe
+.pull-left[
+![](http://www.ladressemuseedelaposte.fr/IMG/arton1311-resp500-2.jpg)
+.footnote[source : [l'adresse, musée de la Poste](http://www.ladressemuseedelaposte.fr/Vous-avez-dit-tablette)]
+]
+
+.pull-right[
+> Vers 3200 av. J.-C., en Mésopotamie, la civilisation sumérienne a inventé l’écriture d'abord pour mémoriser des comptes (difficile de recenser des têtes de bétail ou des sacs de grains oralement). 
+
+> "La compatibilité a été l'une des premières *success story* de l'écriture ; les premières tablettes comprennent souvent des listes de compte."
+.footnote[source : Abiteboul & Peugeot (2017). *Terra Data : qu'allons nous faire des données numériques ?*, Paris : Le Pommier.]
+]
+
+---
+
+### La carte perforée (1884) : le début de la massification des données
+
+Apparue au départ dans les métiers à tisser, une carte perforée contient des informations représentées par la présence ou l'absence de trou dans une position donnée.
+
+.pull-left[
+.middle[![](https://upload.wikimedia.org/wikipedia/commons/f/f2/Hollerith_punched_card.jpg)]
+]
+.pull-right[
+Elles sont les premières mémoires de masse utilisés dans l'informatique au XIXe siècle.
+
+En 1884, Herman Hollerith a déposé un brevet pour une machine à cartes perforées destinée à accélérer la production de statistiques pour les gouvernements. Deux ans plus tard, il crée IBM le géant de l'informatique.  
+]
+
+---
+
+### Les bases de données relationnelles (1970)
+
+Les bases de données relationnelles facilitent grandement le traitement des données puisqu'elles pparaissent à travers une interface utilisateur : « il faut protéger les futurs usagers de grandes banques de données d’avoir à connaitre comment les données sont organisées dans la machine » (Codd 1970). 
+
+.pull-left[
+![](https://www.ntirety.com/wp-content/uploads/2017/05/database-schema-1895779_1280-1080x675.png)]
+
+.pull-right[
+
+D’un point de vue physique, les données sont inscrites dans des tables et reliées entre elles par un schéma et des identifiants uniques. Cela permet de traiter de plus grands volumes, de développer des données plus complexes et d'éviter des erreurs de saisie.
+]
+
+---
+### Le tableur (1979) : data to the people
+
+En 1979, Dan Bricklin, un ancien analyste financier exaspéré par les techniques de calcul encore manuelles, a imaginé une technique de calcul visible (« Visible Calculator »). 
+
+Son logiciel "Visicalc"", démocratise la production des données en proposant le système de la feuille de calcul sur laquelle les données peuvent être directement manipulées : 
+
+> "La facilité d’utilisation de Visicalc provenait du fait que l’utilisateur n’avait pas besoin de connaitre de langage de programmation. Sur cet aspect, Visicalc était l’équivalent du traitement de texte dans lequel un utilisateur arrange directement l’impression de la page, à l’opposé des systèmes d’écriture où l’utilisateur devait inscrire un ensemble d’inscriptions pour mettre en page le texte." ([Campbell-Kelly, 2007](http://www.oxfordscholarship.com/view/10.1093/acprof:oso/9780198508410.001.0001/acprof-9780198508410))
+
+---
+
 class: inverse, center, middle
 
 # Merci !

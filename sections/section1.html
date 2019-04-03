@@ -39,18 +39,12 @@ Les productions de Datactivist sont librement réutilisables selon les termes de
 &lt;BR&gt;
 
 .center[&lt;img src="./img/ccbysa.png" height="100"/&gt;] 
-
-
-
-
 ---
 ## Plan du cours
 
-.center[*Podcast introductif section 1, par Samuel Goëta*]
+#### .red[1- "Au fait, c'est quoi une donnée ?"]
 
-#### .red[1- "Quantifier, c'est convenir puis mesurer"]
-
-Lire l'article ["Mise en données du monde, le déluge numérique"](https://www.monde-diplomatique.fr/2013/07/CUKIER/49318)
+Ecouter ["l'interview de Serge Abiteboul, commissaire scientifique de l’exposition Terradata et directeur de recherche à l’Inria"](commissaire scientifique de l’exposition et directeur de recherche à l’Inria)
 
 #### .red[2- L'industrialisation de la production des données]
 
@@ -58,75 +52,150 @@ Ecouter le podcast "Section 1 -"
 
 #### .red[3- La fin de la science ?]
 
-Lire l'article ["Entretien avec Jérôme Denis - Le travail invisible des données"](https://www.nonfiction.fr/article-9517-entretien-avec-jerome-denis-a-propos-de-son-livre-le-travail-invisible.htm)
+Lire l'article ["
+Big Data : est-ce que le déluge de données va rendre la méthode scientifique obsolète ?
+"](http://internetactu.blog.lemonde.fr/2011/09/30/big-data-est-ce-que-le-deluge-de-donnees-va-rendre-la-methode-scientifique-obsolete/)
 
 
-**Bibliographie**
+.center[**Quizz section 1**]
+---
+class:center, middle, inverse
 
-.center[**Quizz section 2**]
+# 1 - Au fait, c'est quoi une donnée ?
 ---
 ## Introduction 
 
-#### Ecoutez le .red[podcast introductif] de la section 1 
+#### Ecoutez ["l'interview de Serge Abiteboul, commissaire scientifique de l’exposition Terradata et directeur de recherche à l’Inria"](commissaire scientifique de l’exposition et directeur de recherche à l’Inria)
 
-.center.reduite[![](./img/asterix.png)]
-
-.footnote[© Editions Albert René]
+.center.reduite[![](./img/abiteboul.png)]
 
 ---
-## Le censeur à Rome : l'ancêtre de la statistique
+## Les données sont partout !
+.center.reduite[![](./img/dataeverywhere.png)]
 
-* A Rome, tous les 5 ans, le cens (en latin : census) servait à établir la liste hiérarchisée des citoyens et de leurs biens, tâche confiée aux censeurs. 
+#### Identifiez autour de vous 3 appareils qui collectent des données 
 
-* Le cens servait de base au recrutement dans l'armée romaine, à la délimitation des droits politiques, à l'organisation des scrutins, au calcul des impôts, puis à l'élaboration d'un état civil.
+.footnote[source : [The Economist](https://www.emc.com/collateral/analyst-reports/ar-the-economist-data-data-everywhere.pdf)]
 ---
-class: inverse, center, middle
+## Data or capta ? Donnée ou Capturée ?
 
-## 1. La nombrification du monde
-
----
-class: inverse, center, middle
-
-## 2. Les données "brutes", un oxymore ?
+&gt; *Technically, then, what we understand as data are actually **capta** (derived from the Latin capere, meaning ‘to take’); those units of data that have been selected and harvested from the sum of all potential data.*
 
 
----
-class:
-## Données ou obtenues ? 
+&gt; Techniquement, ce que nous nous appelons "donnée" est généralement "capturé" (issu du latin "capere", signifiant "prendre"); ces unités de données qui ont été sélectionnées et collectées parmi l'ensemble de toutes les données possibles
 
-&lt;BR&gt;
-
-&gt; « Décidément, on ne devrait jamais parler de “données”, mais toujours d’ “obtenues”. » 
-
-Bruno Latour, 1993
-
-&gt; "L’enjeu principal, il me semble, une fois que l’on admet que les données sont toujours des « obtenues » comme le disait Bruno Latour lorsqu’il observait le travail quotidien des scientifiques, c’est de **comprendre dans quelles conditions elles deviennent malgré tout des « données » pour certains.**"
-
-Jérôme Denis, 2018, dans son [entretien avec Nonfiction](https://www.nonfiction.fr/article-9517-entretien-avec-jerome-denis-a-propos-de-son-livre-le-travail-invisible.htm) (**lecture obligatoire**)
+[Kitchin, 2014](https://books.google.fr/books?hl=fr&amp;lr=&amp;id=GfOICwAAQBAJ&amp;oi=fnd&amp;pg=PP1&amp;dq=kitchin+data+revolution&amp;ots=pcyfMTZh-V&amp;sig=dQyPTL3AIN_4RdWvtBFw4VjdAa4#v=onepage&amp;q=kitchin%20data%20revolution&amp;f=false)
 
 ---
-class: inverse, center, middle
+Classe: middle
 
-## 3. L'absence de données : compter pour être pris en compte
+## Une définition des données
 
----
-class: inverse, center, middle
-
-## Bibliographie
-
-
----
-class: inverse, center, middle
-
-## Quizz section 2 : rdv sur votre espace e-campus !
+.pull-left[
+![](./img/kitchin.png)
+]
+ 
+.pull-right[
+ 
+&gt; *Les données sont couramment comprises comme les matériaux bruts produits dans l’abstraction du monde en catégories, mesures et toute autre forme de représentation-nombres, caractères, symboles, images, sons, ondes électromagnétiques, bits qui constituent les fondations sur lesquelles l’information et le savoir sont créés.*
+]
 
 ---
+### La pyramide Data-Information-Knowledge-Wisdom
+
+.pull-left[
+![largeur](./img/DIKW_Pyramid.svg)]
+
+.pull-right[Attribuée à [Russell Ackoff](http://en.wikipedia.org/wiki/Russell_L._Ackoff), 1989
+
+Les données peuvent être des :
+
+- faits
+- signal/stimulis
+- symboles]
+
+---
+## La pyramide Data-Information-Knowledge-Wisdom
+
+- Les **.red[données]** sont la matière "brute" d'où naît l'information.
+
+- **.red[L'information]** pourrait être définie comme des données qui ont été consignées,
+classées, organisées, raccordées ou interprétées dans un cadre qui en dégage le sens
+
+- En donnant du sens à de l'information, on obtient de la **.red[connaissance]**
+
+- En donnant du sens à la **.red[connaissance]** on obtient du savoir
+
+---
+### Les données, c'est aussi tout ce qui circule dans un ordinateur
+
+.pull-left[![](./img/volume.png)]
+.pull-right[
+Les données ne sont pas seulement le fondement du savoir, elles sont aussi la base de l'informatique. Tout ce qui circule dans un ordinateur, ce sont des données.
+
+Pensez à votre abonnement téléphonique, chaque mois, vous payez pour consommer un certain volume de données quantifié en octet ou en bit. 
+
+Le volume des données créées et traitées ne cesse de croitre en même temps que les capacités de calcul des ordinateurs. 
+]
+
+---
+class:center, middle, inverse
+
+# 2 - L'industrialisation de la production des données
+
+---
+### La tablette mésopotanienne : inscrire une réalité complexe
+.pull-left[
+![](http://www.ladressemuseedelaposte.fr/IMG/arton1311-resp500-2.jpg)
+.footnote[source : [l'adresse, musée de la Poste](http://www.ladressemuseedelaposte.fr/Vous-avez-dit-tablette)]
+]
+
+.pull-right[
+&gt; Vers 3200 av. J.-C., en Mésopotamie, la civilisation sumérienne a inventé l’écriture d'abord pour mémoriser des comptes (difficile de recenser des têtes de bétail ou des sacs de grains oralement). 
+
+&gt; "La compatibilité a été l'une des premières *success story* de l'écriture ; les premières tablettes comprennent souvent des listes de compte."
+.footnote[source : Abiteboul &amp; Peugeot (2017). *Terra Data : qu'allons nous faire des données numériques ?*, Paris : Le Pommier.]
+]
+
+---
+
+### La carte perforée (1884) : le début de la massification des données
+
+.pull-left[
+.middle[![](https://upload.wikimedia.org/wikipedia/commons/f/f2/Hollerith_punched_card.jpg)]
+]
+.pull-right[
+Apparue au départ dans les métiers à tisser, une carte perforée contient des informations représentées par la présence ou l'absence de trou dans une position donnée.
+
+Elles sont les premières mémoires de masse utilisés dans l'informatique au XIXe siècle.
+
+En 1884, Herman Hollerith a déposé un brevet pour une machine à cartes perforées destinée à accélérer la production de statistiques pour les gouvernements. Deux ans plus tard, il crée IBM le géant de l'informatique.  
+]
+
+---
+
+### Les bases de données relationnelles (1970)
+
+Les bases de données relationnelles facilitent grandement le traitement des données puisqu'elles pparaissent à travers une interface utilisateur : « il faut protéger les futurs usagers de grandes banques de données d’avoir à connaitre comment les données sont organisées dans la machine » (Codd 1970). 
+
+.pull-left[
+![](https://www.ntirety.com/wp-content/uploads/2017/05/database-schema-1895779_1280-1080x675.png)]
+
+.pull-right[
+
+D’un point de vue physique, les données sont inscrites dans des tables et reliées entre elles par un schéma et des identifiants uniques. Cela permet de traiter de plus grands volumes, de développer des données plus complexes et d'éviter des erreurs de saisie.
+]
+
+
+---
+
 class: inverse, center, middle
 
 # Merci !
 
-Contact : [timothee@datactivi.st](mailto:timothee@datactivi.st)
+Contact : [samuel@datactivist.coop](mailto:samuel@datactivist.coop)
     </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
 <script>var slideshow = remark.create({
 "highlightStyle": "github",
@@ -136,26 +205,79 @@ Contact : [timothee@datactivi.st](mailto:timothee@datactivi.st)
 if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
   window.dispatchEvent(new Event('resize'));
 });
-(function() {
-  var d = document, s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
   if (!r) return;
   s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
   d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
 })();</script>
 
-<script type="text/x-mathjax-config">
-MathJax.Hub.Config({
-  tex2jax: {
-    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+<script>
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
   }
-});
+})();
+</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
 </script>
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>
 (function () {
   var script = document.createElement('script');
   script.type = 'text/javascript';
-  script.src  = 'https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
   if (location.protocol !== 'file:' && /^https?:/.test(script.src))
     script.src  = script.src.replace(/^https?:/, '');
   document.getElementsByTagName('head')[0].appendChild(script);
