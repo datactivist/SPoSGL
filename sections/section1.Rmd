@@ -61,7 +61,7 @@ class:center, middle, inverse
 ---
 ## Introduction 
 
-#### Ecoutez [l'interview de Serge Abiteboul, commissaire scientifique de l’exposition Terradata et directeur de recherche à l’Inria](commissaire scientifique de l’exposition et directeur de recherche à l’Inria)
+#### Ecoutez [l'interview de Serge Abiteboul, commissaire scientifique de l’exposition Terradata et directeur de recherche à l’Inria](https://www.youtube.com/watch?v=qqvsiTUJy7k)
 
 .center.reduite[![](./img/abiteboul.png)]
 
