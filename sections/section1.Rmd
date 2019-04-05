@@ -40,7 +40,7 @@ Les productions de Datactivist sont librement réutilisables selon les termes de
 
 #### .red[1- "Au fait, c'est quoi une donnée ?"]
 
-Ecouter ["l'interview de Serge Abiteboul, commissaire scientifique de l’exposition Terradata et directeur de recherche à l’Inria"](commissaire scientifique de l’exposition et directeur de recherche à l’Inria)
+Ecoutez ["l'interview de Serge Abiteboul, commissaire scientifique de l’exposition Terradata et directeur de recherche à l’Inria"](https://www.youtube.com/watch?v=qqvsiTUJy7k)
 
 #### .red[2- L'industrialisation de la production des données]
 
@@ -67,20 +67,13 @@ class:center, middle, inverse
 
 ---
 ## Les données sont partout !
-.center.reduite[![](./img/dataeverywhere.png)]
+
+.center[<img src="./img/dataeverywhere.png" height="350"/>]
+
 
 #### Identifiez autour de vous 3 appareils qui collectent des données 
 
 .footnote[source : [The Economist](https://www.emc.com/collateral/analyst-reports/ar-the-economist-data-data-everywhere.pdf)]
----
-## Data or capta ? Donnée ou Capturée ?
-
-> *Technically, then, what we understand as data are actually **capta** (derived from the Latin capere, meaning ‘to take’); those units of data that have been selected and harvested from the sum of all potential data.*
-
-
-> Techniquement, ce que nous nous appelons "donnée" est généralement "capturé" (issu du latin "capere", signifiant "prendre"); ces unités de données qui ont été sélectionnées et collectées parmi l'ensemble de toutes les données possibles
-
-[Kitchin, 2014](https://books.google.fr/books?hl=fr&lr=&id=GfOICwAAQBAJ&oi=fnd&pg=PP1&dq=kitchin+data+revolution&ots=pcyfMTZh-V&sig=dQyPTL3AIN_4RdWvtBFw4VjdAa4#v=onepage&q=kitchin%20data%20revolution&f=false)
 
 ---
 Classe: middle
@@ -102,7 +95,7 @@ Classe: middle
 
 Attribuée à [Russell Ackoff](http://en.wikipedia.org/wiki/Russell_L._Ackoff) en 1989, elle signfie que :
 .pull-left[
-![largeur](./img/DIKW_Pyramid.svg)
+![largeur](./img/dikw_pyramid.svg)
 ]
 
 .pull-right[
@@ -111,6 +104,14 @@ Attribuée à [Russell Ackoff](http://en.wikipedia.org/wiki/Russell_L._Ackoff) e
 - **.red[L'information]** pourrait être définie comme des données qui ont été interprétées pour dégager du sens pour des humains.
 - En donnant du sens à de l'information, on obtient de la **.red[connaissance]**
 - En donnant du sens à la connaissance on obtient de la **.red[sagesse]**.]
+
+---
+Class:
+## La pyramide Data-Information-Knowledge-Wisdom
+
+.center[<img src="./img/competence.png" height="300"/>]
+
+_NB : le haut de la pyramide, est parfois remplacé par "compétence"_
 
 ---
 
