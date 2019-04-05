@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Section 1 : qu’est-ce qu’une donnée ? Petite histoire sociale des données et de leur exploitation</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Datactivist, 2018-2019" />
+    <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
+    <link href="libs/remark-css-0.0.1/datactivist.css" rel="stylesheet" />
+    <link href="libs/remark-css-0.0.1/datactivist-fonts.css" rel="stylesheet" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# Section 1 : qu’est-ce qu’une donnée ? Petite histoire sociale des données et de leur exploitation
+## Culture générale des données
+### Datactivist, 2018-2019
+
+---
+
+
+layout: true
+  
+
+&lt;div class='my-footer'&gt;&lt;span&gt;Culture générale des données, Sciences Po Saint-Germain-en-Laye, section 1&lt;/span&gt; &lt;center&gt;&lt;div class=logo&gt;&lt;img src='' width='100px'&gt;&lt;/center&gt;&lt;/span&gt;&lt;/div&gt; 
+
+---
+
+class: center, middle
+
+Ces slides en ligne : http://datactivist.coop/SPoSGL/
+
+Sources : https://github.com/datactivist/SPoSGL/
+
+
+Les productions de Datactivist sont librement réutilisables selon les termes de la licence [Creative Commons 4.0 BY-SA](https://creativecommons.org/licenses/by-sa/4.0/legalcode.fr).
+
+&lt;BR&gt;
+&lt;BR&gt;
+
+.center[&lt;img src="./img/ccbysa.png" height="100"/&gt;] 
+---
+## Plan du cours
+
+#### .red[1- "Au fait, c'est quoi une donnée ?"]
+
+Ecouter ["l'interview de Serge Abiteboul, commissaire scientifique de l’exposition Terradata et directeur de recherche à l’Inria"](commissaire scientifique de l’exposition et directeur de recherche à l’Inria)
+
+#### .red[2- L'industrialisation de la production des données]
+
+Regardez [l'interview des créateurs de Visicalc](https://www.youtube.com/watch?v=2a5ex5QlocQ), le premier tableur 
+
+#### .red[3- La fin de la science ?]
+
+Lire l'article ["
+Big Data : est-ce que le déluge de données va rendre la méthode scientifique obsolète ?
+"](http://internetactu.blog.lemonde.fr/2011/09/30/big-data-est-ce-que-le-deluge-de-donnees-va-rendre-la-methode-scientifique-obsolete/)
+
+
+.center[**Quizz section 1**]
+---
+class:center, middle, inverse
+
+# 1 - Au fait, c'est quoi une donnée ?
+---
+## Introduction 
+
+#### Ecoutez [l'interview de Serge Abiteboul, commissaire scientifique de l’exposition Terradata et directeur de recherche à l’Inria](commissaire scientifique de l’exposition et directeur de recherche à l’Inria)
+
+.center.reduite[![](./img/abiteboul.png)]
+
+---
+## Les données sont partout !
+.center.reduite[![](./img/dataeverywhere.png)]
+
+#### Identifiez autour de vous 3 appareils qui collectent des données 
+
+.footnote[source : [The Economist](https://www.emc.com/collateral/analyst-reports/ar-the-economist-data-data-everywhere.pdf)]
+---
+## Data or capta ? Donnée ou Capturée ?
+
+&gt; *Technically, then, what we understand as data are actually **capta** (derived from the Latin capere, meaning ‘to take’); those units of data that have been selected and harvested from the sum of all potential data.*
+
+
+&gt; Techniquement, ce que nous nous appelons "donnée" est généralement "capturé" (issu du latin "capere", signifiant "prendre"); ces unités de données qui ont été sélectionnées et collectées parmi l'ensemble de toutes les données possibles
+
+[Kitchin, 2014](https://books.google.fr/books?hl=fr&amp;lr=&amp;id=GfOICwAAQBAJ&amp;oi=fnd&amp;pg=PP1&amp;dq=kitchin+data+revolution&amp;ots=pcyfMTZh-V&amp;sig=dQyPTL3AIN_4RdWvtBFw4VjdAa4#v=onepage&amp;q=kitchin%20data%20revolution&amp;f=false)
+
+---
+Classe: middle
+
+## Une définition des données
+
+.pull-left[
+![](./img/kitchin.png)
+]
+ 
+.pull-right[
+ 
+&gt; *Les données sont couramment comprises comme les matériaux bruts produits dans l’abstraction du monde en catégories, mesures et toute autre forme de représentation-nombres, caractères, symboles, images, sons, ondes électromagnétiques, bits qui constituent les fondations sur lesquelles l’information et le savoir sont créés.*
+]
+
+---
+
+### La pyramide Data-Information-Knowledge-Wisdom
+
+Attribuée à [Russell Ackoff](http://en.wikipedia.org/wiki/Russell_L._Ackoff) en 1989, elle signfie que :
+.pull-left[
+![largeur](./img/DIKW_Pyramid.svg)
+]
+
+.pull-right[
+
+- Les **.red[données]** sont la matière "brute" de l'information conçues plutôt pour des machines.
+- **.red[L'information]** pourrait être définie comme des données qui ont été interprétées pour dégager du sens pour des humains.
+- En donnant du sens à de l'information, on obtient de la **.red[connaissance]**
+- En donnant du sens à la connaissance on obtient de la **.red[sagesse]**.]
+
+---
+
+### Les données, c'est aussi tout ce qui circule dans un ordinateur
+
+Les données ne sont pas seulement le fondement du savoir, elles sont aussi la base de l'informatique. Tout ce qui circule dans un ordinateur, ce sont des données.
+
+.pull-left[![](./img/volume.png)]
+.pull-right[
+Pensez à votre abonnement téléphonique, chaque mois, vous payez pour consommer un certain volume de données quantifié en octet ou en bit. 
+
+Le volume des données créées et traitées ne cesse de croitre en même temps que les capacités de calcul des ordinateurs. 
+]
+
+---
+class:center, middle, inverse
+
+# 2 - L'industrialisation de la production des données
+
+---
+
+### La tablette mésopotanienne : inscrire une réalité complexe
+Vers 3200 av. J.-C., en Mésopotamie, la civilisation sumérienne a inventé l’écriture d'abord pour mémoriser des comptes (difficile de recenser des têtes de bétail ou des sacs de grains oralement).
+.pull-left[
+![](http://www.ladressemuseedelaposte.fr/IMG/arton1311-resp500-2.jpg)
+
+]
+
+.pull-right[
+
+&gt; "La compatibilité a été l'une des premières *success story* de l'écriture ; les premières tablettes comprennent souvent des listes de compte."
+
+]
+.footnote[Source : Abiteboul &amp; Peugeot (2017). *Terra Data : qu'allons nous faire des données numériques ?*, Paris : Le Pommier.]
+---
+
+### La carte perforée (1884) : le début de la massification des données
+
+Apparue au départ dans les métiers à tisser, les carte perforées contiennent des informations représentées par la présence ou l'absence de trous dans une position donnée.
+
+.pull-left[
+.middle[![](https://upload.wikimedia.org/wikipedia/commons/f/f2/Hollerith_punched_card.jpg)]
+]
+.pull-right[
+Elles sont les premières mémoires de masse utilisées dans l'informatique au XIXe siècle.
+
+En 1884, Herman Hollerith a déposé un brevet pour une machine à cartes perforées destinée à accélérer la production de statistiques pour les gouvernements. Deux ans plus tard, il crée IBM le géant de l'informatique.  
+]
+
+---
+
+### Les bases de données relationnelles (1970)
+
+Les bases de données relationnelles facilitent grandement le traitement des données puisqu'elles pparaissent à travers une interface utilisateur : « il faut protéger les futurs usagers de grandes banques de données d’avoir à connaitre comment les données sont organisées dans la machine » (Codd 1970). 
+
+.pull-left[
+![](https://www.ntirety.com/wp-content/uploads/2017/05/database-schema-1895779_1280-1080x675.png)]
+
+.pull-right[
+
+D’un point de vue physique, les données sont inscrites dans des tables et reliées entre elles par un schéma et des identifiants uniques. Cela permet de traiter de plus grands volumes, de développer des données plus complexes et d'éviter des erreurs de saisie.
+]
+
+---
+### Le tableur (1979) : *data to the people*
+
+En 1979, Dan Bricklin, un ancien analyste financier exaspéré par les techniques de calcul encore manuelles, a imaginé une technique de calcul visible (« *Visible Calculator* »). 
+
+Son logiciel "Visicalc", .red[démocratise la production des données] en proposant le système de la feuille de calcul sur laquelle les données peuvent être directement manipulées : 
+
+&gt; "La facilité d’utilisation de Visicalc provenait du fait que l’utilisateur n’avait pas besoin de connaitre de langage de programmation. Sur cet aspect, Visicalc était **l’équivalent du traitement de texte** dans lequel un utilisateur arrange directement l’impression de la page, à l’opposé des systèmes d’écriture où l’utilisateur devait inscrire un ensemble d’inscriptions pour mettre en page le texte." ([Campbell-Kelly, 2007](http://www.oxfordscholarship.com/view/10.1093/acprof:oso/9780198508410.001.0001/acprof-9780198508410))
+
+---
+
+### Le tableur (1979) : *data to the people*
+
+.center[ Dan Bricklin et Bob Frankston ont inventé le tableur, le premier logiciel de calcul de masse. Découvrez en 5 minutes leur invention : 
+
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/2a5ex5QlocQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+]
+
+---
+class:center, middle, inverse
+
+# 3 - la fin des sciences ?
+---
+
+## Le déluge des données
+La réflexion autour de la fin de la science part du constat de l'explosion de la production de données comme l'illustre cette infographie sur les réseaux sociaux en une minute. 
+.pull-left[
+&gt; "Avec suffisamment de données, les chiffres parlent d’eux-mêmes." 
+&gt; Chris Anderson, journaliste *Wired Magazine*
+
+.footnote[[Source](http://internetactu.blog.lemonde.fr/2011/09/30/big-data-est-ce-que-le-deluge-de-donnees-va-rendre-la-methode-scientifique-obsolete/)]
+]
+.pull-right[
+.reduite.center[![](./img/internetminute.jpg)
+]
+]
+
+---
+
+### C'est nouveau ce déluge ?
+
+.pull-left[
+&gt; *"Les perceptions d'une "surabondance informationnelle" (ou d'un "déluge de données") ont émergé de manière répétée depuis la Renaissance jusqu'aux périodes modernes et, à chaque fois, des technologies spécifiques ont été inventées pour gérer la surabondance perçue."*
+
+Strasser, B. J. (2012). "[Data-driven sciences: From wonder cabinets to electronic databases""](http://biologie.unige.ch/assets/brunostrasser//Strasser_SHPSSB_2012.pdf)
+]
+
+.pull-right[.reduite[[![deluge](./img/deluge.png)](https://www.medecinesciences.org/en/articles/medsci/full_html/2012/07/medsci2012282sp24/medsci2012282sp24.html)]]
+
+---
+
+### La méthode scientifique est-elle obsolète ? 
+
+Les sciences sont traversées par la promesse d’un **.red[quatrième paradigme scientifique]** qui remplacerait le modèle hypothético-déductif par l'analyse de données. Il suffirait alors d'**explorer les données pour .red[identifier des corrélations]** (une relation entre des phénomènes) et de **comprendre la causalité.** 
+
+&gt; Le déluge des données rend la méthode scientifique obsolète, l’analyse des motifs et des relations contenues dans les données massives produit intrinsèquement un savoir significatif et éclairé sur des phénomènes complexes. Il y a maintenant une meilleure manière de faire. Les petabytes nous permettent de dire que « la corrélation suffit ». Nous pouvons analyser les données sans hypothèses sur ce qu’elles peuvent montrer.
+
+
+&gt; Anderson, C. (2008) "[The end of theory: The data deluge makes the scientific method obsolete](https://www.wired.com/2008/06/pb-theory/)", *Wired*
+
+---
+
+### Le risque : confondre corrélation et causalité
+
+Deux événements (appelons les X et Y) sont corrélés si l’on observe une relation entre les deux. Une erreur de raisonnement courante consiste à dire : « X et Y sont corrélés, donc X cause Y ». On .red[confond corrélation et causalité] car en réalité, il se pourrait aussi que Y cause X, ou bien que X et Y aient une cause commune Z, ou encore que X et Y soient accidentellement liés mais n’aient aucun lien de causalité.
+
+**_L'effet cigogne_** désigne la tendance à confondre corrélation et causalité.
+
+.pull-left[
+![](./img/cigogne.png)
+]
+
+.poule-right[
+"Dans les communes qui abritent des cigognes, le taux de natalité est plus élevé que dans l’ensemble du pays. Conclusion : les cigognes apportent les bébés ! En fait, les cigognes nichent de préférence dans les villages où la natalité est plus forte en milieu rural que dans les villes."
+
+Source : [cortecs.org](https://cortecs.org/materiel/effets-cigogne-correlation-vs-causalite/)
+
+]
+
+---
+
+## Vous aussi, générez des corrélations absurdes
+
+.center[
+L'équipe des Décodeurs du *Monde* a produit un [générateur de comparaisons absurdes et parfois drôles](https://www.lemonde.fr/les-decodeurs/article/2019/01/02/correlation-ou-causalite-brillez-en-societe-avec-notre-generateur-aleatoire-de-comparaisons-absurdes_5404286_4355770.html), essayez le !
+
+[![](./img/generateur.png)](https://www.lemonde.fr/les-decodeurs/article/2019/01/02/correlation-ou-causalite-brillez-en-societe-avec-notre-generateur-aleatoire-de-comparaisons-absurdes_5404286_4355770.html)
+]
+
+---
+
+### Le déluge des données à l'épreuve des sciences sociales
+
+Les sciences sociales n’échappent pas à la montée en puissance de la science *data-driven*. Le *social computing* désigne une branche de l'informatique qui essaie de comprendre les comportements sociaux par l'analyse de données et l'usage d'outils informatiques. 
+
+Lev Manovich ([2011](http://manovich.net/content/04-projects/067-trending-the-promises-and-the-challenges-of-big-social-data/64-article-2011.pdf)) signale que **cette approche comporte plusieurs risques** : 
+* elle favorise les chercheurs ayant des liens officiels avec les industriels des réseaux sociaux qui vont fournir les données (difficile alors de les critiquer) ; 
+* des évidences pour les sciences humaines vont être présentées comme nouvelles ; 
+* à l'inverse, certains enseignements majeurs de la littérature des sciences humaines sont ignorés ; 
+* les traces numériques des réseaux sociaux sont perçues comme authentiques ignorant les multiples stratégies de gestion des identités des individus ;
+* ces recherches disposent d'une force rhétorique bien supérieure en s'appuyant sur les données de plusieurs millions d’individus. 
+---
+
+class: inverse, center, middle
+
+# Merci !
+
+Contact : [samuel@datactivist.coop](mailto:samuel@datactivist.coop)
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();</script>
+
+<script>
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
