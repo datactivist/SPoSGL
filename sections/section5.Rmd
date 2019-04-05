@@ -83,14 +83,14 @@ class: inverse, center, middle
 - Salaire mensuel **.red[median]** net en France en 2014 (secteur privé) : **1 783€**
 Soit une différence de près de 450€ !
 
-.center[[<img src="./img/SalaireInsee.png" height="370"/>](https://www.insee.fr/fr/statistiques/2121609#consulter)]
+.center[[<img src="./img/salaireinsee.png" height="370"/>](https://www.insee.fr/fr/statistiques/2121609#consulter)]
 
 ---
 ## Médiane ou Moyenne ?
 
 Rappelez-vous que **la moyenne est très sensible aux .red[valeurs extrêmes]...**
 
-.center[[<img src="./img/Milliardaire.png" height="400"/>](https://www.insee.fr/fr/statistiques/2121609#consulter)]
+.center[[<img src="./img/milliardaire.png" height="400"/>](https://www.insee.fr/fr/statistiques/2121609#consulter)]
 
 ---
 ## Corrélation ou causalité ?
@@ -120,7 +120,7 @@ A l'instar du site parodique ["Spurious Correlations"](http://tylervigen.com/spu
 ---
 ## Corrélation ou causalité ?
 
-.center[<img src="./img/LeBras.png" height="350"/>]
+.center[<img src="./img/lebras.png" height="350"/>]
 
 .footnotes[Credits Hervé Le Bras]
 
@@ -234,14 +234,14 @@ Voici ce que donne le même graphique mais avec l'axe des ordonnées démarrant 
 
 - Les **.red[graphiques en camembert]** (pie chart) sont à éviter lorsqu'on souhaite représenter des **proportions** :
 
-.center[[<img src="./img/Camembert.png" height="350"/>](https://twitter.com/maxcroser/status/857389434756505600)]
+.center[[<img src="./img/camembert.png" height="350"/>](https://twitter.com/maxcroser/status/857389434756505600)]
 
 ---
 ## Les représentations graphiques problématiques
 
 - Les **.red[graphiques avec une "Base 100"]** : en fonction de l'année sélectionnée pour être la base 100, les évolutions peuvent fortement changer
 
-.center[[<img src="./img/MLP1.png" height="320"/>](https://www.lemonde.fr/les-decodeurs/article/2017/03/21/les-manipulations-graphiques-de-marine-le-pen-sur-l-euro_5098439_4355770.html)]
+.center[[<img src="./img/mlp1.png" height="320"/>](https://www.lemonde.fr/les-decodeurs/article/2017/03/21/les-manipulations-graphiques-de-marine-le-pen-sur-l-euro_5098439_4355770.html)]
 
 ##### .center[*Marine Le Pen montre un graphique pendant le 1er débat TV de la présidentielle 2017*]
 
@@ -252,16 +252,16 @@ Voici ce que donne le même graphique mais avec l'axe des ordonnées démarrant 
   - A gauche, Production industrielle en Europe, base 100 = **2010**
   - A droite, Production industrielle en Europe, base 100 = **1974**
 
-.pull-left[<img src="./img/Indus1.png" height="300"/>]
+.pull-left[<img src="./img/indus1.png" height="300"/>]
 
-.pull-right[<img src="./img/Indus2.png" height="300"/>]
+.pull-right[<img src="./img/indus2.png" height="300"/>]
 
 ---
 ## Les représentations graphiques problématiques
 
 Et si on ne prend pas en compte que l'évolution de la production industrielle, mais celle de l'ensemble du PIB, le graphique évolue significativement
 
-.center[[<img src="./img/Indus3.png" height="350"/>](https://twitter.com/henrikenderlein/status/844174756089942016)]
+.center[[<img src="./img/indus3.png" height="350"/>](https://twitter.com/henrikenderlein/status/844174756089942016)]
 
 ---
 ## Les représentations spatiales
@@ -277,9 +277,9 @@ En fonction de l'**unité spatiale** retenue pour représenter graphiquement les
 
 - A gauche les résultats par département, à droite les résultats par région
 
-.pull-left[<img src="./img/Presidentielle2.png" height="350"/>]
+.pull-left[<img src="./img/presidentielle2.png" height="350"/>]
 
-.pull-right[<img src="./img/Presidentielle3.png" height="350"/>]
+.pull-right[<img src="./img/presidentielle3.png" height="350"/>]
 
 .footnote[[source](https://abonnes.lemonde.fr/les-decodeurs/article/2017/04/24/premier-tour-de-la-presidentielle-les-resultats-par-region_5116526_4355770.html)]
 
@@ -291,7 +291,7 @@ Lorsqu'elles sont representées sur des cartes, les données doivent souvent êt
 
 .pull-left[<img src="./img/alcoolisme2.png" height="270"/>]
 
-.pull-right[<img src="./img/Alcoolisme1.png" height="270"/>]
+.pull-right[<img src="./img/alcoolisme1.png" height="270"/>]
 
 .footnote[[source](https://www.scoresante.org/sindicateurs.html)]
 
@@ -300,9 +300,9 @@ Lorsqu'elles sont representées sur des cartes, les données doivent souvent êt
 
 Soyez attentifs aux couleurs choisies automatiquement par l'outil de visualisation utilisé. Par défaut, **ils adaptent les échelles et les couleurs associées aux nouvelles données,** ce qui peut brouiller les évolutions d'une année à une autre. Ici le taux de décès liés à l'alcoolisme en Bretagne a été divisé par 3 entre 1980 et 2013
 
-.pull-left[<img src="./img/Scor1.png" height="290"/>]
+.pull-left[<img src="./img/scor1.png" height="290"/>]
 
-.pull-right[<img src="./img/Scor2.png" height="290"/>]
+.pull-right[<img src="./img/scor2.png" height="290"/>]
 
 .footnote[[source](https://www.scoresante.org/sindicateurs.html)]
 
@@ -326,7 +326,7 @@ class: inverse, center, middle
 ---
 ## Les indicateurs ne sont pas neutres
 
-.center[<img src="./img/Drogue.png" height="380"/>]
+.center[<img src="./img/drogue.png" height="380"/>]
 
 .footnote[[Source](http://www.lefigaro.fr/conjoncture/2018/01/30/20002-20180130ARTFIG00342-le-trafic-de-drogue-va-bientot-entrer-dans-le-calcul-du-pib-francais.php)]
 
@@ -349,7 +349,7 @@ Exemple avec les **statistiques sur la criminalité**. En France, il y a une bas
 - Par ailleurs, qu'en est-il de tous les crimes ou délits commis qui n'aboutissent pas à un dépôt de plainte ? 
 - Selon une [étude d'Interstats](https://www.interieur.gouv.fr/content/download/104138/823089/file/IA17.pdf), le service statistique du ministère de l'intérieur, **seulement une victime sur 12 effectue un signalement auprès des forces de sécurité.**
 
-.center[<img src="./img/Plainte.png" height="200"/>]
+.center[<img src="./img/plainte.png" height="200"/>]
 
 - En conclusion, l'Etat 4001 reflète davantage les évolutions de l'activité des forces de l'ordre que de la criminalité à proprement parler
 
@@ -385,7 +385,7 @@ Exemple : le taux de chômage
 
 - En fonction de la catégorie à laquelle on s'intéresse, le taux de chômage peut prendre des directions très différentes... Ici focus **catégorie A**
 
-.center[<img src="./img/Cat1.png" height="350"/>]
+.center[<img src="./img/cat1.png" height="350"/>]
 
 ---
 ## La loi de Goodhart
@@ -394,7 +394,7 @@ Exemple : le taux de chômage
 
 - En fonction de la catégorie à laquelle on s'intéresse, le taux de chômage peut prendre des directions très différentes... Ici focus **catégorie A/B/C**
 
-.center[<img src="./img/Cat2.png" height="350"/>]
+.center[<img src="./img/cat2.png" height="350"/>]
 
 ---
 ## La loi de Goodhart
@@ -403,7 +403,7 @@ Exemple : le taux de chômage
 
 - En fonction de la catégorie à laquelle on s'intéresse, le taux de chômage peut prendre des directions très différentes... Ici focus **catégorie A/B/C, moins de 25 ans**
 
-.center[<img src="./img/Cat3.png" height="350"/>]
+.center[<img src="./img/cat3.png" height="350"/>]
 
 ---
 ## La loi de Goodhart
@@ -412,7 +412,7 @@ Exemple : le taux de chômage
 
 - En fonction de la catégorie à laquelle on s'intéresse, le taux de chômage peut prendre des directions très différentes... Ici focus **catégorie A/B/C, 50 ans ou plus**
 
-.center[<img src="./img/Cat4.png" height="350"/>]
+.center[<img src="./img/cat4.png" height="350"/>]
 
 ---
 ## La loi de Goodhart
@@ -430,7 +430,7 @@ Exemple : le taux de chômage
 
 Exemple : le taux de chômage
 
-.center[<img src="./img/ChomUS1.png" height="380"/>]
+.center[<img src="./img/chomus1.png" height="380"/>]
 
 .footnote[Taux de chômage US entre 2009 et 2017]
 
@@ -439,7 +439,7 @@ Exemple : le taux de chômage
 
 Exemple : le taux de chômage
 
-.center[<img src="./img/ChomUS2.png" height="380"/>]
+.center[<img src="./img/chomus2.png" height="380"/>]
 
 .footnote[Taux d'activité US entre 2009 et 2017]
 
