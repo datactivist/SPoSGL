@@ -242,7 +242,9 @@ class: inverse, center, middle
 
 ## Les données crowdsourcées
 
-Des données produites par des citoyens, des communs partagés et gouvernés par leurs producteurs
+Des données produites par des citoyens, des communs partagés et gouvernés par leurs producteurs.
+
+Concrètement, les données sont issues du travail collaboratif de divers acteurs, bénévoles, dans la récolte sur le terrain.
 
 **Connaissez-vous un site ou une application fonctionnant via des données crowdsourcées ?**
 
@@ -255,9 +257,58 @@ Des données produites par des citoyens, des communs partagés et gouvernés par
 ]
 
 ---
-## Exemple : OpenStreetMap
+## Exemple 1 : OpenStreetMap
 
-.center[&lt;img src="./img/openstreetmap.png" height="450"/&gt;] 
+&gt; Pourquoi faites-vous OpenStreetMap ? 
+Les données géographiques (géo-données) ne sont pas libres dans nombre de régions du monde, par exemple en France, en Belgique, au Canada. En général, ces régions ont confié la tâche de cartographie à diverses agences gouvernementales, qui en retour font de l'argent en revendant les données à des gens comme vous et moi. Si vous vivez dans un de ces pays, alors vos impôts servent à payer le travail de cartographie
+
+&gt; En France certaines données du ministère des finances (données cadastrales pour l'identification des parcelles) peuvent être réutilisées comme référence, mais avec des conditions qui ne permettent pas une exploitation massive permettant d'obtenir une carte complète (leur précision ne permet pas nécessairement d'identifier tous les chemins, rues et routes qui traversent une même parcelle ; de plus elles ne sont souvent plus à jour).
+
+.footnote[ Source : [La FAQ d'OpenStreetMap](https://wiki.openstreetmap.org/wiki/FR:FAQ#Pourquoi_n.27utilisez_vous_pas_Google_Maps_ou_untel_pour_vos_donn.C3.A9es_.3F)]
+
+---
+## Exemple 1 : OpenStreetMap
+
+En résumé :
+
++ OpenStreetMap (OSM) est un projet de cartographie qui a pour but de constituer une base de données géographiques libre du monde (permettant par exemple de créer des cartes sous licence libre), en utilisant le système GPS et d'autres données libres.
+
++ À la manière de Wikipédia, **tous les internautes naviguant sur le web peuvent contribuer à la création et à la numérisation de cartes**. Des éditeurs permettent de réaliser en ligne des cartes en se basant sur un fond d'image satellitaire. Cependant, ces images satellitaires ne couvrent pas toujours en haute résolution l'ensemble du globe. C'est pourquoi il est possible d'introduire des données provenant de récepteurs GPS. Il suffit pour cela de réaliser un itinéraire et de positionner le récepteur en mode enregistrement, puis de le restituer sur le serveur de données d'OpenStreetMap 
+
+---
+## Exemple 1 : OpenStreetMap
+
+Vous aussi vous pouvez contribuer à OpenStreetMap !
+
+.center[&lt;img src="./img/openstreetmap.png" height="400"/&gt;] 
+
+---
+## Exemple 2 : OpenFoodFacts
+
+.center[&lt;img src="./img/openfoodfacts.png" height="200"/&gt;] 
+
+&gt; Open Food Facts est une base de données sur les produits alimentaires faite par tout le monde, pour tout le monde. Elle vous permet de faire des choix plus informés, et comme les données sont ouvertes (open data), tout le monde peut les utiliser pour tout usage.
+
+&gt; Open Food Facts est un projet citoyen à but non lucratif créé par des milliers de volontaires à travers le monde. Vous pouvez commencer à contribuer en ajoutant un produit de votre cuisine, et nous avons plein de projets enthousiasmants auxquels vous pouvez participer de beaucoup de façons différentes.
+
+---
+## Exemple 2 : OpenFoodFacts
+
+Vous aussi vous pouvez contribuer à OpenFoodFacts !
+
+
+.center[[&lt;img src="./img/openfoodfacts2.png" height="400"/&gt;](https://fr.openfoodfacts.org/contribuer)]
+
+---
+## Exemple 2 : OpenFoodFacts  
+
+Et vous connaissez très probablement une application qui utilise les données d'OpenFoodFacts pour "évaluer" la composition des produits alimentaires...
+
+--
+
+**Yuka** ! Avec plus de 8 millions d'utilisateurs en février 2019, elle a désormais un impact non négligeable, y compris dans la stratégie des grandes marques de l'agroalimentaire..
+
+.center[[&lt;img src="./img/yuka.png" height="300"/&gt;](https://www.liberation.fr/desintox/2018/05/18/yuka-est-elle-une-appli-publicitaire-deguisee_1651227)]
 
 ---
 class: inverse, center, middle
@@ -268,13 +319,18 @@ class: inverse, center, middle
 
 ##Index
 
-**Index** : Des données permettent l'identification et la mise en relation. Essentielles pour enrichir les données. Exemple : SIRET. 
+**Index** : Des données permettent l'identification et la mise en relation. Essentielles pour enrichir les données. Exemple : le numéro de SIRET dans la base Sirene (informations concernant les entreprises et les établissements immatriculés au répertoire interadministratif Sirene depuis sa création en 1973), gérée par l'Insee
+
+.center[[&lt;img src="./img/base_sirene.png" height="300"/&gt;](https://public.opendatasoft.com/explore/dataset/sirene/information/?flg=fr&amp;disjunctive.rpet&amp;disjunctive.depet&amp;disjunctive.libcom&amp;disjunctive.siege&amp;disjunctive.libapet&amp;disjunctive.libtefet&amp;disjunctive.saisonat&amp;disjunctive.libnj&amp;disjunctive.libapen&amp;disjunctive.ess&amp;disjunctive.libtefen&amp;disjunctive.categorie&amp;disjunctive.proden&amp;disjunctive.libtu&amp;disjunctive.liborigine&amp;disjunctive.libtca&amp;disjunctive.libreg_new&amp;disjunctive.nom_dept&amp;disjunctive.section)]
+
 
 ---
 
 ## Attributs
 
-**Attributs** : Des données représentent les aspects d'un phénomène, mais ne sont pas des index (pas identifiants uniques).
+**Attributs** : Des données représentent les aspects d'un phénomène, mais ne sont pas des index (pas identifiants uniques). Exemples avec la base Sirene : région de l'établissement, département de l'établissement, Iris de l'établissement...
+
+.center[[&lt;img src="./img/base_sirene2.png" height="300"/&gt;](https://public.opendatasoft.com/explore/dataset/sirene/information/?flg=fr&amp;disjunctive.rpet&amp;disjunctive.depet&amp;disjunctive.libcom&amp;disjunctive.siege&amp;disjunctive.libapet&amp;disjunctive.libtefet&amp;disjunctive.saisonat&amp;disjunctive.libnj&amp;disjunctive.libapen&amp;disjunctive.ess&amp;disjunctive.libtefen&amp;disjunctive.categorie&amp;disjunctive.proden&amp;disjunctive.libtu&amp;disjunctive.liborigine&amp;disjunctive.libtca&amp;disjunctive.libreg_new&amp;disjunctive.nom_dept&amp;disjunctive.section)]
 
 ---
 
@@ -282,10 +338,14 @@ class: inverse, center, middle
 
 **Métadonnées** : Des données sur les données. Peuvent être descriptives, structurelles ou administratives. Exemple de standard : le [Dublin Core](https://fr.wikipedia.org/wiki/Dublin_Core). 
 
+Pour notre exemple précédent, les métadonnées (date de modification, producteur, nombre de téléchargements, thématiques...) sont les suivantes :
+
+.center[[&lt;img src="./img/base_sirene3.png" height="300"/&gt;](https://public.opendatasoft.com/explore/dataset/sirene/information/?flg=fr&amp;disjunctive.rpet&amp;disjunctive.depet&amp;disjunctive.libcom&amp;disjunctive.siege&amp;disjunctive.libapet&amp;disjunctive.libtefet&amp;disjunctive.saisonat&amp;disjunctive.libnj&amp;disjunctive.libapen&amp;disjunctive.ess&amp;disjunctive.libtefen&amp;disjunctive.categorie&amp;disjunctive.proden&amp;disjunctive.libtu&amp;disjunctive.liborigine&amp;disjunctive.libtca&amp;disjunctive.libreg_new&amp;disjunctive.nom_dept&amp;disjunctive.section)]
+
 ---
 class: inverse, center, middle
 
-## quiz section 2 : rdv sur votre espace e-campus !
+## quiz section 3 : rdv sur votre espace e-campus !
 
 ---
 class: inverse, center, middle
