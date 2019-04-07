@@ -339,6 +339,20 @@ Pour notre exemple précédent, les métadonnées (date de modification, product
 .center[[<img src="./img/base_sirene3.png" height="330"/>](https://public.opendatasoft.com/explore/dataset/sirene/information/?flg=fr&disjunctive.rpet&disjunctive.depet&disjunctive.libcom&disjunctive.siege&disjunctive.libapet&disjunctive.libtefet&disjunctive.saisonat&disjunctive.libnj&disjunctive.libapen&disjunctive.ess&disjunctive.libtefen&disjunctive.categorie&disjunctive.proden&disjunctive.libtu&disjunctive.liborigine&disjunctive.libtca&disjunctive.libreg_new&disjunctive.nom_dept&disjunctive.section)]
 
 ---
+
+## Bibliographie
+
+- Libération, Checknews, ["Yuka est-elle une appli publicitaire déguisée ?"](https://www.liberation.fr/desintox/2018/05/18/yuka-est-elle-une-appli-publicitaire-deguisee_1651227), mis en ligne le 18 mai 2018
+
+- Jérémie Valentin, « Les données environnementales : un cas particulier dans la mise en place des données publiques en Open Data ? », Netcom, 27-1/2 | 2013, 254-263
+
+- Justin O’Beirne ["GOOGLE MAPS’S MOAT - How far ahead of Apple Maps is Google Maps?"](https://www.justinobeirne.com/google-maps-moat)
+
+- Alain Desrosières, ["L’État, le marché et les statistiques : Cinq façons d’agir sur l’économie"](http://triangle.ens-lyon.fr/IMG/pdf/etatstats.pdf)
+
+- Isabelle Tellier ["Introduction à la fouille de textes" Université de Paris 3 - Sorbonne Nouvelle](http://www.lattice.cnrs.fr/sites/itellier/poly_fouille_textes/fouille-textes.pdf)
+
+---
 class: inverse, center, middle
 
 ## Quiz section 3 : rdv sur votre espace e-campus !
