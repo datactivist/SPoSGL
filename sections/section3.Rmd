@@ -72,6 +72,10 @@ Tous les pays possèdent-ils les mêmes données publiques ?
 
 **Ecoutez le podcast .red["La diversité des données - quels liens entre Etat et système statistique"] par Samuel Goëta, Datactivist**
 
+<BR>
+
+.center[<img src="./img/sticker.png" height="300"/>]
+
 ---
 
 ## Données quantitatives
@@ -94,18 +98,40 @@ Différents types de variables :
 ## Données qualitatives
 
 .pull-left[
-Non numérique => texte, image, vidéo, son, musique...
+Ce sont des données non numériques, par exemple du texte, des images, de la vidéo, du son...
 
-  + peuvent être converties en données quantitatives
+  + Ces données peuvent être converties en données quantitatives
 
-  + risque de perdre la richesse des données originales
+  + Mais on risque de perdre la richesse des données originales
   
-  + analyse qualitative de données
+  + Il est possible de réaliser une analyse qualitative de ces données
   
 ]
 .pull-right[
 ![](img/text_mining_intro_2.png)
 ]
+
+---
+## Exemple : les annotations en text mining
+
+> L’annotation (ou l’étiquetage) est une tâche plus spécifiquement linguistique que les précédentes, au sens où elle ne s’applique pas, aux données tabulaires et ne relève donc pas de la fouille de données (data mining)
+
+.center[<img src="./img/text_mining3.png" height="250"/>]
+
+.footnote[Source : [Introduction à la fouille de textes université de Paris 3 - Sorbonne Nouvelle](http://www.lattice.cnrs.fr/sites/itellier/poly_fouille_textes/fouille-textes.pdf)]
+---
+## Exemple : les annotations en text mining
+
+> La donnée est exclusivement un texte brut ou un document semi-structuré non
+transformé en tableau : elle est donc composée d’unités respectant au moins
+une relation d’ordre.
+
+> L’ensemble des étiquettes possibles est fini et connu à l’avance au moment où
+le programme est appelé. Le résultat est la donnée initiale dans laquelle chaque unité est associée à une étiquette prise dans l’ensemble des étiquettes possibles 
+
+> L’annotation peut aussi s’appliquer à d’autres données structurées que les textes : .red[on peut ainsi annoter des séquences audio ou vidéo], ou des bases de données XML par exemple. On parlera d’annotation quand la structure de la donnée d’origine se trouve ”reproduite” sur les étiquettes ajoutées par le programme.
+
+.footnote[Source : [Introduction à la fouille de textes université de Paris 3 - Sorbonne Nouvelle](http://www.lattice.cnrs.fr/sites/itellier/poly_fouille_textes/fouille-textes.pdf)]
 
 ---
 ## Exemple : les annotations en text mining
@@ -128,6 +154,14 @@ Des données dotées d'un modèle qui définit les relations entre les composant
 .pull-right[
 ![](img/sql.jpeg)
 ]
+
+---
+
+## Données structurées
+
+Un exemple concret : le schéma de la base de données relationnelle derrière [la plateforme Datagora](https://www.datagora.fr/) 
+
+.center[<img src="./img/schema_bdd_datagora.png" height="380"/>]
 
 ---
 
@@ -157,7 +191,7 @@ Difficilement combinées ou analysées quantitativement
 
 Les données non structurées croitraient 15x plus que les données structurées
  
-Machine learning de + en + capable d'analyser ces données.]
+Le machine learning est de plus en plus capable d'analyser ces données. *Voir sections 9 et 10*]
 
 .pull-right[
 ![](img/structured-vs-unstructured-data.png)
@@ -169,46 +203,36 @@ Machine learning de + en + capable d'analyser ces données.]
 
 ** Données capturées**
 
-Observation, enquête, expérimentation, prise de notes, senseurs... => intention de générer des données
+Données issues d'observations, d'enquêtes, d'expérimentations, de prise de notes, de senseurs... => il y a eu l'**intention de générer des données**
 
 ** Données échappées**
 
 Sous-produit d'un engin ou d'un système dont la fonction première est autre
 ** Avez-vous des exemples de données échappées ?**
 --
-
-Parking, borne d'accès...
+<BR>
+Parking, borne d'accès... => Des données sur les horaires d'accès, le nombre d'ouvertures, fermetures, la fréquentation
 
 ** Données transitoires**
 
-Echappées qui ne sont jamais examinées, transformées ou analysées
+Ce sont des données échappées qui ne sont jamais examinées, transformées ou analysées
 
 
 ---
 ## Données dérivées
 
-Résultat d'un traitement ou une analyse supplémentaire de données capturées. 
+Résultat d'un traitement ou d'une analyse supplémentaire de données capturées. 
 
 Exemple avec les [données de Google Maps](https://www.justinobeirne.com/google-maps-moat) : 
 
-
 ![](https://static1.squarespace.com/static/54ff63f0e4b0bafce6932642/t/5a383fdb41920241ebce859d/1513635810327/3-1+-+Making+AOIs.gif?format=1500w)
 
+Recommandé : Lire l'article ["GOOGLE MAPS’S MOAT - How far ahead of Apple Maps is Google Maps?"](https://www.justinobeirne.com/google-maps-moat)
+
 ---
+class: inverse, center, middle
 
-##Index, attributs, métadonnées
-
-**Index**
-
-Des données permettent l'identification et la mise en relation. Essentielles pour enrichir les données. Exemple : SIRET. 
-
-**Attributs**
-
-Des données représentent les aspects d'un phénomène, mais ne sont pas des index (pas identifiants uniques).
-
-**Métadonnées**
-
-Des données sur les données. Peuvent être descriptives, structurelles ou administratives. Exemple de standard : le [Dublin Core](https://fr.wikipedia.org/wiki/Dublin_Core). 
+## 2. Données, données... quelles données ?
 
 ---
 
@@ -234,7 +258,30 @@ Des données produites par des citoyens, des communs partagés et gouvernés par
 ---
 class: inverse, center, middle
 
-## quiz section 2 : rdv sur votre espace e-campus !
+## 3. Petit lexique autour des données 
+
+---
+
+##Index
+
+**Index** : Des données permettent l'identification et la mise en relation. Essentielles pour enrichir les données. Exemple : SIRET. 
+
+---
+
+## Attributs
+
+**Attributs** : Des données représentent les aspects d'un phénomène, mais ne sont pas des index (pas identifiants uniques).
+
+---
+
+## Métadonnées 
+
+**Métadonnées** : Des données sur les données. Peuvent être descriptives, structurelles ou administratives. Exemple de standard : le [Dublin Core](https://fr.wikipedia.org/wiki/Dublin_Core). 
+
+---
+class: inverse, center, middle
+
+## quiz section 3 : rdv sur votre espace e-campus !
 
 ---
 class: inverse, center, middle
