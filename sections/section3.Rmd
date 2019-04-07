@@ -1,0 +1,244 @@
+---
+title: "Section 3 : Données, données… quelles données ? Les différents types de données"
+subtitle: "Culture générale des données"
+author: "Datactivist, 2018-2019"
+date: ""
+output:
+  SlidesDatactivist::moon_reader:
+    css: [default, datactivist, datactivist-fonts]
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+params:
+  event: Culture générale des données, Sciences Po Saint-Germain-en-Laye, section 3
+---
+
+layout: true
+  
+
+`r paste0("<div class='my-footer'><span>", params$event, "</span> <center><div class=logo><img src='", system.file('rmarkdown', 'templates', 'xaringan', 'resources', 'img', 'accidents.png', package='SlidesDatactivist'), "' width='100px'></center></span></div>")` 
+
+---
+
+class: center, middle
+
+Ces slides en ligne : http://datactivist.coop/SPoSGL/section3.html
+
+
+Sources : https://github.com/datactivist/SPoSGL/
+
+
+Les productions de Datactivist sont librement réutilisables selon les termes de la licence [Creative Commons 4.0 BY-SA](https://creativecommons.org/licenses/by-sa/4.0/legalcode.fr).
+
+<BR>
+<BR>
+
+.center[<img src="./img/ccbysa.png" height="100"/>] 
+
+
+
+---
+## Plan du cours
+
+
+#### .red[1- Données qualitatives, quantitatives, structurées, échappées...]
+
+
+Ecoutez le podcast Datactivist .red["La diversité des données - quels liens entre Etat et système statistique"]
+
+Recommandé : Lire l'article ["GOOGLE MAPS’S MOAT - How far ahead of Apple Maps is Google Maps?"](https://www.justinobeirne.com/google-maps-moat)
+
+#### .red[2- Les données crowdsourcées]
+
+Annotez quelques contributions au grand débat sur la [GrandeAnnotation.fr](https://grandeannotation.fr/book)
+
+#### .red[3- Petit glossaire autour des données]
+
+**Bibliographie**
+
+.center[**Quiz section 3**]
+
+---
+class: inverse, center, middle
+
+## 1. Données, données... quelles données ?
+
+---
+## En guise d'introduction...
+
+Tous les pays possèdent-ils les mêmes données publiques ?
+
+**Ecoutez le podcast .red["La diversité des données - quels liens entre Etat et système statistique"] par Samuel Goëta, Datactivist**
+
+---
+
+## Données quantitatives
+.pull-left[
+Différents types de variables : 
+- **Nominale** : des catégories que l’on nomme avec un nom (marié/célibataire/divorcé/veuf)
+
+
+- **Ordinale** : échelle de mesure dotant chaque élément d'une valeur qui permet leur classement par ordre de grandeur (faible, moyen, fort)
+
+
+- **Intervalles** : l’intervalle entre deux catégories a toujours la même valeur (12-16°C / 16-20°C / 20-24°C) 
+]
+.pull-right[
+![](img/spread.png)
+]
+
+---
+
+## Données qualitatives
+
+.pull-left[
+Non numérique => texte, image, vidéo, son, musique...
+
+  + peuvent être converties en données quantitatives
+
+  + risque de perdre la richesse des données originales
+  
+  + analyse qualitative de données
+  
+]
+.pull-right[
+![](img/text_mining_intro_2.png)
+]
+
+---
+## Exemple : les annotations en text mining
+
+.reduite[![](img/annotation.png)]
+
+---
+
+## Données structurées
+
+.pull-left[
+Des données dotées d'un modèle qui définit les relations entre les composantes de la base de données
+
+  + Ex : base de données relationnelle SQL
+  
+  + Lisibles machine
+  
+  + Faciles à analyser, manipuler, visualiser...
+]
+.pull-right[
+![](img/sql.jpeg)
+]
+
+---
+
+## Données semi-structurées
+
+.pull-left[
+Pas de modèle prédéfini : structure irrégulière, implicite... mais données organisées néanmoins, ensemble raisonnable de champs
+
+Exemple : XML, JSON
+
+Possible de trier, ordonner et structurer les données
+]
+.pull-right[
+![](img/ocdsjson.jpg)
+]
+
+---
+
+## Données non structurées
+
+.pull-left[Pas de structure commune identifiable
+Exemple : BDD NoSQL
+
+Généralement qualitatives
+
+Difficilement combinées ou analysées quantitativement
+
+Les données non structurées croitraient 15x plus que les données structurées
+ 
+Machine learning de + en + capable d'analyser ces données.]
+
+.pull-right[
+![](img/structured-vs-unstructured-data.png)
+]
+
+---
+
+## Données capturées, échappées, transitoires 
+
+** Données capturées**
+
+Observation, enquête, expérimentation, prise de notes, senseurs... => intention de générer des données
+
+** Données échappées**
+
+Sous-produit d'un engin ou d'un système dont la fonction première est autre
+** Avez-vous des exemples de données échappées ?**
+--
+
+Parking, borne d'accès...
+
+** Données transitoires**
+
+Echappées qui ne sont jamais examinées, transformées ou analysées
+
+
+---
+## Données dérivées
+
+Résultat d'un traitement ou une analyse supplémentaire de données capturées. 
+
+Exemple avec les [données de Google Maps](https://www.justinobeirne.com/google-maps-moat) : 
+
+
+![](https://static1.squarespace.com/static/54ff63f0e4b0bafce6932642/t/5a383fdb41920241ebce859d/1513635810327/3-1+-+Making+AOIs.gif?format=1500w)
+
+---
+
+##Index, attributs, métadonnées
+
+**Index**
+
+Des données permettent l'identification et la mise en relation. Essentielles pour enrichir les données. Exemple : SIRET. 
+
+**Attributs**
+
+Des données représentent les aspects d'un phénomène, mais ne sont pas des index (pas identifiants uniques).
+
+**Métadonnées**
+
+Des données sur les données. Peuvent être descriptives, structurelles ou administratives. Exemple de standard : le [Dublin Core](https://fr.wikipedia.org/wiki/Dublin_Core). 
+
+---
+
+## Les données crowdsourcées
+
+Des données produites par des citoyens, des communs partagés et gouvernés par leurs producteurs
+
+**Connaissez-vous un site ou une application fonctionnant via des données crowdsourcées ?**
+
+--
+
+.pull-left[Exemple : OpenStreetMap, le wiki de la carte]
+
+.pull-right[
+.reduite[![](img/osm.png)]
+]
+
+---
+## Exemple : OpenStreetMap
+
+.center[<img src="./img/openstreetmap.png" height="450"/>] 
+
+---
+class: inverse, center, middle
+
+## quiz section 2 : rdv sur votre espace e-campus !
+
+---
+class: inverse, center, middle
+
+# Merci !
+
+Contact : [timothee@datactivi.st](mailto:timothee@datactivi.st)
