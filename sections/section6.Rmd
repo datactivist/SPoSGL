@@ -168,6 +168,12 @@ Retrouvez [les 8 principes de l'ouverture des données publiques ](https://publi
 Cette liste a ensuite été mise à jour et complétée en 2010 ([10 principes](https://sunlightfoundation.com/policy/documents/ten-open-data-principles/)) par la Sunlight Foundation.
 En 2013, cette dernière a rédigé des instructions et recommandations pour appliquer l'open data (["Open Data guidelines"](http://sunlightf.wpengine.com/wp-content/uploads/2016/09/OpenDataGuidelines_v3.pdf)) sur la base des 10 principes (**lecture obligatoire**)
 
+---
+## Open data : pour aller plus loin
+
+Ecoutez les explications de Larry Lessig sur les raisons de cette conférence :
+
+.center[[<img src="./img/lessig.png" height="370"/>](https://youtu.be/AmlzW980i5A)]
 
 ---
 class:inverse, middle, center
