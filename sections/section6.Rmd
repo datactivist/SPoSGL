@@ -232,7 +232,7 @@ Dans l'exemple ci-après, [l'enquête Etic du Ministère de l'éducation nationa
 
 ## Défi 1 : la découvrabilité des données
 
-.center[<img src="./img/metadonnees.png" height="400"/>] 
+.center[<img src="./img/metadonnees.png" height="400"/>]
 
 ---
 
@@ -249,23 +249,27 @@ Dans l'exemple ci-après, [l'enquête Etic du Ministère de l'éducation nationa
 
 ## Défi 2 : le problème de la qualité
 
+Des données parfois très très agrégées...
 
 .center[![](img/deception.gif)]
 
 ---
-## Le recensement des données ouvertes localement
+## Défi 2 : le problème de la qualité
 
-> La moitié des descriptions des jeux de données fait moins de 180 caractères
-4% des jeux de données ont une description supérieure à 1000 caractères soit moins d’une demi-page
+Ou très difficilement exploitables...
 
-.center[.reduite[![](img/recensement2.png)]]
+.center[<img src="./img/recensement2.png" height="350"/>] 
 
+
+.footnote[[Source](https://medium.com/datactivist/qui-a-ouvert-quoi-le-recensement-des-donn%C3%A9es-des-villes-est-maintenant-ouvert-b7f697135c1f)]
 
 
 ---
-## Le recensement des données ouvertes localement
+## Défi 2 : le problème de la qualité
 
-.center[<img src="./img/recensement1.png" height="400"/>] 
+Ou très difficilement exploitables...
+
+.center[<img src="./img/recensement1.png" height="350"/>] 
 
 
 .footnote[[Source](https://medium.com/datactivist/qui-a-ouvert-quoi-le-recensement-des-donn%C3%A9es-des-villes-est-maintenant-ouvert-b7f697135c1f)]
@@ -273,15 +277,25 @@ Dans l'exemple ci-après, [l'enquête Etic du Ministère de l'éducation nationa
 ---
 ## Data.gouv.fr ?
 
-Plateforme nationale Open Data créée par la mission Etalab
+Data.gouv est la plateforme nationale ouverte des données publiques françaises.
+Elle a été conçue et inaugurée en 2011, par la mission Etalab, puis refondue en 2013.
 
-.center[.reduite[![](img/loiretcher1.png)]]
+.center[<img src="./img/datagouvfr.png" height="250"/>] 
+
+On y trouve des milliers de jeux de données, provenant principalement de producteurs publics (Ministère de l'intérieur, Agence française de développement, Insee, Ville de Paris, Région Bretagne, CNIL...) mais aussi de producteurs tiers (OpenStreetMap, OpenFoodFacts...)
 
 ---
-## Data.gouv.fr ?
+## Au-delà de data.gouv.fr
 
-.center[.reduite[![](img/loiretcher2.png)]]
+Data.gouv.fr est la plateforme **nationale** d'open data mais ce n'est pas la seule plateforme publique qui met à disposition des données ouvertes. Il existe :
 
++ Des plateformes open data gérées par les **collectivités territoriales**. Par exemple, [Paris Data](https://opendata.paris.fr/explore/?sort=modified), [la Région Occitanie](https://data.laregion.fr/pages/accueil/), [l'agglomération de Saint-Malo](https://data.stmalo-agglomeration.fr/page/accueil/)...
+
++ Des plateformes open data gérées par des **ministères**. Exemple : [data.education.gouv.fr](https://data.education.gouv.fr/pages/accueil/)
+
++ Des plateformes open data gérées par des **entreprises**. Exemple [DataNova](https://datanova.laposte.fr/page/accueil/) (La Poste)
+
++ Des jeux de données directement publiés sur le site des producteurs de données, sans plateforme dédiée. Exemple : Insee
 
 ---
 ## Exemple de données ouvertes: la base SIRENE
@@ -289,80 +303,22 @@ Plateforme nationale Open Data créée par la mission Etalab
 .center[.reduite2[![](img/sirene.png)]]
 
 ---
-
-class:inverse, middle, center
-## Connaissez-vous d'autres plateformes open data que data.gouv.fr ?
-
-## Quels jeux de données utilisez-vous ?
-
----
-
-## La base SIRENE : exemple de cas d'utilisation
-
-.reduite[.center[![](img/ruesoif.png)]]
----
-##Exemple de données ouvertes : la base adresses
-.reduite[.center[![](img/ban.png)]]
-
----
 ##Exemple de données ouvertes : les accidents de la route
 .reduite[.center[![](img/accidents.png)]]
 
 ---
 
-## Les accidents de la route
-.reduite2[.center[![](img/trajetleplussur.png)]]
-.footnote[Plus d'accidents sur l'A8 mais surtout plus de véhicules…]
-
----
-
-## Les accidents de la route
-
-.reduite2[.center[![](img/marsactu.png)]]
-.footnote[[Carte par Joël Gombin dans Marsactu](https://joelgombin.github.io/marsactu_accidents/chronique.html)]
-
----
-
-## Exemple de données ouvertes : les inspections des restaurants
+## Exemple de données ouvertes : les contrôles sanitaires
 
 .reduite2[.center[![](img/aliminfos.png)]]
 .footnote[[Résultats des contrôles officiels sanitaires : dispositif d'information « Alim’confiance »](https://www.data.gouv.fr/fr/datasets/resultats-des-controles-officiels-sanitaires-dispositif-dinformation-alimconfiance/)]
 
 ---
 
-## Les inspections des restaurants
+## Exemple de données ouvertes : les contrôles sanitaires
 
 .reduite2[.center[![](img/resto.png)]]
-.footnote[[26 établissements au niveau d'hygiène à corriger de manière urgent ](https://dgal.opendatasoft.com/explore/embed/dataset/export_alimconfiance/map/?disjunctive.app_libelle_activite_etablissement&disjunctive.filtre&refine.synthese_eval_sanit=A%20corriger%20de%20mani%C3%A8re%20urgente&location=6,47.24195,5.00977&static=false&datasetcard=true)]
-
----
-class: inverse, center, middle
-
-## Données et usages
-
----
-## Ouvrir des données à tout prix ?
-
-.center[<img src="img/reutilisations.png" height="200"/>]
-
-.center[*Nombre de réutilisations connues sur data.gouv.fr (février 2019)*]
-
-Or ouvrir des données représente un **coût** pour les organismes publics
-
-Pour les convaincre de continuer, il s'agit de .red[**montrer le potentiel et la valeur de ces données**], notamment en repartant des .red[**utilisateurs**] et de leurs .red[**usages**]
-
----
-Class: middle, center
-
-## Partir de la demande
-
-- Dans un premier temps, il s'agit de bien comprendre les usagers possibles des données publiques. 
-
-- Cela peut passer par une cartographie des besoins des utilisateurs en définissant des **personas**. Ex ici avec la ville de New-York
-
-.center[<img src="img/personas.png" height="200"/>]
-
-- Dans un deuxième temps, il faut mettre en place des .red[mécanismes d'échange] entre administrations et utilisateurs (fonctionnalité de commentaires et de discussions)
+.footnote[[26 établissements au niveau d'hygiène à corriger de manière urgente ](https://dgal.opendatasoft.com/explore/embed/dataset/export_alimconfiance/map/?disjunctive.app_libelle_activite_etablissement&disjunctive.filtre&refine.synthese_eval_sanit=A%20corriger%20de%20mani%C3%A8re%20urgente&location=6,47.24195,5.00977&static=false&datasetcard=true)]
 
 ---
 class: inverse, center, middle
