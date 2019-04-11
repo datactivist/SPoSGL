@@ -1,0 +1,381 @@
+---
+title: "Section 3 : Données, données… quelles données ? Les différents types de données"
+subtitle: "Culture générale des données"
+author: "Datactivist, 2018-2019"
+date: ""
+output:
+  SlidesDatactivist::moon_reader:
+    css: [default, datactivist, datactivist-fonts]
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+params:
+  event: Culture générale des données, Sciences Po Saint-Germain-en-Laye, section 3
+---
+
+layout: true
+  
+
+`r paste0("<div class='my-footer'><span>", params$event, "</span> <center><div class=logo><img src='", system.file('rmarkdown', 'templates', 'xaringan', 'resources', 'img', 'accidents.png', package='SlidesDatactivist'), "' width='100px'></center></span></div>")` 
+
+---
+
+class: center, middle
+
+Ces slides en ligne : http://datactivist.coop/SPoSGL/sections/section3.html
+
+
+Sources : https://github.com/datactivist/SPoSGL/
+
+
+Les productions de Datactivist sont librement réutilisables selon les termes de la licence [Creative Commons 4.0 BY-SA](https://creativecommons.org/licenses/by-sa/4.0/legalcode.fr).
+
+<BR>
+<BR>
+
+.center[<img src="./img/ccbysa.png" height="100"/>] 
+
+
+
+---
+## Plan du cours
+
+
+#### .red[1- Données qualitatives, quantitatives, structurées, échappées...]
+
+
+Ecoutez le podcast Datactivist .red["La diversité des données - quels liens entre Etat et système statistique"]
+
+Recommandé : Lire l'article ["GOOGLE MAPS’S MOAT - How far ahead of Apple Maps is Google Maps?"](https://www.justinobeirne.com/google-maps-moat)
+
+#### .red[2- Les données crowdsourcées]
+
+Annotez quelques contributions au grand débat sur la [GrandeAnnotation.fr](https://grandeannotation.fr/book)
+
+#### .red[3- Petit glossaire autour des données]
+
+**Bibliographie**
+
+.center[**Quiz section 3**]
+
+---
+class: inverse, center, middle
+
+## 1. Données, données... quelles données ?
+
+---
+## En guise d'introduction...
+
+Tous les pays possèdent-ils les mêmes données publiques ?
+
+**Ecoutez le podcast .red["La diversité des données - quels liens entre Etat et système statistique"] par Samuel Goëta, Datactivist**
+
+<BR>
+
+.center[<img src="./img/sticker.png" height="300"/>]
+
+---
+
+## Données quantitatives
+.pull-left[
+Différents types de variables : 
+- **Nominale** : des catégories que l’on nomme avec un nom (marié/célibataire/divorcé/veuf)
+
+
+- **Ordinale** : échelle de mesure dotant chaque élément d'une valeur qui permet leur classement par ordre de grandeur (faible, moyen, fort)
+
+
+- **Intervalles** : l’intervalle entre deux catégories a toujours la même valeur (12-16°C / 16-20°C / 20-24°C) 
+]
+.pull-right[
+![](img/spread.png)
+]
+
+---
+
+## Données qualitatives
+
+.pull-left[
+Ce sont des données non numériques, par exemple du texte, des images, de la vidéo, du son...
+
+  + Ces données peuvent être converties en données quantitatives
+
+  + Mais on risque de perdre la richesse des données originales
+  
+  + Il est possible de réaliser une analyse qualitative de ces données
+  
+]
+.pull-right[
+![](img/text_mining_intro_2.png)
+]
+
+---
+## Exemple : les annotations en text mining
+
+> L’annotation (ou l’étiquetage) est une tâche plus spécifiquement linguistique que les précédentes, au sens où elle ne s’applique pas, aux données tabulaires et ne relève donc pas de la fouille de données (data mining)
+
+.center[<img src="./img/text_mining3.png" height="250"/>]
+
+.footnote[Source : [Introduction à la fouille de textes université de Paris 3 - Sorbonne Nouvelle](http://www.lattice.cnrs.fr/sites/itellier/poly_fouille_textes/fouille-textes.pdf)]
+---
+## Exemple : les annotations en text mining
+
+> La donnée est exclusivement un texte brut ou un document semi-structuré non
+transformé en tableau : elle est donc composée d’unités respectant au moins
+une relation d’ordre.
+
+> L’ensemble des étiquettes possibles est fini et connu à l’avance au moment où
+le programme est appelé. Le résultat est la donnée initiale dans laquelle chaque unité est associée à une étiquette prise dans l’ensemble des étiquettes possibles 
+
+> L’annotation peut aussi s’appliquer à d’autres données structurées que les textes : .red[on peut ainsi annoter des séquences audio ou vidéo], ou des bases de données XML par exemple. On parlera d’annotation quand la structure de la donnée d’origine se trouve ”reproduite” sur les étiquettes ajoutées par le programme.
+
+.footnote[Source : [Introduction à la fouille de textes université de Paris 3 - Sorbonne Nouvelle](http://www.lattice.cnrs.fr/sites/itellier/poly_fouille_textes/fouille-textes.pdf)]
+
+---
+## Exemple : les annotations en text mining
+
+.reduite[![](img/annotation.png)]
+
+---
+
+## Données structurées
+
+.pull-left[
+Des données dotées d'un modèle qui définit les relations entre les composantes de la base de données
+
+  + Ex : base de données relationnelle SQL
+  
+  + Lisibles machine
+  
+  + Faciles à analyser, manipuler, visualiser...
+]
+.pull-right[
+![](img/sql.jpeg)
+]
+
+---
+
+## Données structurées
+
+Un exemple concret : le schéma de la base de données relationnelle derrière [la plateforme Datagora](https://www.datagora.fr/) 
+
+.center[<img src="./img/schema_bdd_datagora.png" height="380"/>]
+
+---
+
+## Données semi-structurées
+
+.pull-left[
+Pas de modèle prédéfini : structure irrégulière, implicite... mais données organisées néanmoins, ensemble raisonnable de champs
+
+Exemple : XML, JSON
+
+Possible de trier, ordonner et structurer les données
+]
+.pull-right[
+![](img/ocdsjson.jpg)
+]
+
+---
+
+## Données non structurées
+
+.pull-left[Pas de structure commune identifiable
+Exemple : BDD NoSQL
+
+Généralement qualitatives
+
+Difficilement combinées ou analysées quantitativement
+
+Les données non structurées croitraient 15x plus que les données structurées
+ 
+Le machine learning est de plus en plus capable d'analyser ces données. *Voir sections 9 et 10*]
+
+.pull-right[
+![](img/structured-vs-unstructured-data.png)
+]
+
+---
+
+## Données capturées, échappées, transitoires 
+
+** Données capturées**
+
+Données issues d'observations, d'enquêtes, d'expérimentations, de prise de notes, de senseurs... => il y a eu l'**intention de générer des données**
+
+** Données échappées**
+
+Sous-produit d'un engin ou d'un système dont la fonction première est autre
+** Avez-vous des exemples de données échappées ?**
+--
+<BR>
+Parking, borne d'accès... => Des données sur les horaires d'accès, le nombre d'ouvertures, fermetures, la fréquentation
+
+** Données transitoires**
+
+Ce sont des données échappées qui ne sont jamais examinées, transformées ou analysées
+
+
+---
+## Données dérivées
+
+Résultat d'un traitement ou d'une analyse supplémentaire de données capturées. 
+
+Exemple avec les [données de Google Maps](https://www.justinobeirne.com/google-maps-moat) : 
+
+![](https://static1.squarespace.com/static/54ff63f0e4b0bafce6932642/t/5a383fdb41920241ebce859d/1513635810327/3-1+-+Making+AOIs.gif?format=1500w)
+
+Recommandé : Lire l'article ["GOOGLE MAPS’S MOAT - How far ahead of Apple Maps is Google Maps?"](https://www.justinobeirne.com/google-maps-moat)
+
+---
+class: inverse, center, middle
+
+## 2. Données, données... quelles données ?
+
+---
+
+## Les données crowdsourcées
+
+Des données produites par des citoyens, des communs partagés et gouvernés par leurs producteurs.
+
+Concrètement, les données sont issues du travail collaboratif de divers acteurs, bénévoles, dans la récolte sur le terrain.
+
+**Connaissez-vous un site ou une application fonctionnant via des données crowdsourcées ?**
+
+--
+
+.pull-left[Exemple : OpenStreetMap, le wiki de la carte]
+
+.pull-right[
+.reduite[![](img/osm.png)]
+]
+
+---
+## Exemple 1 : OpenStreetMap
+
+> Pourquoi faites-vous OpenStreetMap ? 
+Les données géographiques (géo-données) ne sont pas libres dans nombre de régions du monde, par exemple en France, en Belgique, au Canada. En général, ces régions ont confié la tâche de cartographie à diverses agences gouvernementales, qui en retour font de l'argent en revendant les données à des gens comme vous et moi. Si vous vivez dans un de ces pays, alors vos impôts servent à payer le travail de cartographie
+
+> En France certaines données du ministère des finances (données cadastrales pour l'identification des parcelles) peuvent être réutilisées comme référence, mais avec des conditions qui ne permettent pas une exploitation massive permettant d'obtenir une carte complète (leur précision ne permet pas nécessairement d'identifier tous les chemins, rues et routes qui traversent une même parcelle ; de plus elles ne sont souvent plus à jour).
+
+.footnote[ Source : [La FAQ d'OpenStreetMap](https://wiki.openstreetmap.org/wiki/FR:FAQ#Pourquoi_n.27utilisez_vous_pas_Google_Maps_ou_untel_pour_vos_donn.C3.A9es_.3F)]
+
+---
+## Exemple 1 : OpenStreetMap
+
+En résumé :
+
++ OpenStreetMap (OSM) est un projet de cartographie qui a pour but de constituer une base de données géographiques libre du monde (permettant par exemple de créer des cartes sous licence libre), en utilisant le système GPS et d'autres données libres.
+
++ À la manière de Wikipédia, **tous les internautes naviguant sur le web peuvent contribuer à la création et à la numérisation de cartes**. Des éditeurs permettent de réaliser en ligne des cartes en se basant sur un fond d'image satellitaire. Cependant, ces images satellitaires ne couvrent pas toujours en haute résolution l'ensemble du globe. C'est pourquoi il est possible d'introduire des données provenant de récepteurs GPS. Il suffit pour cela de réaliser un itinéraire et de positionner le récepteur en mode enregistrement, puis de le restituer sur le serveur de données d'OpenStreetMap 
+
+---
+## Exemple 1 : OpenStreetMap
+
+Vous aussi vous pouvez contribuer à OpenStreetMap !
+
+.center[<img src="./img/openstreetmap.png" height="400"/>] 
+
+---
+## Exemple 2 : OpenFoodFacts
+
+.center[<img src="./img/openfoodfacts.png" height="200"/>] 
+
+> Open Food Facts est une base de données sur les produits alimentaires faite par tout le monde, pour tout le monde. Elle vous permet de faire des choix plus informés, et comme les données sont ouvertes (open data), tout le monde peut les utiliser pour tout usage.
+
+> Open Food Facts est un projet citoyen à but non lucratif créé par des milliers de volontaires à travers le monde. Vous pouvez commencer à contribuer en ajoutant un produit de votre cuisine, et nous avons plein de projets enthousiasmants auxquels vous pouvez participer de beaucoup de façons différentes.
+
+---
+## Exemple 2 : OpenFoodFacts
+
+Vous aussi vous pouvez contribuer à OpenFoodFacts !
+
+
+.center[[<img src="./img/openfoodfacts2.png" height="400"/>](https://fr.openfoodfacts.org/contribuer)]
+
+---
+## Exemple 2 : OpenFoodFacts  
+
+Et vous connaissez très probablement une application qui utilise les données d'OpenFoodFacts pour "évaluer" la composition des produits alimentaires...
+
+--
+
+**Yuka** ! Avec plus de 8 millions d'utilisateurs en février 2019, elle a désormais un impact non négligeable, y compris dans la stratégie des grandes marques de l'agroalimentaire..
+
+.center[[<img src="./img/yuka.png" height="300"/>](https://www.liberation.fr/desintox/2018/05/18/yuka-est-elle-une-appli-publicitaire-deguisee_1651227)]
+
+---
+## La Grande Annotation 
+
+**L'objectif ?** Faire en sorte que les contributions au grand débat puissent être lues et comprises. Tout un chacun peut, sur le site [grandeannotation.fr](https://grandeannotation.fr/) lire ces textes, classés par thème et par question, et les annoter pour en révéler le sens.
+
+.center[<img src="./img/grande_annotation1.png" height="200"/>]
+
+Plutôt que d'obtenir une synthèse des contributions au grand débat qui soit non collaborative, opaque (car réalisée par quelques sociétés) et en partie traitée par de l'intelligence artificielle, la Grande Annotation veut construire une synthèse collective, transparente et fondée sur l'intelligence humaine.
+
+---
+## La Grande Annotation 
+
+**Vous aussi vous pouvez contribuer en annotant les réponses au grand débat !**
+Ce faisant, vous créez de fait de nouvelles données qui viennent qualifier et enrichir les données initiales.
+
+.center[<img src="./img/grande_annotation2.png" height="370"/>]
+---
+class: inverse, center, middle
+
+## 3. Petit lexique autour des données 
+
+---
+
+##Index
+
+**Index** : Des données permettent l'identification et la mise en relation. Essentielles pour enrichir les données. Exemple : le numéro de SIRET dans la base Sirene (informations concernant les entreprises et les établissements immatriculés au répertoire interadministratif Sirene depuis sa création en 1973), gérée par l'Insee
+
+.center[[<img src="./img/base_sirene.png" height="300"/>](https://public.opendatasoft.com/explore/dataset/sirene/information/?flg=fr&disjunctive.rpet&disjunctive.depet&disjunctive.libcom&disjunctive.siege&disjunctive.libapet&disjunctive.libtefet&disjunctive.saisonat&disjunctive.libnj&disjunctive.libapen&disjunctive.ess&disjunctive.libtefen&disjunctive.categorie&disjunctive.proden&disjunctive.libtu&disjunctive.liborigine&disjunctive.libtca&disjunctive.libreg_new&disjunctive.nom_dept&disjunctive.section)]
+
+
+---
+
+## Attributs
+
+**Attributs** : Des données représentent les aspects d'un phénomène, mais ne sont pas des index (pas identifiants uniques). Exemples avec la base Sirene : région de l'établissement, département de l'établissement, Iris de l'établissement...
+
+.center[[<img src="./img/base_sirene2.png" height="300"/>](https://public.opendatasoft.com/explore/dataset/sirene/information/?flg=fr&disjunctive.rpet&disjunctive.depet&disjunctive.libcom&disjunctive.siege&disjunctive.libapet&disjunctive.libtefet&disjunctive.saisonat&disjunctive.libnj&disjunctive.libapen&disjunctive.ess&disjunctive.libtefen&disjunctive.categorie&disjunctive.proden&disjunctive.libtu&disjunctive.liborigine&disjunctive.libtca&disjunctive.libreg_new&disjunctive.nom_dept&disjunctive.section)]
+
+---
+
+## Métadonnées 
+
+**Métadonnées** : Des données sur les données. Peuvent être descriptives, structurelles ou administratives. Exemple de standard : le [Dublin Core](https://fr.wikipedia.org/wiki/Dublin_Core). 
+
+Pour notre exemple précédent, les métadonnées (date de modification, producteur, nombre de téléchargements, thématiques...) sont les suivantes :
+
+.center[[<img src="./img/base_sirene3.png" height="330"/>](https://public.opendatasoft.com/explore/dataset/sirene/information/?flg=fr&disjunctive.rpet&disjunctive.depet&disjunctive.libcom&disjunctive.siege&disjunctive.libapet&disjunctive.libtefet&disjunctive.saisonat&disjunctive.libnj&disjunctive.libapen&disjunctive.ess&disjunctive.libtefen&disjunctive.categorie&disjunctive.proden&disjunctive.libtu&disjunctive.liborigine&disjunctive.libtca&disjunctive.libreg_new&disjunctive.nom_dept&disjunctive.section)]
+
+---
+
+## Bibliographie
+
+- Libération, Checknews, ["Yuka est-elle une appli publicitaire déguisée ?"](https://www.liberation.fr/desintox/2018/05/18/yuka-est-elle-une-appli-publicitaire-deguisee_1651227), mis en ligne le 18 mai 2018
+
+- Jérémie Valentin, « Les données environnementales : un cas particulier dans la mise en place des données publiques en Open Data ? », Netcom, 27-1/2 | 2013, 254-263
+
+- Justin O’Beirne ["GOOGLE MAPS’S MOAT - How far ahead of Apple Maps is Google Maps?"](https://www.justinobeirne.com/google-maps-moat)
+
+- Alain Desrosières, ["L’État, le marché et les statistiques : Cinq façons d’agir sur l’économie"](http://triangle.ens-lyon.fr/IMG/pdf/etatstats.pdf)
+
+- Isabelle Tellier ["Introduction à la fouille de textes" Université de Paris 3 - Sorbonne Nouvelle](http://www.lattice.cnrs.fr/sites/itellier/poly_fouille_textes/fouille-textes.pdf)
+
+---
+class: inverse, center, middle
+
+## Quiz section 3 : rdv sur votre espace e-campus !
+
+---
+class: inverse, center, middle
+
+# Merci !
+
+Contact : [timothee@datactivi.st](mailto:timothee@datactivi.st)
