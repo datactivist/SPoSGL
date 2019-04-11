@@ -396,8 +396,13 @@ class: inverse, center, middle
 
 - Danièle Bourcier, Primavera De Filippi ["L'Open Data: universalité du principe et diversité des expériences?"](https://hal.archives-ouvertes.fr/hal-01026106/document) La semaine juridique - édition générale , LexisNexis, 2013, pp.1-9
 
-- 
+- ["Guidelines for Open Data Policies" Version 3](http://sunlightf.wpengine.com/wp-content/uploads/2016/09/OpenDataGuidelines_v3.pdf) Sunlight Foundation, March 2014
 
+- Samuel Goëta ["Qui a ouvert quoi ? le recensement des données des villes est maintenant ouvert"](https://medium.com/datactivist/qui-a-ouvert-quoi-le-recensement-des-donn%C3%A9es-des-villes-est-maintenant-ouvert-b7f697135c1f) article Medium, Mis en ligne le 15 février 2018
+
+- ["Pour une action publique transparente et collaborative"](https://www.etalab.gouv.fr/wp-content/uploads/2018/04/PlanOGP-FR-2018-2020-VF-FR.pdf) Plan d'action National 2018-2020 pour la France
+
+- ["La France dévoile son plan d’action 2018-2020 en matière d’Open Government"](https://www.nextinpact.com/news/106406-la-france-devoile-son-plan-daction-2018-2020-en-matiere-dopen-government.htm) NextInpact, mis en ligne le 4 avril 2018
 
 ---
 class: inverse, center, middle
