@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Section 9 : Qu’est-ce que la data science ?</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Datactivist, 2018-2019" />
+    <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
+    <link href="libs/remark-css-0.0.1/datactivist.css" rel="stylesheet" />
+    <link href="libs/remark-css-0.0.1/datactivist-fonts.css" rel="stylesheet" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# Section 9 : Qu’est-ce que la data science ?
+## Culture générale des données
+### Datactivist, 2018-2019
+
+---
+
+
+layout: true
+  
+
+&lt;div class='my-footer'&gt;&lt;span&gt;Culture générale des données, Sciences Po Saint-Germain-en-Laye, section 9&lt;/span&gt; &lt;center&gt;&lt;div class=logo&gt;&lt;img src='' width='100px'&gt;&lt;/center&gt;&lt;/span&gt;&lt;/div&gt;
+
+---
+
+class: center, middle
+
+
+Ces slides en ligne : https://datactivist.coop/SPoSGL/sections/section9.html
+
+
+Sources : https://github.com/datactivist/SPoSGL/
+
+
+Les productions de Datactivist sont librement réutilisables selon les termes de la licence [Creative Commons 4.0 BY-SA](https://creativecommons.org/licenses/by-sa/4.0/legalcode.fr).
+
+&lt;BR&gt;
+&lt;BR&gt;
+
+&lt;img src="./img/ccbysa.png" height="100"/&gt; 
+
+
+
+---
+## Plan du cours
+
+
+TODO
+
+---
+class:center, middle, inverse
+
+# 1 - Data science is the new statistics?
+
+---
+## Au commencement était la statistique
+
+- la statistique est une relativement vieille science (développement au 18e siècle), pour aider les États (_Statistik_) à compter (les contribuables, les soldats potentiels...) mais aussi des entreprises privées (au départ, les assureurs =&gt; actuariat)
+
+- la statistique repose sur une branche des mathématiques, les probabilités, qui émerge au milieu du 17e siècle, avec Pascal et Fermat notamment.
+
+- c'est pourquoi la statistique est une discipline pratiquée par des mathématiciens, avec une importante formalisation mathématique.
+
+- la pratique de la statistique recouvre une forte dimension théorique : on part de problèmes théoriques, et de données d'illustrations, plutôt que de données et de problèmes réels. 
+
+---
+## Au commencement était la statistique
+
+&lt;div style="width:80%;height:0;padding-bottom:67%;position:relative;"&gt;&lt;iframe src="https://giphy.com/embed/9ADoZQgs0tyww" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;p&gt;&lt;a href="https://giphy.com/gifs/obama-awesome-statistics-9ADoZQgs0tyww"&gt;via GIPHY&lt;/a&gt;&lt;/p&gt;
+
+
+---
+## Au commencement était la statistique
+
+&gt; I keep saying the sexy job in the next ten years will be statisticians. People think I’m joking, but who would’ve guessed that computer engineers would’ve been the sexy job of the 1990s?
+
+&gt; *Je dis tout le temps que le métier sexy dans les dix ans à venir sera celui de statisticien. Les gens pensent que je plaisante, mais qui aurait pu deviner que les ingénieurs informatiques auraient été le métier sexy des années 1990 ?*
+
+Hal Varian (économiste en chef, Google), _The McKinsey Quarterly_, January 2009
+
+---
+## Data science is the new statistics?
+
+&gt; I think data-scientist is a sexed up term for a statistician
+
+&gt; *Je pense que data scientist est un terme sexy pour dire statisticien*
+
+[Nate Silver](http://www.statisticsviews.com/details/feature/5133141/Nate-Silver-What-I-need-from-statisticians.html)
+
+---
+## Data science is the new statistics?
+
+[.reduite[.center[![](./img/data-science-venn-diagram.png)]]](http://www.prooffreader.com/2016/09/battle-of-data-science-venn-diagrams.html)
+
+---
+## Data science is the new statistics?
+
+La data science, comparativement à la statistique "traditionnelle", est un métier de praticien, presque de bidouilleur : elle nécessite des compétences mathématiques et statistiques, certes, mais aussi une compétence "métier" (compréhension du domaine d'application) et une solide maîtrise de l'informatique. 
+
+---
+## Un essor lié à l'accroissement du volume de données disponibles
+
+
+"Big data" : un label devenu omniprésent
+
+- l'expression émerge vers 2007/2008 (même si on en trouve des occurrences anciennes)
+
+- se définit par les trois V (selon la société Gartner) : "volume", "velocity", "variety" (+ "veracity" ?)
+
+- Kitchin ajoute l'exhaustivité, la résolution, la *scalability*
+
+---
+## Un essor lié à l'accroissement du volume de données disponibles
+
+- promesse d'efficience, de prédiction, de nouvelles formes de savoir
+ 
+- données généralement fermées et privées
+
+- techniquement, se traduit (notamment) par :
+  + le NoSQL (le terme apparaît en 2009 ; il s'agit de bases de données non-structurées, par opposition aux bases de données SQL traditionnelles)
+  + le recours à des architectures de calcul distribuées (par exemple clusters Hadoop) : on utilise plusieurs machines qui travaillent en parallèle pour analyser les données
+
+---
+class:inverse, center, middle
+
+# 2 - Le rôle de l'informatique dans le développement de la data science
+
+---
+## Le rôle de l'informatique
+
+- statistique classique : les problèmes doivent pouvoir être résolus de manière analytique, sans puissance de calcul particulière (d'où le succès du fréquentisme)
+
+- le développement de la puissance de calcul permet de résoudre des problèmes statistiques par la simulation ([MCMC](https://fr.wikipedia.org/wiki/M%C3%A9thode_de_Monte-Carlo_par_cha%C3%AEnes_de_Markov)) : on n'a pas besoin de connaître la solution mathématique, il "suffit" de faire de nombreuses simulations aléatoires.
+
+---
+## Développement de la puissance de calcul
+
+[.reduite[.center[![](./img/moore.png)]]](http://visual.ly/infographic-about-computers)
+
+---
+## Développement de la capacité de stockage
+
+1996... 
+[.reduite[.center[![](./img/altavista.png)]]](https://twitter.com/alicemazzy/status/655306196128280576?ref_src=twsrc%5Etfw)
+
+
+---
+## Développement de la capacité de stockage
+2016...
+
+[.reduite[.center[![](./img/amazon.png)]]](https://aws.amazon.com/blogs/aws/aws-snowmobile-move-exabytes-of-data-to-the-cloud-in-weeks/)
+
+---
+## Développement de la capacité de stockage
+
+2016... 
+
+.reduite[.center[![](./img/snowmobile.png)]]
+
+---
+## Développement de la capacité de stockage
+
+[.reduite[.center[![](./img/atacama.png)]]](https://aws.amazon.com/blogs/aws/aws-snowmobile-move-exabytes-of-data-to-the-cloud-in-weeks/)
+
+
+---
+## La simulation, méthode reine d'estimation statistique 
+
+L'intuition est assez ancienne, et contemporaine de l'apparition des premiers ordinateurs : lorsqu'on ne sait pas résoudre de manière algébrique un problème statistique, il suffit de faire des tirages au sort (comme au casino... d'où la référence à Monte Carlo !) pour connaître les propriétés d'une distribution quelconque. 
+
+La référence séminale porte sur les Monte Carlo Markov Chain (MCMC) : papier de [Metropolis et Ulam (1949)](http://hedibert.org/wp-content/uploads/2013/12/1949MetropolisUlam.pdf)
+
+https://chi-feng.github.io/mcmc-demo/app.html#RandomWalkMH,banana
+
+---
+## Pour résumer
+
+Autrefois, on travaillait sur :
+
+- de "petits" jeux de données (aussi bien en termes de nombre de lignes que de colonnes)
+
+- avec des valeurs numériques ou transformées en nombres
+
+- des modèles simples, voire simplistes, pour pouvoir facilement être estimés
+
+Aujourd'hui, on travaille avec :
+
+- des données parfois massives
+
+- qui peuvent porter sur des nombres, mais aussi du texte, des images, des vidéos...
+
+- et des modèles aussi complexes qu'on veut, qui peuvent être estimés grâce à des méthodes de simulation dans un contexte de disponibilité massive de la puissance de calcul. 
+
+
+
+---
+class: inverse, center, middle
+
+## 3 - Les étapes de l'analyse des données
+
+### Le data pipeline
+
+---
+
+Formalisé par la [School of data](https://schoolofdata.org/methodology/), il vise à modéliser les différentes étapes d'un projet d'analyse de données.
+
+.reduite[.center[![](./img/datapipeline.png)]]
+
+---
+## Le data pipeline
+
+
+Il a également été formalisé, de manière légèrement différente, par Hadley Wickham (Chief Scientist Officer chez Rstudio) dans un contexte de data 
+
+Il est intéressant de noter que cette version met en évidence la dimension itérative : on essaie, on corrige, on recommence...jusqu'à ce que le résultat soit stabilisé et donc communicable.
+
+[.reduite[.center[![](./img/data-science.png)]]](https://r4ds.had.co.nz/introduction.html)
+
+---
+## Définir les données dont on a besoin
+
+.center[![](./img/define.png)]
+
+Cette étape est essentielle. Il s'agit de traduire une problématique concrète, en identifiant quelles données permettraient de la résoudre. Idéalement, c'est elle qui détermine les données mobilisées... mais parfois, on n'a pas le choix et on doit être opportuniste. 
+
+
+
+---
+## Trouver les données
+
+.center[![](./img/find.png)]
+
+Une fois les données qu'on recherche identifiées, encore faut-il effectivement les trouver !
+À l'avenir, assistera-t-on au développement d'un nouveau métier de "conciergerie de données" ?
+
+Où chercher ?
+- portails open data
+- dépôts divers (internes aux organisations ou publics)
+- data brokers
+- s'adresser au chief data officer
+- etc.
+
+---
+## Acquérir les données
+
+.center[![](./img/get.png)]
+
+Il s'agit d'importer les données dans son outil d'analyse (Excel, logiciel spécialisé, langage de programmation...).
+
+Des outils dédiés, souvent qualifiés d'ETL (extract / transform / load), existent (ex : Talend).
+
+???
+
+Connecteurs
+ETL : ex Talend, Logstash
+
+
+---
+## Vérifier les données
+
+.center[![](./img/verify.png)]
+
+La qualité des données est-elle correcte ? Les données sont-elles à jour ? Bien documentées ? Exhaustives ? 
+
+Il est important de pratiquer un "sanity check" : vérifier sur un échantillon de données qu'elles n'ont pas l'air aberrantes par rapport à ce qu'on sait déjà.
+
+???
+
+Importance d'un sanity check
+
+---
+## Vérifier les données
+
+.center[[![](./img/sanity.jpg)](http://www.erogol.com/ml-work-flow-part-4-sanity-checks-data-spliting/)]
+
+
+
+---
+## Nettoyer les données
+
+.center[![](./img/clean.png)]
+
+Les données sont rarement dans la forme dont on a besoin pour pouvoir les analyser... Il faut donc les nettoyer, les mettre en forme. 
+
+On peut pour se faire par exemple s'appuyer sur le paradigme du [*tidy data*](https://r4ds.had.co.nz/tidy-data.html) (données "bien rangées") : une ligne par observation, une colonne par variable, une valeur par case.
+
+
+---
+## Analyser les données
+
+.center[![](./img/analyse.png)]
+
+C'est la partie à laquelle on pense spontanément quand on parle de *data science*, qui fait fantasmer les scénaristes et les professionnels du marketing... mais qui représente environ 20 % du temps consacré à un projet de *data science*. 
+
+C'est à cette phase que se fait la modélisation, sur laquelle nous revenons dans la dernière section. 
+
+
+
+
+---
+## Communiquer les résultats
+
+.center[![](./img/present.png)]
+
+L'analyse une fois stabilisée, il faut la communiquer à son audience (public, chercheurs, décideur...). De multiples formes sont possibles, on parlera parfois de *data science product* :
+
+- rapport
+- [recherche reproductible](https://r4ds.had.co.nz/r-markdown.html)
+- datavisualisation
+- dashboard
+- [application interactive](http://shiny.rstudio.com/)
+- etc.
+
+---
+
+class: inverse, center, middle
+
+# Ressource complémentaire
+
+## [Introduction à la data visualisation](https://datactivist.coop/odl_paca)
+
+
+
+
+---
+class: inverse, center, middle
+
+# Merci !
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();</script>
+
+<script>
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
