@@ -46,7 +46,11 @@ Les productions de Datactivist sont librement réutilisables selon les termes de
 ## Plan du cours
 
 
-TODO
+#### 1 - [Data science is the new statistics?](#4)
+
+#### 2 - [Le rôle de l'informatique dans le développement de la data science](#13)
+
+#### 3 - [Les étapes de l'analyse de données](#22)
 
 ---
 class:center, middle, inverse
