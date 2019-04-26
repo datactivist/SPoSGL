@@ -1,0 +1,256 @@
+---
+title: "Étude de cas sur l'exploitation de données culturelles : Netflix"
+subtitle: "Culture générale des données"
+author: "Datactivist, 2018-2019"
+date: ""
+output:
+  SlidesDatactivist::moon_reader:
+    css: [default, datactivist, datactivist-fonts]
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+params:
+  event: Culture générale des données, Sciences Po Saint-Germain-en-Laye
+---
+
+layout: true
+  
+
+`r paste0("<div class='my-footer'><span>", params$event, "</span> <center><div class=logo><img src='", system.file('rmarkdown', 'templates', 'xaringan', 'resources', 'img', 'accidents.png', package='SlidesDatactivist'), "' width='100px'></center></span></div>")` 
+
+---
+
+class: center, middle
+
+Ces slides en ligne : http://datactivist.coop/SPoSGL/CaseStudyNetflix.html
+
+
+Sources : https://github.com/datactivist/SPoSGL/
+
+
+Les productions de Datactivist sont librement réutilisables selon les termes de la licence [Creative Commons 4.0 BY-SA](https://creativecommons.org/licenses/by-sa/4.0/legalcode.fr).
+
+<BR>
+<BR>
+
+.center[<img src="./img/ccbysa.png" height="100"/>] 
+
+
+---
+class: inverse, center, middle
+
+# Données de la culture : études de cas
+
+---
+class: center, middle
+
+# Netflix : de la distribution à la production de contenus
+
+
+---
+## Brève histoire de Netflix
+
+- Création en 1997-1998, par Marc Randolph et Reed Hastings (déjà devenus millionnaire grâce à de précédentes entreprises)
+- Service initial : location de DVD par correspondance avec réservation en ligne
+- Modèle d'abonnement mensuel à partir de septembre 1999
+- 2000 : 300k abonnés, Netflix perd de l'argent
+- 2003 : pour la première fois Netflix est rentable
+- 2005 : catalogue de 35k films différents, 1 million de DVD envoyés par jour (!)
+- 2006 : Netflix offre 1M$ de récompense pour améliorer son algorithme de recommandation 
+- 2007 : Netflix lance un service de visionnage de films en streaming (YT lancé en 2005)
+- 2011-2013 : Netflix commence à produire des contenus propres. 1ère série produite : *House of Cards*
+- 2018 : 137 millions de clients dans le monde
+
+---
+## Brève histoire de Netflix
+
+- Capitalisation de Netflix (26/04/2019) : 163 Milliards de $
+Walt Disney Co : 167 Mds de $
+21st Century Fox : 83 Mds de $
+
+.center[<img src="./img/netflix.png" height="300"/>] 
+
+- En 2018, Netflix aura dépensé de 12 à 13 Mds de $ pour acheter des contenus, dont 85 % originaux (~82 films).
+Soit... plus que n'importe quel studio hollywoodien (Warner Bros : 23 films). 
+
+---
+
+## Comment Netflix optimise la qualité du service
+
+- L'un des secrets du succès dans la nouvelle économie culturelle : **.red[une expérience utilisateur impeccable]**
+
+- Le choix, assez tôt, de se reposer sur Amazon Web Services (AWS) plutôt que sur des infrastructures propres
+
+.center[<img src="./img/aws.jpg" height="100"/>] 
+
+- Très grande stabilité : pour accroître l'infrastructure, il suffit de payer plus
+
+- Coût marginal plutôt que fixe
+
+- Tout est répliqué trois fois : redondance = sécurité
+
+
+[Source](https://www.macg.co/ailleurs/2018/03/que-se-passe-t-il-quand-vous-appuyez-sur-lecture-dans-netflix-101639)
+
+
+---
+
+## Comment Netflix optimise la qualité du service
+
+- Gros travail sur l'architecture technique : "Netflix peut mobiliser jusqu’à 300.000 processeurs en même temps pour transcoder une vidéo"
+
+- **Localiser les données à servir au plus près des utilisateurs** : chez les Fournisseurs d'Accès à Internet (FAI)
+
+- Au final, Netflix échange de la puissance de calcul (meilleur transcodage des vidéos) contre moins de bande passante 
+
+- Absolument **tout ce qui se passe côté utilisateur est loggé, stocké et utilisé pour .red[personnaliser au maximum l'expérience.]**
+
+- Bien sûr, Netflix utilise des algorithmes de recommandation pour proposer de nouveaux contenus. Mais **ce n'est que la partie émergée de l'iceberg...** "Tout est recommandation".
+
+---
+
+## Comment Netflix optimise la qualité du service
+
+![](./img/artwork.png)
+
+---
+
+## Comment Netflix optimise la qualité du service
+
+![](./img/artwork1.png)
+
+---
+
+## Comment Netflix optimise la qualité du service
+
+![](./img/artwork2.png)
+
+> To properly learn how to personalize artwork **we need to collect a lot of data to find signals** that indicate when one piece of artwork is significantly better for a member.
+
+[Source](https://medium.com/netflix-techblog/artwork-personalization-c589f074ad76)
+
+---
+
+## Comment Netflix optimise la qualité du service
+
+![](./img/homepage.png)
+
+---
+
+## Comment Netflix optimise la qualité du service
+
+![](./img/algo_homepage.png)
+
+[Source](https://medium.com/netflix-techblog/learning-a-personalized-homepage-aa8ec670359a)
+
+---
+
+## Comment Netflix optimise la qualité du service
+
+L'algorithme de recommandation repose, notamment, sur :
+
+- Des notations par les membres (plusieurs milliards)
+- La popularité des contenus (évaluée de multiples manières)
+- La lecture des vidéos (durée, heure, matériel...)
+- Listes d'attente
+- Métadonnées (acteurs, réalisateur, genre...)
+- Présentation et interactions avec la présentation
+- Données sociales (amis)
+- Termes de recherche
+- Données externes
+- Autres
+
+Des tests en permanence (offline et online) ! 
+
+---
+
+## Comment Netflix optimise la qualité du service
+
+![](./img/tests.png)
+
+[Source](https://medium.com/netflix-techblog/netflix-recommendations-beyond-the-5-stars-part-2-d9b96aa399f5)
+
+---
+## Comment Netflix optimise les choix de production
+
+Dans une industrie historiquement influencée par l'intuition, Netflix revendique de faire du "Data-driven Programming". 
+
+=> La position de distributeur donne ainsi un avantage concurrentiel unique à Netflix *en tant que producteur*. 
+
+Netflix à Kevin Spacey : 
+
+>  “We believe in you. We’ve run our data and it tells us that our audience would watch this series. We don’t need you to do a pilot. How many do you wanna do?” (voir [cet article](https://www.nytimes.com/2013/02/25/business/media/for-house-of-cards-using-big-data-to-guarantee-its-popularity.html?pagewanted=all&_r=1&))
+
+Même si le facteur humain reste significatif, [y compris chez Netflix](https://www.newyorker.com/business/currency/hollywoods-big-data-big-deal?intcid=mod-most-popular).
+
+---
+## Comment Netflix change en profondeur l'industrie cinéma et audiovisuelle
+
+- Amazon par exemple se lance dans la même logique que Netflix (distributeurs devenus producteurs)
+
+- les producteurs et distributeurs historiques veulent concurrencer Netflix sur son terrain (voir Hulu aux USA, Freeview au Royaume-Uni ou [Salto, le "Netflix à la française"](https://teleobs.nouvelobs.com/actualites/20180615.OBS8209/salto-le-netflix-a-la-francaise.html))
+
+- Des films produits par Netflix sortent désormais en salle, dans le circuit traditionnel
+
+---
+## Comment Netflix change en profondeur l'industrie cinéma
+
+
+- Le poids de Netflix a une influence significative d'un point de vue artistique : souvent le dernier recours des réalisateurs face à des producteurs frileux, mais aussi une prise de risque artistique moindre ?
+
+<blockquote class="twitter-tweet" data-lang="fr"><p lang="en" dir="ltr">i can&#39;t stop thinking about this quote from Cary Fukanaga&#39;s GQ profile, where he reveals the netflix algorithm caused him to can an episode. it kind of sounds like the data suggested it was too complex and would alienate audiences. <a href="https://t.co/99Sjk6xtYj">pic.twitter.com/99Sjk6xtYj</a></p>&mdash; Cynthia Gothrock (@quantum_scumbag) <a href="https://twitter.com/quantum_scumbag/status/1044440839089340416?ref_src=twsrc%5Etfw">25 septembre 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+.center[<img src="./img/quote1.png" height="150">]
+
+---
+## Comment Netflix change en profondeur l'industrie cinéma
+
+
+
+![](./img/quote2.png)
+
+---
+## Si on résume...
+
+Pour une réussite comme Netflix, il faut (notamment !) :
+
+- Beaucoup de capital (Netflix a mis huit ans à gagner de l'argent)
+
+- Pas mal d'infrastructure technique (mais externalisée chez Amazon)
+
+- Beaucoup, beaucoup de données
+
+- L'audace stratégique de changer de métier (distributeur => producteur)
+
+.center[<img src="https://media.giphy.com/media/l378fIHIADPMXGwww/giphy.gif" height="230"/>]
+
+---
+class: inverse, center, middle
+
+# Mais encore...
+
+---
+## Le potentiel des données de la culture : au musée 
+
+Analyse de http://www.club-innovation-culture.fr/expo-met-inout-oeuvres-new-york-reseau-mediatheques-agglomeration-herault/
+
+http://www.culture.gouv.fr/Thematiques/Musees/Nos-actions/Colloques-Journees-d-etudes/Journee-professionnelle-La-strategie-numerique-dans-les-musees?fbclid=IwAR3YE2i0CXpVqHUekF9eKO8TzbmPZJPUvd2lMi7Q6jqyN2jVY3QNCVZGB3I
+
+https://www.lemonde.fr/idees/article/2018/06/23/open-acess-les-musees-francais-a-la-traine_5320170_3232.html
+
+---
+## Le potentiel des données de la culture : dans la musique
+
+https://medium.com/s/story/spotifys-discover-weekly-how-machine-learning-finds-your-new-music-19a41ab76efe
+
+.center[<img src="./img/spotify.png" height="300"/>]
+
+---
+class: inverse, center, middle
+
+# Merci !
+
+Contact : [joel@datactivi.st](mailto:timothee@datactivi.st)
