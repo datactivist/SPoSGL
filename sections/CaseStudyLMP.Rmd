@@ -1,0 +1,274 @@
+---
+title: "Étude de cas sur l'utilisation de données à des fins politiques : LMP - Cinquante + un"
+subtitle: "Culture générale des données"
+author: "Datactivist, 2018-2019"
+date: ""
+output:
+  SlidesDatactivist::moon_reader:
+    css: [default, datactivist, datactivist-fonts]
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+params:
+  event: Culture générale des données, Sciences Po Saint-Germain-en-Laye
+---
+
+layout: true
+  
+
+`r paste0("<div class='my-footer'><span>", params$event, "</span> <center><div class=logo><img src='", system.file('rmarkdown', 'templates', 'xaringan', 'resources', 'img', 'accidents.png', package='SlidesDatactivist'), "' width='100px'></center></span></div>")` 
+
+---
+
+class: center, middle
+
+Ces slides en ligne : http://datactivist.coop/SPoSGL/sections/CaseStudyLMP.html
+
+
+Sources : https://github.com/datactivist/SPoSGL/
+
+
+Les productions de Datactivist sont librement réutilisables selon les termes de la licence [Creative Commons 4.0 BY-SA](https://creativecommons.org/licenses/by-sa/4.0/legalcode.fr).
+
+<BR>
+<BR>
+
+.center[<img src="./img/ccbysa.png" height="100"/>] 
+
+
+---
+class: inverse, center, middle
+
+# Données & politique : étude de cas 
+
+---
+## LMP ?
+
+.center[<img src="./img/logolmp.png" height="200"/>] 
+
+LMP est l'acronyme de Liegey Muller Pons, société fondée en 2013 par...
+
+.center[<img src="./img/lmp.png" height="200"/>] 
+
+---
+## Historique Liegey Muller Pons
+
+- 2008 : Les 3 fondateurs participent bénévolement à la campagne d'Obama au cours de la présidentielle américaine de 2008 qui voit Obama gagner
+Ils se rendent compte qu'aux Etats-Unis les partis politiques bénéficient d'outils de stratégie électorale sophistiqués, basés sur des données, et sans équivalents en Europe
+
+- 2012 : ils participent à la campagne de F.Hollande. Selon eux, leur campagne de porte-à-porte ciblée, inspirée de ce qu'ils ont vécu aux US, aurait fait gagner 0,6 point, soit 300.000 voix, sur chacun des 2 tours
+
+- 2013-2014 : ils fondent Liegey Muller Pons et lèvent 355 000€ pour poursuivre le développement du logiciel "Cinquante + Un"
+
+- 2016 : participent à lélaboration de la "Grande Marche" d'Emmanuel Macron, opération de porte-à-porte massive qui avait pour but d'identifier les sujets prioritaires des Français
+
+- Dec 2017 : nouvelle levée de fonds, de 4 millions d'€, pour accélérer le développement à l'international et le auprès des entreprises
+
+---
+## Concrètement, que fait LMP ?
+
+Liegey Muller Pons édite un logiciel en ligne, "Cinquante + Un"", qui permet de **croiser les données socio-démographiques avec la cartographie électorale d’un territoire donné** pour analyser l’opinion publique et ainsi aider les candidats à .red[cibler leurs potentiels électeurs]
+
+.center[[<img src="./img/50+1.png" height="250"/>](https://cinquanteplusun.com/#/login)]
+
+Autrement dit, LMP a créé un logiciel de cartographie des territoires (ex: une circonscription), s'appuyant sur des données publiques, et dont l'objectif est de permettre à des élus de mobiliser des électeurs afin de remporter une élection
+
+---
+## Contexte: les campagnes se professionnalisent
+
+#### .red[L'émergence d’une science des campagnes électorales]
+
+* Développement de la recherche universitaire expérimentale sur les tactiques de
+campagne
+
+* Ouvrage central : *"Get out the vote"* d'**Alan Gerber** et **Donald Green**, qui s'appuie sur leur papier de recherche ["Does canvassing increase voter turnout? A field experiment"](https://www.pnas.org/content/96/19/10939.full)
+
+.center[[<img src="./img/getout.png" height="200"/>](https://cinquanteplusun.com/#/login)]
+
+---
+## Contexte: les campagnes se professionnalisent
+
+#### .red[L'émergence d’une science des campagnes électorales]
+
+Les chercheurs Alan Gerber et Donald Green vont s'intéresser au déclin continu de la participation depuis les années 1960 et faire le lien avec le changement dont les campagnes sont réalisées (moins de porte à porte, plus d'emails...)
+
+Ils ont réussi à mesurer l’impact de différentes techniques de campagne à travers une **expérience randomisée** (un groupe "traité" où les volontaires frappent au porte et un groupe "témoin" où les volontaires ne font rien). Les résultats sont significatifs :
+
+* Taux de transformation du **porte à porte** : 1/14
+* Taux de transformation du **téléphone** : 1/38
+* Taux de transformation du **tractage, email, courrier** : 1/100 000
+
+Conclusion : Le .red[porte-à-porte est le plus efficace] car il permet de créer un **contact direct entre militants et électeurs**
+
+---
+## Contexte: les campagnes se professionnalisent
+
+#### .red[L'émergence d’une science des campagnes électorales]
+
+.center[[<img src="./img/karlrove.png" height="200"/>](https://fr.wikipedia.org/wiki/Karl_Rove)]
+
+* **Karl Rove**, ancien conseiller auprès de Georges W. Bush, a également changé la manière dont les américains font des campagnes électorales
+
+* Explosion de la quantité de données électorales disponibles
+
+* Développements technologiques profitant à l’organisation des campagnes
+
+---
+## Contexte: les campagnes se professionnalisent
+
+#### .red[Le secteur s'est professionnalisé aux Etats-Unis... et depuis peu en Europe]
+
+* Augmentation du nombre de salariés au sein des équipes de campagne
+
+* Utilisation croissante d’outils venant du secteur privé (géolocalisation, analyse
+de bases de données commerciales, marketing en ligne...)
+
+.center[[<img src="./img/nationbuilder.png" height="190"/>](https://nationbuilder.com/)]
+
+* Développement des pratiques de levée de fonds qui permettent d'embaucher et d'investir dans de nouveaux outils / prestations
+
+---
+## Données et élections, quel lien ?
+
+3 objectifs d'une campagne électorale:
+- Augmenter la .red[notoriété] du candidat
+- .red[Persuader] les électeurs de voter pour le candidat
+- .red[Mobiliser] les électeurs abstentionnistes
+
+Les données vont aider à **qualifier la stratégie de campagne**: combien de voix vais-je devoir gagner pour espérer remporter l'élection? Les données vont permettre de faire des **profils d'électeurs et de qualifier son électorat** et anticiper ce qu'ils attendent.
+
+Il y a deux type de données qui ont un **pouvoir prédictif électoral** particulièrement important : 
+* L’historique de la participation électorale 
+* La liste des personnes qui ont été encartées dans un parti (ces données sont accessibles aux Etats-Unis mais pas en France, c’est interdit).
+
+---
+## Les données utilisées par LMP
+
+LMP est allé récupérer **les listes d'émargement / électorales**, accessibles sur demande en mairie ou préfecture - *et parfois en open data !* -, aux élections législatives de 2012. Elles permettent de vérifier si les personnes sont allées voter ou non. En France, un bureau de vote c'est environ 1000 personnes
+
+Sur une liste électorale, il est possible de récupérer quelques données très utiles: date et lieu de naissance, âge, sexe, adresse.
+
+**Travail de collecte conséquent** : Pour récupérer les listes électorales, il faut aller dans les préfectures ou les mairies, sachant qu’il y a énormément de formats différents (pdf, excel…). **Pas de fichier national consolidé**.
+
+En parallèle, LMP utilise des **.red[données socio-démographiques de l'Insee]**, accessibles publiquement. L'intérêt de ces données est qu'elles peuvent être utilisées à une échelle très fine/précise : l'IRIS (env 2500 hab), même si elle ne correspondent pas exactement aux mêmes zones que les bureaux de vote
+
+=> LMP va ainsi croiser et fusionner les données des bureaux de vote avec celles des IRIS pour obtenir à la fois un **découpage électoral et sociologique**
+
+---
+## Les données utilisées par LMP
+
+Les données obtenues servent à informer la stratégie du candidat, à connaître le profil de l’électorat (grâce aux données de l’INSEE au niveau des IRIS) et comprendre qui sont les électeurs prioritaires auxquels il faut s'adresser (notamment via du porte-à-porte)
+
+.center[<img src="./img/lmp2.png" height="370"/>]
+
+---
+## Les données utilisées par LMP
+
+* LMP a été capable de découper la France en à peu près 60 000 petites zones. A partir de ce niveau agrégé, on va essayer de prédire le comportement électoral ou d’expliquer le niveau électoral passé. 
+
+* Le but est d’identifier les zones où il y a le plus de votants hésitants (.red[électeurs à persuader]) et celles où il y a le plus d’abstentionnistes (.red[électeurs mobilisables])
+
+* On peut aussi se concentrer sur les zones où il y a le plus de différentiel de votes entre les différents scrutins (gauche puis droite puis centre etc…) qui traduisent une **certaine indécision des électeurs** ou encore celles où il y a un fort différentiel de participation (60% puis 80% puis 35% etc…)
+
+Selon LMP, d'après les retours des utilisateurs de 50+1, "il y aurait déjà ⅔ des zones sur lesquelles ils se seraient eux-mêmes concentrées, mais **⅓ de nouveaux endroits** sur lesquels ils ont pu concentrer leurs efforts de militantisme"
+
+---
+## Des données prédictives ?
+
+Aux Etats-Unis, des entreprises, comme **Catalist**, constituent des "voter file" basée initialement sur la liste électorale avec le nom de tous les possibles électeurs. Sur chacun de ses individus Catalist va essayer de **collecter le plus d’informations possibles** (appartenance à une association, consommation, profils publics des réseaux sociaux). Au final, leur base de données procure jusqu’à 600 colonnes / attributs et donc informations potentielles sur une seule personne. **.red[En France de tels fichiers sont interdits]**.
+
+A partir de ces bases de données, les équipes de campagne regardent les critères qui permettent de prédire les comportements électoraux, ou d'en fournir une bonne estimation. Cela permet à la fin d’avoir un modèle de plus en plus fiable. Avec les critères qu’on a dans cette base, il devient alors possible de **cibler le porte-à-porte ou les publicités sur les réseaux sociaux** (désormais en dehors des périodes électorales sur Facebook)
+
+Par exemple, une vaste étude ["*Ladd-Lipset survey*"](https://files.eric.ed.gov/fulltext/ED135278.pdf) menée en 1976 sur le profil sociologique des professeurs de l'enseignement supérieur aux US a permis de déterminer que **98% des propriétaires de Sabb votaient démocrates, et 80% des détenteurs de Volvo** (échantillon non représentatif cependant)
+
+---
+## Des données prédictives ?
+
+.center[[<img src="./img/catalist.png" height="450"/>](https://www.catalist.us/)]
+
+---
+## Le modèle économique 50+1
+
+* **Forfait sur le temps de la campagne** d'environ 6 mois (3000/4000€ ?). Obligation de vendre au même prix pour tous les candidats (pour éviter le procès en favoritisme)
+
+* **Puis forfait à l'année** pour continuer d'utiliser le logiciel 50+1 dans une logique de suivi plutôt que de campagne (gestion des militants, des dons, de la communauté...). Le forfait dépend de la taille de la collectivité (plusieurs centaines d'euros pour une petite, plusieurs milliers pour une grosse)
+
+* Possibilité de rajouter des options, comme la **réalisation d'un pack d’analyse** qui sont “l’équivalent d’un sondage” (pour 20% du prix). Il permet de détailler la manière dont ont voté les électeurs d'une zone donnée lors des élections intermédiaires.
+
+---
+## Un modèle viable ?
+
+* En dehors des périodes électorales, il paraît compliqué pour LMP d'aller trouver de nouveaux clients (+ clientèle "politique" assez limitée)
+
+* De **nouveaux entrants sur le marché français/européen des logiciels de campagne**, notamment NationBuilder, DigitaleBox, Spallian, Ecanvasser...
+
+D'où la double nécessité :
+
+- A la fois d'aller **chercher de nouveaux clients à l'international** et notamment en Europe
+- De **ne plus se cantonner au marché politique, mais de s'orienter davantage vers des clients privés type entreprises** (plus nombreux et plus lucratifs) en mettant à disposition leur logiciel pour réaliser des sondages en interne
+
+Cette nouvelle stratégie s'est concrétisée avec leur levée de fonds de 4M€ et le **changement de positionnement** : ils sont passés de "première startup en stratégie électorale en Europe" à "Révolutionner les campagnes électorales et la communication des entreprises à destination de la population"
+
+---
+## Si on résume...
+
+La faiblesse de la participation éléctorale semble en partie due aux nouvelles techniques de campagne, qui font la part belle aux technologies. Or, le porte-à-porte reste de  loin la technique la plus efficace pour mobiliser des électeurs.
+
+Afin de mieux cibler ces électeurs potentiels et de se concentrer sur ceux qui peuvent se mobiliser, LMP a créé un logiciel qui croise des données issues des listes électorales et des données socio-démocraphiques de l'Insee. Une fois réunies, elles permettent d'établir une cartographie des zones à partir desquelles un élu peut effectuer des choix stratégiques (prioriser les quartiers à forte abstention, les quartiers avec une population âgée etc...)
+
+Cette utilisation des données au service d'enjeux politiques provient des Etats-Unis qui ont, depuis vingt ans, professionnalisé les campagnes (Karl Rove). Leur législation, plus laxiste sur les données personnelles, leur permet de constituer des voter files très précis et ainsi d'effectuer un ciblage ultra fin des électeurs. Ce n'est pas possible en France.
+
+LMP a eu un coup d'avance en 2013 mais désormais la concurrence s'accroit et besoin de se repositionner sur le secteur privé et de se développer en Europe
+
+---
+class: inverse, center, middle
+
+# Mais encore...
+
+---
+## Get Out The Vote !
+
+Green & Gerber dans l'ouvrage "Get out of the vote"" se posent la question suivante : **Est-ce que la manière dont les partis politiques font campagne n’expliquent pas en partie la baisse de la participation électorale?** 
+
+Ils se sont rendus compte qu’**à partir des années 60 le porte-à-porte avait été abandonné au profit de la télévision** ⇒ la politique semble de plus en plus distante, de moins en moins concrète. Sentiment de distance irrémédiable vis-à-vis de l’électorat ?
+
+Dans leur étude randomisée, ils ont pu constater que **toutes les 14 personnes rencontrées en porte-à-porte, on arrive à en faire voter 1 qui ne serait pas allée voter autrement** (=1 abstention sur 14 qui va aller voter). A l'inverse, tractage, courrier, boitage n’ont quasiment aucune efficacité pour mobiliser ou convaincre. 
+
+Ainsi, même en tenant compte de l’investissement humain et financier, le porte-à-porte (car souvent effectué par des bénévoles) reste le plus efficace.
+
+---
+## La démocratie de l'abstention
+
+Dans leur ouvrage ["La démocratie de l'abstention"](https://hal-sciencespo.archives-ouvertes.fr/hal-01045084/document), **Céline Braconnier** et **Jean-Yves Dormagen** montrent que le vote est un acte collectif qui résulte de micro pressions exercées par l’environnement des acteurs (travail, famille, voisinage)
+
+Un cercle vicieux entre l’abstention et la communauté peut s'installer: si au sein d’une communauté il y a plus d’abstentionnistes, **le coût de ne pas aller voter s’affaiblit et cela augmente la probabilité de ne pas aller voter** ⇒ spirale abstentionniste qui s’installe
+
+Les auteurs ont montré qu’un quartier de Seine Saint Denis (Les Cosmonautes) avait vu son abstention s'effondrer dans les années 70 et cela avait changé la perception du vote au sein du groupe social.
+
+Cela rejoint la thèse de Garber et Green sur le porte-à-porte: la personne qui dit qu’il va aller voter va **recréer une “micro norme sociale”** pour que ça convainque une personne sur 14 de retourner d’aller voter. La thèse de ses chercheurs c’est qu’on pourrait ré-enclencher ce cercle vertueux en relançant du porte-à-porte dans des quartiers abstentionnistes
+
+
+
+---
+## Bibliographie
+
+- Get Out Of The Vote, d'Alan Gerber et Donald Green (2004)
+
+- ["Does canvassing increase voter turnout? A field experiment"](https://www.pnas.org/content/96/19/10939.full) Alan Gerber et Donald Green (1999)
+
+- ["La démocratie de l'abstention"](https://hal-sciencespo.archives-ouvertes.fr/hal-01045084/document), de Céline Braconnier et Jean-Yves Dormagen (2007)
+
+- ["Survey of the Social, Political, and Educational Perspectives of American College and University Faculty"](https://files.eric.ed.gov/fulltext/ED135278.pdf) d'Everett Ladd et Martin Seymour (1976)
+
+- ["Liegey-Muller-Pons, la start-up qui veut faire gagner Macron en 2017"](https://www.challenges.fr/start-up/liegey-muller-pons-la-start-up-qui-veut-faire-gagner-macron-en-2017_425232) Challenges, consulté le 21 avril 2019
+
+- ["Liegey Muller Pons lève 4 millions d’euros pour disrupter les campagnes électorales"](https://www.frenchweb.fr/liegey-muller-pons-leve-4-millions-deuros-pour-disrupter-les-campagnes-electorales/310720) Frenchweb, consulté le 20 avril 2019
+
+---
+class: inverse, center, middle
+
+# Merci !
+
+Contact : [timothee@datactivi.st](mailto:timothee@datactivi.st)
