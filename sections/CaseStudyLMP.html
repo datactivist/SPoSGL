@@ -143,22 +143,40 @@ de bases de données commerciales, marketing en ligne...)
 
 Les données vont aider à **qualifier la stratégie de campagne**: combien de voix vais-je devoir gagner pour espérer remporter l'élection? Les données vont permettre de faire des **profils d'électeurs et de qualifier son électorat** et anticiper ce qu'ils attendent.
 
-Il y a deux type de données qui ont un **pouvoir prédictif électoral** particulièrement important : 
+Selon LMP, il y a deux type de données qui ont un **pouvoir prédictif électoral** particulièrement important : 
 * L’historique de la participation électorale 
 * La liste des personnes qui ont été encartées dans un parti (ces données sont accessibles aux Etats-Unis mais pas en France, c’est interdit).
 
 ---
 ## Les données utilisées par LMP
 
-LMP est allé récupérer **les listes d'émargement / électorales**, accessibles sur demande en mairie ou préfecture - *et parfois en open data !* -, aux élections législatives de 2012. Elles permettent de vérifier si les personnes sont allées voter ou non. En France, un bureau de vote c'est environ 1000 personnes
+LMP est allé récupérer **.red[les listes d'émargement / électorales]**, accessibles sur demande en mairie ou préfecture - *et parfois en open data !* -, aux élections législatives de 2012. Elles permettent de vérifier si les personnes sont allées voter ou non. En France, un bureau de vote c'est environ 1000 personnes
 
-Sur une liste électorale, il est possible de récupérer quelques données très utiles: date et lieu de naissance, âge, sexe, adresse.
+Sur une liste électorale, il est possible de récupérer quelques données très utiles: 
+- Date et lieu de naissance, 
+- Âge, 
+- Sexe, 
+- Adresse
 
 **Travail de collecte conséquent** : Pour récupérer les listes électorales, il faut aller dans les préfectures ou les mairies, sachant qu’il y a énormément de formats différents (pdf, excel…). **Pas de fichier national consolidé**.
 
-En parallèle, LMP utilise des **.red[données socio-démographiques de l'Insee]**, accessibles publiquement. L'intérêt de ces données est qu'elles peuvent être utilisées à une échelle très fine/précise : l'IRIS (env 2500 hab), même si elle ne correspondent pas exactement aux mêmes zones que les bureaux de vote
+---
+## Les données utilisées par LMP
+
+.center[&lt;img src="./img/lmp4.png" height="450"/&gt;]
+
+---
+## Les données utilisées par LMP
+
+En parallèle, LMP utilise des **.red[données socio-démographiques de l'Insee]**, accessibles publiquement. L'intérêt de ces données est qu'elles peuvent être utilisées à une échelle très fine/précise : l'IRIS (env 2000 hab), même si elle ne correspondent pas exactement aux mêmes zones que les bureaux de vote. Exemples de données disponibles :
+- Évolution et structure de la population (dont âge et immigration),
+- Emploi, 
+- Éducation, 
+- Logement, 
+- Structure des ménages
 
 =&gt; LMP va ainsi croiser et fusionner les données des bureaux de vote avec celles des IRIS pour obtenir à la fois un **découpage électoral et sociologique**
+
 
 ---
 ## Les données utilisées par LMP
@@ -179,18 +197,32 @@ Les données obtenues servent à informer la stratégie du candidat, à connaît
 Selon LMP, d'après les retours des utilisateurs de 50+1, "il y aurait déjà ⅔ des zones sur lesquelles ils se seraient eux-mêmes concentrées, mais **⅓ de nouveaux endroits** sur lesquels ils ont pu concentrer leurs efforts de militantisme"
 
 ---
+## Les données utilisées par LMP
+
+.center[&lt;img src="./img/lmp3.png" height="450"/&gt;]
+
+---
 ## Des données prédictives ?
 
 Aux Etats-Unis, des entreprises, comme **Catalist**, constituent des "voter file" basée initialement sur la liste électorale avec le nom de tous les possibles électeurs. Sur chacun de ses individus Catalist va essayer de **collecter le plus d’informations possibles** (appartenance à une association, consommation, profils publics des réseaux sociaux). Au final, leur base de données procure jusqu’à 600 colonnes / attributs et donc informations potentielles sur une seule personne. **.red[En France de tels fichiers sont interdits]**.
-
-A partir de ces bases de données, les équipes de campagne regardent les critères qui permettent de prédire les comportements électoraux, ou d'en fournir une bonne estimation. Cela permet à la fin d’avoir un modèle de plus en plus fiable. Avec les critères qu’on a dans cette base, il devient alors possible de **cibler le porte-à-porte ou les publicités sur les réseaux sociaux** (désormais en dehors des périodes électorales sur Facebook)
-
-Par exemple, une vaste étude ["*Ladd-Lipset survey*"](https://files.eric.ed.gov/fulltext/ED135278.pdf) menée en 1976 sur le profil sociologique des professeurs de l'enseignement supérieur aux US a permis de déterminer que **98% des propriétaires de Sabb votaient démocrates, et 80% des détenteurs de Volvo** (échantillon non représentatif cependant)
 
 ---
 ## Des données prédictives ?
 
 .center[[&lt;img src="./img/catalist.png" height="450"/&gt;](https://www.catalist.us/)]
+
+---
+## Des données prédictives ?
+
+A partir de ces bases de données, les équipes de campagne regardent les critères qui permettent de prédire les comportements électoraux, ou d'en fournir une bonne estimation. Cela permet à la fin d’avoir un modèle de plus en plus fiable. Avec les critères qu’on a dans cette base, il devient alors possible de **cibler le porte-à-porte ou les publicités sur les réseaux sociaux** (désormais en dehors des périodes électorales sur Facebook)
+
+---
+## Des données prédictives ?
+
+Par exemple, une vaste étude ["*Ladd-Lipset survey*"](https://files.eric.ed.gov/fulltext/ED135278.pdf) menée en 1976 sur le profil sociologique des professeurs de l'enseignement supérieur aux US a permis de déterminer que **98% des propriétaires de Sabb votaient démocrates, et 80% des détenteurs de Volvo** (échantillon non représentatif cependant)
+
+.center[&lt;img src="./img/laddsurvey.png" height="300"/&gt;]
+
 
 ---
 ## Le modèle économique 50+1
