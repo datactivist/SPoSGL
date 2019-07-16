@@ -1,5 +1,5 @@
 # SPoSGL
-Répertoire commun des modules de cours pour les 1ère années et 5ème années de Sciences Po Saint-Germain-en-Laye.
+Répertoire commun des modules de cours pour les étudiants de 1ère année et de 5ème année de Sciences Po Saint-Germain-en-Laye.
 
 Les 10 cours sont issus de la formation Culture générale des données de Datactivist.
 
