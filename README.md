@@ -17,12 +17,12 @@ Pour accéder aux modules :
 
 [- **Section 5** : Manipulation et représentation de données, éviter des écueils classiques](https://datactivist.coop/SPoSGL/sections/section5.html#1)
 
-[- **Section 6** : Manipulation et représentation de données, éviter des écueils classiques](https://datactivist.coop/SPoSGL/sections/section6.html#1)
+[- **Section 6** : Open Data et Gouvernement ouvert](https://datactivist.coop/SPoSGL/sections/section6.html#1)
 
 [- **Section 7** : Créer de la valeur à partir des
-données publiques](https://github.com/datactivist/SPoSGL/blob/master/Section%207.pdf)
+données publiques](https://docs.google.com/presentation/d/e/2PACX-1vSoJF4D-CBqlOAlBPhYmwIfYFoPIYmrCOvd5qe2Dowxaf47P_DYq6K5eLwMYxa37xKQIbl0wAUlwI8u/pub?start=false&loop=false&delayms=30000)
 
-[- **Section 8** : Le cadre juridique autour de l'open data et de la protection des données personnelles](https://github.com/datactivist/SPoSGL/blob/master/Section%208.pdf)
+[- **Section 8** : Le cadre juridique autour de l'open data et de la protection des données personnelles](https://docs.google.com/presentation/d/e/2PACX-1vTXhJh2yXB2Y-OHns3aXf9Fn8MS7ahp208ZTwj_9WSrE6cCpjDI4gXaPcoWz2_UATtFtFht00kctvbX/pub?start=false&loop=false&delayms=30000)
 
 [- **Section 9** : Qu'est-ce que la data science ? ](https://datactivist.coop/SPoSGL/sections/section9.html#1)
 
