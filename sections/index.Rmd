@@ -22,23 +22,6 @@ layout: true
 `r paste0("<div class='my-footer'><span>", params$event, "</span> <center><div class=logo><img src='https://github.com/datactivist/slides_datactivist/raw/master/inst/rmarkdown/templates/xaringan/resources/img/fond_noir_monochrome.png' width='100px'></center></span></div>")` 
 
 ---
-
-class: center, middle
-
-Ces slides en ligne : http://datactivist.coop/SPoSGL/index.html
-
-Sources : https://github.com/datactivist/SPoSGL/
-
-
-Les productions de Datactivist sont librement réutilisables selon les termes de la licence [Creative Commons 4.0 BY-SA](https://creativecommons.org/licenses/by-sa/4.0/legalcode.fr).
-
-<BR>
-<BR>
-
-![](https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-sa.png)
-
-
----
 ## Qui sommes-nous ?
 
 <BR><BR><BR><BR>
@@ -152,7 +135,7 @@ class: inverse, center, middle
 
 - Chaque section représente environ **2 heures** (lectures obligatoires comprises)
 
-- Chaque section - ou presque - contiendra un **podcast**
+- 1 section sur 2 contient un **podcast**
 
 - Chaque section se finira par un **quiz**, noté !
 
@@ -369,6 +352,23 @@ Class: middle, center
 - Recherches internet .red[(cookies)], pratiques sportives .red[(montres connectées)], consommation énergie .red[(compteurs connectés)], régime alimentaire .red[(appli type Yuka)], trajets dans les transports en commun .red[(Pass Navigo)]...
 
 - La question devient peut-être, *quels aspects de votre vie ne sont pas (encore) mis en données ?*
+
+
+---
+
+class: center, middle
+
+Ces slides en ligne : http://datactivist.coop/SPoSGL/index.html
+
+Sources : https://github.com/datactivist/SPoSGL/
+
+
+Les productions de Datactivist sont librement réutilisables selon les termes de la licence [Creative Commons 4.0 BY-SA](https://creativecommons.org/licenses/by-sa/4.0/legalcode.fr).
+
+<BR>
+<BR>
+
+![](https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-sa.png)
 
 ---
 ## Le nouveau positivisme des données
