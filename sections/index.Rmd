@@ -278,9 +278,7 @@ Les fausses données n'en restent pas moins des données.
 Class:
 ## La pyramide Data-Information-Knowledge-Wisdom
 
-.pull-left[
-[![largeur](./img/DIKW_Pyramid.svg)](https://commons.wikimedia.org/w/index.php?curid=37705247)
-]
+.pull-left[<img src="./img/pyramid.svg" height= "250"/>]
 
 .pull-right[Attribuée à [Russell Ackoff](http://en.wikipedia.org/wiki/Russell_L._Ackoff), 1989
 
