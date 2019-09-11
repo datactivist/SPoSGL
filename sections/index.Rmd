@@ -358,7 +358,7 @@ Class: middle, center
 
 class: center, middle
 
-Ces slides en ligne : http://datactivist.coop/SPoSGL/index.html
+Ces slides en ligne : https://datactivist.coop/SPoSGL/sections/index.html
 
 Sources : https://github.com/datactivist/SPoSGL/
 
