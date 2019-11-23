@@ -28,3 +28,4 @@ données publiques](https://docs.google.com/presentation/d/e/2PACX-1vSoJF4D-CBql
 
 [- **Section 10** : Analyse, modélisation, machine learning et algorithmes ](https://datactivist.coop/SPoSGL/sections/section10.html#1)
 
+[- **Le module d'introduction à l'Open Data** pour le Challenge Data #2 (Master 1)](https://datactivist.coop/SPoSGL/sections/IntroOpenData.html#1)
