@@ -136,7 +136,7 @@ class:center, middle, inverse
 ### La tablette mésopotanienne : inscrire une réalité complexe
 Vers 3200 av. J.-C., en Mésopotamie, la civilisation sumérienne a inventé l’écriture d'abord pour mémoriser des comptes (difficile de recenser des têtes de bétail ou des sacs de grains oralement).
 .pull-left[
-![](http://www.ladressemuseedelaposte.fr/IMG/arton1311-resp500-2.jpg)
+![](./img/tabletteargile.jpg)
 
 ]
 
@@ -205,7 +205,7 @@ La réflexion autour de la fin de la science part du constat de l'explosion de l
 > "Avec suffisamment de données, les chiffres parlent d’eux-mêmes." 
 > Chris Anderson, journaliste *Wired Magazine*
 
-.footnote[[Source](http://internetactu.blog.lemonde.fr/2011/09/30/big-data-est-ce-que-le-deluge-de-donnees-va-rendre-la-methode-scientifique-obsolete/)]
+.footnote[[Consulter la source](http://internetactu.blog.lemonde.fr/2011/09/30/big-data-est-ce-que-le-deluge-de-donnees-va-rendre-la-methode-scientifique-obsolete/)]
 ]
 .pull-right[
 .reduite.center[![](./img/internetminute.jpg)
