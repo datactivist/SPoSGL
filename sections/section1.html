@@ -63,11 +63,14 @@ class:center, middle, inverse
 
 # 1 - Au fait, c'est quoi une donnée ?
 ---
+
 ## Introduction 
 
-#### Ecoutez [l'interview de Serge Abiteboul, commissaire scientifique de l’exposition Terradata et directeur de recherche à l’Inria](https://www.youtube.com/watch?v=qqvsiTUJy7k)
+[Interview de Serge Abiteboul](https://www.youtube.com/watch?v=qqvsiTUJy7k), commissaire scientifique de l'exposition Terradata et directeur de recherche à l'Inria :
 
-.center.reduite[![](./img/abiteboul.png)]
+.center[
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/qqvsiTUJy7k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+]
 
 ---
 ## Les données sont partout !
@@ -75,9 +78,9 @@ class:center, middle, inverse
 .center[&lt;img src="./img/dataeverywhere.png" height="350"/&gt;]
 
 
-#### Identifiez autour de vous 3 appareils qui collectent des données 
+#### Identifiez 3 appareils qui collectent des données 
 
-.footnote[source : [The Economist](https://www.emc.com/collateral/analyst-reports/ar-the-economist-data-data-everywhere.pdf)]
+.footnote[source : [The Economist](http://lazowska.cs.washington.edu/escience/Economist.big.data.pdf)]
 
 ---
 Classe: middle
@@ -119,9 +122,9 @@ _NB : le haut de la pyramide, est parfois remplacé par "compétence"_
 
 ---
 
-### Les données, c'est aussi tout ce qui circule dans un ordinateur
+### Les données, la base de l'informatique
 
-Les données ne sont pas seulement le fondement du savoir, elles sont aussi la base de l'informatique. Tout ce qui circule dans un ordinateur, ce sont des données.
+La naissance de l'informatique est le point de départ d'un déluge de données. Tout ce qui circule dans un ordinateur, ce sont des données. Elles sont la base de l'informatique.
 
 .pull-left[![](./img/volume.png)]
 .pull-right[
@@ -163,18 +166,18 @@ Elles sont les premières mémoires de masse utilisées dans l'informatique au X
 En 1884, Herman Hollerith a déposé un brevet pour une machine à cartes perforées destinée à accélérer la production de statistiques pour les gouvernements. Deux ans plus tard, il crée IBM le géant de l'informatique.  
 ]
 
+.footnote[Vidéo de l'INA : [La carte perforée](https://m.ina.fr/video/CAF97059686/la-carte-perforee-video.html)]
 ---
 
 ### Les bases de données relationnelles (1970)
 
-Les bases de données relationnelles facilitent grandement le traitement des données puisqu'elles pparaissent à travers une interface utilisateur : « il faut protéger les futurs usagers de grandes banques de données d’avoir à connaitre comment les données sont organisées dans la machine » (Codd 1970). 
+Dans les bases de données relationnelles, les données sont inscrites dans des tables et reliées entre elles par un schéma et des identifiants uniques. Cela permet de traiter de plus grands volumes, de développer des données plus complexes et d'éviter des erreurs de saisie.
 
 .pull-left[
 ![](./img/sql.jpeg)]
 
 .pull-right[
-
-D’un point de vue physique, les données sont inscrites dans des tables et reliées entre elles par un schéma et des identifiants uniques. Cela permet de traiter de plus grands volumes, de développer des données plus complexes et d'éviter des erreurs de saisie.
+Les bases de données relationnelles facilitent grandement le traitement des données puisqu'elles paraissent à travers une interface utilisateur : « il faut protéger les futurs usagers de grandes banques de données d’avoir à connaitre comment les données sont organisées dans la machine » (Codd 1970).
 ]
 
 ---
@@ -198,7 +201,7 @@ Son logiciel "Visicalc", .red[démocratise la production des données] en propos
 ---
 class:center, middle, inverse
 
-# 3 - la fin des sciences ?
+# 3 - La fin des sciences ?
 ---
 
 ## Le déluge des données
@@ -220,7 +223,7 @@ La réflexion autour de la fin de la science part du constat de l'explosion de l
 
 &lt;img src="./img/internetminute2018.jpg" height="240"/&gt; | &lt;img src="./img/internetminute2019.jpg" height="240"/&gt; | &lt;img src="./img/internetminute2020.jpg" height="240"/&gt;
 
-En deux jours, l’humanité produit autant d'information que celles qu'elle a produite depuis la naissance de l'écriture jusqu’en 2003.
+En deux jours, l’humanité produit autant d'information que ce qu'elle a produit depuis la naissance de l'écriture jusqu’en 2003.
 
 ---
 
@@ -238,7 +241,7 @@ Strasser, B. J. (2012). "[Data-driven sciences: From wonder cabinets to electron
 
 ### La méthode scientifique est-elle obsolète ? 
 
-Les sciences sont traversées par la promesse d’un **.red[quatrième paradigme scientifique]** qui remplacerait le modèle hypothético-déductif par l'analyse de données. Il suffirait alors d'**explorer les données pour .red[identifier des corrélations]** (une relation entre des phénomènes) et de **comprendre la causalité.** 
+Les sciences sont traversées par la promesse d’un **.red[quatrième paradigme scientifique]**. Il suffirait alors d'**explorer les données pour .red[identifier des corrélations]** (une relation entre des phénomènes) et de **comprendre la causalité.** 
 
 &gt; Le déluge des données rend la méthode scientifique obsolète, l’analyse des motifs et des relations contenues dans les données massives produit intrinsèquement un savoir significatif et éclairé sur des phénomènes complexes. Il y a maintenant une meilleure manière de faire. Les petabytes nous permettent de dire que « la corrélation suffit ». Nous pouvons analyser les données sans hypothèses sur ce qu’elles peuvent montrer.
 
@@ -249,20 +252,16 @@ Les sciences sont traversées par la promesse d’un **.red[quatrième paradigme
 
 ### Le risque : confondre corrélation et causalité
 
-Deux événements (appelons les X et Y) sont corrélés si l’on observe une relation entre les deux. Une erreur de raisonnement courante consiste à dire : « X et Y sont corrélés, donc X cause Y ». On .red[confond corrélation et causalité] car en réalité, il se pourrait aussi que Y cause X, ou bien que X et Y aient une cause commune Z, ou encore que X et Y soient accidentellement liés mais n’aient aucun lien de causalité.
+Deux événements (appelons les X et Y) sont corrélés si l’on observe une relation entre les deux. Une erreur de raisonnement courante consiste à dire : « X et Y sont corrélés, donc X cause Y ». On .red[confond corrélation et causalité].
 
 **_L'effet cigogne_** désigne la tendance à confondre corrélation et causalité.
 
-.pull-left[
-![](./img/cigogne.png)
+.pull-left[&lt;img src="./img/cigogne.jpg" height="180"/&gt;]
+
+.pull-right["Dans les communes qui abritent des cigognes, le taux de natalité est plus élevé que dans l’ensemble du pays. Conclusion : les cigognes apportent les bébés ! En fait, les cigognes nichent de préférence dans les villages où la natalité est plus forte en milieu rural que dans les villes."
 ]
 
-.poule-right[
-"Dans les communes qui abritent des cigognes, le taux de natalité est plus élevé que dans l’ensemble du pays. Conclusion : les cigognes apportent les bébés ! En fait, les cigognes nichent de préférence dans les villages où la natalité est plus forte en milieu rural que dans les villes."
-
-Source : [cortecs.org](https://cortecs.org/materiel/effets-cigogne-correlation-vs-causalite/)
-
-]
+.footnote[Source : [cortecs.org](https://cortecs.org/materiel/effets-cigogne-correlation-vs-causalite/)]
 
 ---
 
@@ -278,7 +277,7 @@ L'équipe des Décodeurs du *Monde* a produit un [générateur de comparaisons a
 
 ### Le déluge des données à l'épreuve des sciences sociales
 
-Les sciences sociales n’échappent pas à la montée en puissance de la science *data-driven*. Le *social computing* désigne une branche de l'informatique qui essaie de comprendre les comportements sociaux par l'analyse de données et l'usage d'outils informatiques. 
+Les sciences sociales n’échappent pas à la montée en puissance de la *data driven science*. Le *social computing* désigne une branche de l'informatique qui essaie de comprendre les comportements sociaux par l'analyse de données et l'usage d'outils informatiques. 
 
 Lev Manovich ([2011](http://manovich.net/content/04-projects/067-trending-the-promises-and-the-challenges-of-big-social-data/64-article-2011.pdf)) signale que **cette approche comporte plusieurs risques** : 
 * elle favorise les chercheurs ayant des liens officiels avec les industriels des réseaux sociaux qui vont fournir les données (difficile alors de les critiquer) ; 
