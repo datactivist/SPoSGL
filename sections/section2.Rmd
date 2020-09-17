@@ -1,7 +1,7 @@
 ---
 title: "Section 2 : La datafication ou les promesses de la mise en données du monde"
 subtitle: "Culture générale des données"
-author: "Datactivist, 2018-2019"
+author: "Datactivist, 2020-2021"
 date: ""
 output:
   SlidesDatactivist::moon_reader:
@@ -82,15 +82,13 @@ Class: middle, center
 
 ## La mise en données du monde
 
-- Concrètement, aujourd'hui, quels aspects de votre vie sont mis en données ?
+Concrètement, aujourd'hui, quels aspects de votre vie sont mis en données ? 
+*Recherches internet, pratiques sportives, consommation énergie, régime alimentaire, trajets dans les transports en commun...*
 
-- Recherches internet, pratiques sportives, consommation énergie, régime alimentaire, trajets dans les transports en commun...
+Cette mise en donnée est rendue possible par le développement de .red[**capteurs**] qui viennent collecter et agréger ces données. 
+*Recherches internet .red[(cookies)], pratiques sportives .red[(montres connectées)], consommation énergie .red[(compteurs connectés)], régime alimentaire .red[(appli type Yuka)], trajets dans les transports en commun .red[(Pass Navigo)]...*
 
-- Cette mise en donnée est rendue possible par le développement de .red[**capteurs**] qui viennent collecter et agréger ces données 
-
-- Recherches internet .red[(cookies)], pratiques sportives .red[(montres connectées)], consommation énergie .red[(compteurs connectés)], régime alimentaire .red[(appli type Yuka)], trajets dans les transports en commun .red[(Pass Navigo)]...
-
-- La question devient peut-être, *quels aspects de votre vie ne sont pas (encore) mis en données ?*
+La question devient peut-être, *quels aspects de votre vie ne sont pas (encore) mis en données ?*
 
 ---
 
@@ -124,7 +122,7 @@ David Brooks, éditorialiste du New York Times, ["The Philosophy of Data"](https
 ---
 ## Le nouveau positivisme des données
 
-- Attention, les données, même provenant de sources officielles, ne sont pour autant neutres, irréprochables ou porteuses de "LA" vérité (voir section 5, partie 3 "**Les limites inhérentes aux données et aux indicateurs**" )
+- Attention, les données, même provenant de sources officielles, ne sont pour autant neutres, irréprochables ou porteuses de "LA" vérité (nous le verrons dans la section 5, partie 3 "**Les limites inhérentes aux données et aux indicateurs**" )
 
 .center[<img src="./img/baddata.png" height="250"/>]
 
@@ -240,7 +238,7 @@ Deux exemples :
 
 - Le nombre de sans domicile fixe (SDF) en France
 
-- Le nombre de migrants qui décèdent aux portes de l'EUrope
+- Le nombre de migrants qui décèdent aux portes de l'Europe
 
 ---
 ## L'exemple des migrants disparus ou décédés
@@ -268,7 +266,7 @@ Antoine Pécoud, sociologue
 
 .center[<img src="./img/united.png" height="300"/>]
 
-.footnote[[*The UNITED list of deaths of refugees and migrants while attempting to enter Europe*](http://www.unitedagainstracism.org/wp-content/uploads/2017/06/ListofDeathsActual.pdf)]
+.footnote[[*The UNITED list of deaths of refugees and migrants while attempting to enter Europe (2019)*](http://www.unitedagainstracism.org/wp-content/uploads/2019/07/ListofDeathsActual.pdf)]
 
 ---
 ## L'exemple des migrants disparus ou décédés
@@ -330,4 +328,4 @@ class: inverse, center, middle
 
 # Merci !
 
-Contact : [timothee@datactivi.st](mailto:timothee@datactivi.st)
+Contact : [julia@datactivist.coop](mailto:julia@datactivist.coop)
