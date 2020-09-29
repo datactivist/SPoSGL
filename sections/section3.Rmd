@@ -1,7 +1,7 @@
 ---
 title: "Section 3 : Données, données… quelles données ? Les différents types de données"
 subtitle: "Culture générale des données"
-author: "Datactivist, 2018-2019"
+author: "Datactivist, 2020-2021"
 date: ""
 output:
   SlidesDatactivist::moon_reader:
@@ -44,9 +44,6 @@ Les productions de Datactivist sont librement réutilisables selon les termes de
 
 
 #### .red[1- Données qualitatives, quantitatives, structurées, échappées...]
-
-
-Ecoutez le podcast Datactivist .red["La diversité des données - quels liens entre Etat et système statistique"]
 
 Recommandé : Lire l'article ["GOOGLE MAPS’S MOAT - How far ahead of Apple Maps is Google Maps?"](https://www.justinobeirne.com/google-maps-moat)
 
@@ -378,4 +375,4 @@ class: inverse, center, middle
 
 # Merci !
 
-Contact : [timothee@datactivi.st](mailto:timothee@datactivi.st)
+Contact : [timothee@datactivi.st](mailto:julia@datactivi.st)
