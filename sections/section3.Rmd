@@ -63,17 +63,6 @@ class: inverse, center, middle
 ## 1. Données, données... quelles données ?
 
 ---
-## En guise d'introduction...
-
-Tous les pays possèdent-ils les mêmes données publiques ?
-
-**Ecoutez le podcast .red["La diversité des données - quels liens entre Etat et système statistique"] par Samuel Goëta, Datactivist**
-
-<BR>
-
-.center[<img src="./img/sticker.png" height="300"/>]
-
----
 
 ## Données quantitatives
 .pull-left[
