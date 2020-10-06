@@ -1,7 +1,7 @@
 ---
 title: "Section 4: L’écosystème des sources de données publiques"
 subtitle: "Culture générale des données"
-author: "Datactivist, 2018-2019"
+author: "Datactivist, 2020-2021"
 date: ""
 output:
   SlidesDatactivist::moon_reader:
@@ -320,4 +320,4 @@ class: inverse, center, middle
 
 # Merci !
 
-Contact : [timothee@datactivi.st](mailto:timothee@datactivi.st)
+Contact : [julia@datactivi.st](mailto:julia@datactivi.st)
