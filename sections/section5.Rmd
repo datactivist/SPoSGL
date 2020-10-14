@@ -1,7 +1,7 @@
 ---
 title: "Section 5: Manipulation et représentation de données : éviter des écueils classiques"
 subtitle: "Culture générale des données"
-author: "Datactivist, 2018-2019"
+author: "Datactivist, 2019-2020"
 date: ""
 output:
   SlidesDatactivist::moon_reader:
@@ -51,6 +51,8 @@ Les productions de Datactivist sont librement réutilisables selon les termes de
 Lire l'article d'Hervé le Bras ["La France inégale : Qui vote FN ? Pas forcément ceux à qui l’on pense"](https://theconversation.com/la-france-inegale-qui-vote-fn-pas-forcement-ceux-a-qui-lon-pense-75977)
 
 **2. .red[Représentations graphique et spatiale, attention danger !]**
+
+Lire l'article de Mathilde Damgé ["Sept conseils pour ne pas se faire avoir par les représentations graphiques"](https://www.lemonde.fr/les-decodeurs/article/2018/05/22/sept-conseils-pour-ne-pas-se-faire-avoir-par-les-representations-graphiques_5302680_4355770.html)
 
 Jouer avec le [générateur aléatoire de corrélations absurdes](https://www.lemonde.fr/les-decodeurs/article/2019/01/02/correlation-ou-causalite-brillez-en-societe-avec-notre-generateur-aleatoire-de-comparaisons-absurdes_5404286_4355770.html)
 
@@ -207,20 +209,28 @@ class: inverse, center, middle
 Cela est souvent réalisé consciemment pour faire passer un message
   - Exemple avec [le communiqué de presse de la SNCF](https://www.sncf.com/sncv1/ressources/cp_taux_de_participation_4_avril_2018.pdf) durant la grève des cheminots (avril 2018) sur le taux de grévistes :
   
-.center[<img src="./img/greve.png" height="220"/>]
+.center[<img src="./img/nifnaf_greve.jpg" height="220"/>]
 
 ---
 ## Les représentations graphiques problématiques
 
 Voici ce que donne le même graphique mais avec l'axe des ordonnées démarrant à 0 :
 
-.pull-left[<img src="./img/greve2.png" height="350"/>]
+.pull-left[<img src="./img/correction_greve.jpg" height="350"/>]
 
-.pull-right[*Pas le même rendu, n'est-ce pas ? ;)*]
+.pull-right[*Pas le même rendu, n'est-ce pas ? ;)* C'est Julien Guillot, datajournaliste pour le journal Libération qui a publié [cette correction sur Twitter](https://twitter.com/julienguillot/status/981482780377927681?s=20)]
 
   <BR><BR><BR><BR><BR>
 
 .pull-right[*NB: de nombreux exemples cités dans cette partie proviennent de [cet article des Décodeurs*](https://abonnes.lemonde.fr/les-decodeurs/article/2018/05/22/sept-conseils-pour-ne-pas-se-faire-avoir-par-les-representations-graphiques_5302680_4355770.html) du Monde]
+
+---
+## Les représentations graphiques problématiques
+
+A l'instar de Julien Guillot qui a corrigé plusieurs fois les graphiques publiés par la SNCF pendant les grèves, vous pouvez vous aussi corriger les graphiques erronés publiés dans les médias ! Le hastag [#nifnaf (ni fait ni à faire)](https://twitter.com/hashtag/nifnaf?src=hashtag_click) a été lancé sur Twitter à cet effet. 
+
+.pull-left[<img src="./img/nifnaf_twitter.png" height="350"/>]
+.pull-right[<img src="./img/nifnaf2_twitter.png" height="350"/>]
 
 ---
 ## Les représentations graphiques problématiques
@@ -497,4 +507,4 @@ class: inverse, center, middle
 
 # Merci !
 
-Contact : [timothee@datactivi.st](mailto:timothee@datactivi.st)
+Contact : [julia@datactivi.st](mailto:julia@datactivi.st)

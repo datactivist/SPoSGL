@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
   <head>
     <title>Section 5: Manipulation et représentation de données : éviter des écueils classiques</title>
-    <meta charset="utf-8">
-    <meta name="author" content="Datactivist, 2018-2019" />
+    <meta charset="utf-8" />
+    <meta name="author" content="Datactivist, 2019-2020" />
     <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
     <link href="libs/remark-css-0.0.1/datactivist.css" rel="stylesheet" />
     <link href="libs/remark-css-0.0.1/datactivist-fonts.css" rel="stylesheet" />
@@ -14,7 +14,7 @@ class: center, middle, inverse, title-slide
 
 # Section 5: Manipulation et représentation de données : éviter des écueils classiques
 ## Culture générale des données
-### Datactivist, 2018-2019
+### Datactivist, 2019-2020
 
 ---
 
@@ -53,6 +53,8 @@ Les productions de Datactivist sont librement réutilisables selon les termes de
 Lire l'article d'Hervé le Bras ["La France inégale : Qui vote FN ? Pas forcément ceux à qui l’on pense"](https://theconversation.com/la-france-inegale-qui-vote-fn-pas-forcement-ceux-a-qui-lon-pense-75977)
 
 **2. .red[Représentations graphique et spatiale, attention danger !]**
+
+Lire l'article de Mathilde Damgé ["Sept conseils pour ne pas se faire avoir par les représentations graphiques"](https://www.lemonde.fr/les-decodeurs/article/2018/05/22/sept-conseils-pour-ne-pas-se-faire-avoir-par-les-representations-graphiques_5302680_4355770.html)
 
 Jouer avec le [générateur aléatoire de corrélations absurdes](https://www.lemonde.fr/les-decodeurs/article/2019/01/02/correlation-ou-causalite-brillez-en-societe-avec-notre-generateur-aleatoire-de-comparaisons-absurdes_5404286_4355770.html)
 
@@ -209,20 +211,28 @@ class: inverse, center, middle
 Cela est souvent réalisé consciemment pour faire passer un message
   - Exemple avec [le communiqué de presse de la SNCF](https://www.sncf.com/sncv1/ressources/cp_taux_de_participation_4_avril_2018.pdf) durant la grève des cheminots (avril 2018) sur le taux de grévistes :
   
-.center[&lt;img src="./img/greve.png" height="220"/&gt;]
+.center[&lt;img src="./img/nifnaf_greve.jpg" height="220"/&gt;]
 
 ---
 ## Les représentations graphiques problématiques
 
 Voici ce que donne le même graphique mais avec l'axe des ordonnées démarrant à 0 :
 
-.pull-left[&lt;img src="./img/greve2.png" height="350"/&gt;]
+.pull-left[&lt;img src="./img/correction_greve.jpg" height="350"/&gt;]
 
-.pull-right[*Pas le même rendu, n'est-ce pas ? ;)*]
+.pull-right[*Pas le même rendu, n'est-ce pas ? ;)* C'est Julien Guillot, datajournaliste pour le journal Libération qui a publié [cette correction sur Twitter](https://twitter.com/julienguillot/status/981482780377927681?s=20)]
 
   &lt;BR&gt;&lt;BR&gt;&lt;BR&gt;&lt;BR&gt;&lt;BR&gt;
 
 .pull-right[*NB: de nombreux exemples cités dans cette partie proviennent de [cet article des Décodeurs*](https://abonnes.lemonde.fr/les-decodeurs/article/2018/05/22/sept-conseils-pour-ne-pas-se-faire-avoir-par-les-representations-graphiques_5302680_4355770.html) du Monde]
+
+---
+## Les représentations graphiques problématiques
+
+A l'instar de Julien Guillot qui a corrigé plusieurs fois les graphiques publiés par la SNCF pendant les grèves, vous pouvez vous aussi corriger les graphiques erronés publiés dans les médias ! Le hastag [#nifnaf (ni fait ni à faire)](https://twitter.com/hashtag/nifnaf?src=hashtag_click) a été lancé sur Twitter à cet effet. 
+
+.pull-left[&lt;img src="./img/nifnaf_twitter.png" height="350"/&gt;]
+.pull-right[&lt;img src="./img/nifnaf2_twitter.png" height="350"/&gt;]
 
 ---
 ## Les représentations graphiques problématiques
@@ -499,8 +509,9 @@ class: inverse, center, middle
 
 # Merci !
 
-Contact : [timothee@datactivi.st](mailto:timothee@datactivi.st)
+Contact : [julia@datactivi.st](mailto:julia@datactivi.st)
     </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
 <script>var slideshow = remark.create({
 "highlightStyle": "github",
@@ -510,26 +521,79 @@ Contact : [timothee@datactivi.st](mailto:timothee@datactivi.st)
 if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
   window.dispatchEvent(new Event('resize'));
 });
-(function() {
-  var d = document, s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
   if (!r) return;
   s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
   d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
 })();</script>
 
-<script type="text/x-mathjax-config">
-MathJax.Hub.Config({
-  tex2jax: {
-    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+<script>
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
   }
-});
+})();
+</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
 </script>
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>
 (function () {
   var script = document.createElement('script');
   script.type = 'text/javascript';
-  script.src  = 'https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
   if (location.protocol !== 'file:' && /^https?:/.test(script.src))
     script.src  = script.src.replace(/^https?:/, '');
   document.getElementsByTagName('head')[0].appendChild(script);
