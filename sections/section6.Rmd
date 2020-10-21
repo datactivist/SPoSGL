@@ -1,7 +1,7 @@
 ---
 title: "Section 6 : Open Data et gouvernement ouvert"
 subtitle: "Culture générale des données"
-author: "Datactivist, 2018-2019"
+author: "Datactivist, 2020-2021"
 date: ""
 output:
   SlidesDatactivist::moon_reader:
@@ -187,7 +187,7 @@ class:inverse, middle, center
 > La découvrabilité des données est un défi majeur. Nous avons des portails de données et des registres, mais les agences gouvernementales appartenant à un gouvernement national publient toujours des données de différentes manières et à différents endroits. (…) 
 **La découverte des données est une condition préalable pour que les données ouvertes atteignent leur potentiel et la plupart des données sont actuellement difficiles à trouver.**
 
-.center[<img src="./img/datagapsclean.jpg" height="200"/>] 
+.right[<img src="./img/datagapsclean.jpg" height="200"/>] 
 
 
 .footnote[https://index.okfn.org/insights/]
@@ -414,4 +414,4 @@ class: inverse, center, middle
 
 # Merci !
 
-Contact : [timothee@datactivi.st](mailto:timothee@datactivi.st)
+Contact : [julia@datactivi.st](mailto:julia@datactivi.st)
