@@ -1,7 +1,7 @@
 ---
 title: "Section 9 : Qu'est-ce que la data science ?"
 subtitle: "Culture générale des données"
-author: "Datactivist, 2018-2019"
+author: "Datactivist, 2020-2021"
 date: ""
 output:
   SlidesDatactivist::moon_reader:
@@ -207,7 +207,7 @@ class: inverse, center, middle
 
 ---
 
-Formalisé par la [School of data](https://schoolofdata.org/methodology/), il vise à modéliser les différentes étapes d'un projet d'analyse de données.
+Formalisé par la [School of data](https://schoolofdata.org/methodology/), il vise à modéliser les différentes étapes d'un projet d'analyse de donnée (se lit de haut en bas).
 
 .reduite[.center[![](./img/datapipeline.png)]]
 
