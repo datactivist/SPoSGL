@@ -6,13 +6,14 @@ a, a > code {
   position: absolute;
   bottom: 3em;
   padding-right: 4em;
-  font-size: 75%;
+  font-size: 90%;
 }
 .remark-code-line-highlighted     { background-color: #ffff88; }
 
 .inverse {
   background-color: #272822;
   color: #d6d6d6;
+  text-shadow: 0 0 20px #333;
 }
 .inverse h1, .inverse h2, .inverse h3 {
   color: #f3f3f3;

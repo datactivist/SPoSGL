@@ -287,13 +287,13 @@ Lev Manovich ([2011](http://manovich.net/content/04-projects/067-trending-the-pr
 
 ### Une nouvelle ère dans la construction du savoir ?
 
-L'abondance des données amène à un renouvellement des technniques, ouvre de nouveaux champs d'études et remet parfois en cause des savoirs que l'on pensait acquis. 
+L'abondance des données amène à un renouvellement des techniques, ouvre de nouveaux champs d'études et remet parfois en cause des savoirs que l'on pensait acquis. 
 
 .pull-left[
 ![](./img/memoiredeshommes.png)]
 
 .pull-right[
-> *L'indexation collaborative des fiches des soldats Morts pour la France sur le site Mémoire Des Hommes a permi de révéler que le jour de plus meurtrier de la Première Guerre mondiale pour les Français n'était pas le 22 août 1914.*]
+> *L'indexation collaborative des fiches des soldats Morts pour la France sur le site Mémoire Des Hommes a permis de révéler que le jour de plus meurtrier de la Première Guerre mondiale pour les Français n'était pas le 22 août 1914.*]
 
 ---
 
