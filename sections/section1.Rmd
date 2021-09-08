@@ -1,7 +1,7 @@
 ---
 title: "Section 1 : qu’est-ce qu’une donnée ? Petite histoire sociale des données et de leur exploitation "
 subtitle: "Culture générale des données"
-author: "Datactivist, 2020-2021"
+author: "Datactivist, 2021-2022"
 date: ""
 output:
   SlidesDatactivist::moon_reader:
@@ -210,7 +210,7 @@ La réflexion autour de la fin de la science part du constat de l'explosion de l
 .footnote[[Consulter la source](http://internetactu.blog.lemonde.fr/2011/09/30/big-data-est-ce-que-le-deluge-de-donnees-va-rendre-la-methode-scientifique-obsolete/)]
 ]
 .pull-right[
-.reduite.center[![](./img/internetminute2020.jpg)
+.reduite.center[![](./img/internetminute2021.jpg)
 ]
 ]
 
@@ -218,7 +218,7 @@ La réflexion autour de la fin de la science part du constat de l'explosion de l
 
 ## De plus en plus de données
 
-<img src="./img/internetminute2018.jpg" height="240"/> | <img src="./img/internetminute2019.jpg" height="240"/> | <img src="./img/internetminute2020.jpg" height="240"/>
+<img src="./img/internetminute2019.jpg" height="240"/> | <img src="./img/internetminute2020.jpg" height="240"/> | <img src="./img/internetminute2021.jpg" height="240"/>
 
 En deux jours, l’humanité produit autant d'information que ce qu'elle a produit depuis la naissance de l'écriture jusqu’en 2003.
 
