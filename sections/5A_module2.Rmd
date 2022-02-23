@@ -45,8 +45,9 @@ Les productions de Datactivist sont librement réutilisables selon les termes de
 #### 2.2 Les opportunités offertes par le datasharing
 #### 2.3 Les infrastructures de données
 
-#### Etude de cas : Le AgDataHub
+#### Etude de cas : Le AgDataHub, le datasharing dans l'agriculture
 
+*à voir : L'[interview]() de Théo-Paul Haezebrouck*
 ---
 class: inverse, center, middle
 # Le datasharing
