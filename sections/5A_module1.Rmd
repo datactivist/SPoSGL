@@ -45,9 +45,10 @@ Les productions de Datactivist sont librement réutilisables selon les termes de
 #### 1.2 Le cas Google
 #### 1.3 Les freins du RGPD européen
 #### 1.4 Des exemples d'échanges de données
-*à lire : Ivan Manokha, [Le scandale Cambridge Analytica contextualisé: le capital de plateforme, la surveillance et les données comme nouvelle « marchandise fictive](https://journals.openedition.org/conflits/19779)*
+*à lire : Ivan Manokha, Le scandale Cambridge Analytica contextualisé: le capital de plateforme, la surveillance et les données comme nouvelle « marchandise fictive (lire sur [openedition.org](https://journals.openedition.org/conflits/19779))*
 
 #### Etude de cas : Le marketing électoral
+*à lire : Anaïs Theviot, « Une économie de la promesse » : mythes et croyances pour vendre du Big data électoral (lire sur [cairn.info](https://www.cairn.info/revue-les-enjeux-de-l-information-et-de-la-communication-2018-2-page-45.htm))*
 
 ---
 class: inverse, center, middle

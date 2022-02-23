@@ -99,6 +99,8 @@ Les infrastructures de données sont diverses et peuvent être classées selon l
 * Des **répertoires multisites et multisources** intégrant des jeux de données de producteurs variés n'appartement pas forcément au même domaine, à la même filière, au même pays...
 * Des **plateformes** plus complètes permettant l'accès à des jeux de données mais aussi des échanges entre utilisateurs, la génération des vues analytiques comme des tableaux de bord...
 
+*D'après Rob Kitchin, [The Data Revolution: Big Data, Open Data, Data Infrastructures and Their Consequences](https://fr.fr1lib.org/book/2476044/d0039c)*
+
 ---
 
 class: inverse, center, middle
