@@ -39,12 +39,12 @@ Les productions de Datactivist sont librement réutilisables selon les termes de
 
 .red[PARTIE 1 : LE MARCHE DES DONNEES]
 
-### Les vendeurs et les acheteurs de données
+### 1. Les vendeurs et les acheteurs de données
 
-#### 1. Les transactions de données
-#### 2. Le cas Google
-#### 3. Les freins du RGPD européen
-#### 4. Des exemples d'échanges de données
+#### 1.1 Les transactions de données
+#### 1.2 Le cas Google
+#### 1.3 Les freins du RGPD européen
+#### 1.4 Des exemples d'échanges de données
 *à lire : Ivan Manokha, [Le scandale Cambridge Analytica contextualisé: le capital de plateforme, la surveillance et les données comme nouvelle « marchandise fictive](https://journals.openedition.org/conflits/19779)*
 
 #### Etude de cas : Le marketing électoral
