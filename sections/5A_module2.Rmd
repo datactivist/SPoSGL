@@ -120,7 +120,7 @@ L'objectif est de permettre la création de nouveaux services innovants par l'an
 
 #### .red[Les données]
 
-Au sein du .red[Agdatahub](https://agdatahub.eu/) la plateforme API-Agro permet d'échanger des données agricoles en open data partagées par le Ministère de l'Agriculture par exemple, mais aussi des données d'exploitations agricoles de toutes filières :
+Au sein du .red[[Agdatahub](https://agdatahub.eu/)], la plateforme API-Agro permet d'échanger des données agricoles en open data partagées par le Ministère de l'Agriculture par exemple, mais aussi des données d'exploitations agricoles de toutes filières :
 * des données économiques
 * des données géologiques
 * des données géographiques relatives aux parcelles et aux batiments
@@ -161,7 +161,9 @@ Il y a deux grandes familles d'usage :
 
 * La première concerne **le service à l'agriculteur**
 Les décideurs politiques peuvent par exemple mieux comprendre les mécanismes à l'oeuvre et prendre des décisions plus éclairées pour accompagner et aider les agriculteurs Les entreprises dont les produits sont destinés aux exploitations agricoles peuvent proposer des solutions plus efficaces et répondant mieux aux besoins.
-> "pour créer des solutions relatives à l'agriculture de précision, au pilotage ou à la simulation pour "minimiser l'impact environnemental et dégager un revenu digne", Sébastien Picardat, directeur général
+
+Sébastien Picardat, directeur général :
+> "pour créer des solutions relatives à l'agriculture de précision, au pilotage ou à la simulation", pour "minimiser l'impact environnemental et dégager un revenu digne". 
 
 * La seconde concerne **la valorisation marketing et les pratiques commerciales**.
 Une filère peut par exemple suivre et valoriser les données de ses exploitants pour montrer les évolutions vertueuses en cours.
