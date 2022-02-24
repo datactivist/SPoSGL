@@ -1,0 +1,216 @@
+---
+title: "Module 3 : Les données ouvertes, un bien commun"
+subtitle: "Modèle économique et métiers de la donnée"
+author: "Datactivist, 2021-2022"
+date: ""
+output:
+  SlidesDatactivist::moon_reader:
+    css: [default, datactivist, datactivist-fonts]
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+params:
+  event: Modèle économique et métiers de la donnée, Sciences Po Saint-Germain-en-Laye, module 3
+---
+
+layout: true
+  
+
+`r paste0("<div class='my-footer'><span>", params$event, "</span> <center><div class=logo><img src='", system.file('rmarkdown', 'templates', 'xaringan', 'resources', 'img', 'accidents.png', package='SlidesDatactivist'), "' width='100px'></center></span></div>")` 
+
+---
+
+class: center, middle
+
+Ces slides en ligne : http://datactivist.coop/SPoSGL/5A_module3.html
+
+Sources : https://github.com/datactivist/SPoSGL/
+
+
+Les productions de Datactivist sont librement réutilisables selon les termes de la licence [Creative Commons 4.0 BY-SA](https://creativecommons.org/licenses/by-sa/4.0/legalcode.fr).
+
+<BR>
+<BR>
+
+.center[<img src="./img/ccbysa.png" height="100"/>] 
+---
+
+.red[PARTIE 1 : LE MARCHE DES DONNEES]
+
+### 3. Les données ouvertes : un bien commun
+
+#### 3.1 Les enjeux de l'ouverture des données
+#### 3.2 Une obligation légale pour certains
+#### 3.3 Une volonté propre pour d'autres
+
+#### Ces dix choses incroyables qui n'existeraient pas sans l'open data
+
+*à écouter : le [podcast Dataworkers #15](https://open.spotify.com/episode/5YiCozlkNY9C47YnjDqz72?si=h3ClmuJySMa7tEZX9RSNjg) avec Joël Gombin*
+
+---
+class: inverse, center, middle
+# Les données ouvertes : un bien commun
+
+Les .red[données ouvertes] ou .red[open data] sont des données mises à disposition **gratuitement** et sous **licence libre**.
+
+On parle ici de données brutes et pas d'analyses statistiques. Le plus couramment il s'agit de fichier tableur type .csv mais il y a également d'autres formats de fichier.
+
+.center[![](./img/sgl_arbres.png)]
+.center[jeu de données des arbres de Saint-Germain-en-Laye publié sur [data.gouv.fr](https://www.data.gouv.fr/fr/datasets/r/96f4164d-956d-4c1c-b161-68724eb0ccdc)]
+
+---
+
+### .red[3.1 Les enjeux de l'ouverture des données]
+
+* **La transparence démocratique** : réduire les asymétries d’information en donnant accès au matériau brut de l’information et du savoir.
+
+* **La participation citoyenne** : amener les citoyens à participer davantage à l’action publique en leur permettant de se construire un point de vue, des arguments et pourquoi pas des propositions.
+
+* **L’efficacité de l’action publique** : améliorer la qualité des services publics par la création de services facilitant l’analyse et la modélisation des données.
+
+* **La modernisation de l’administration** : désiloter l'administration, l’ouvrir davantage aux citoyens et faciliter leur vie quotidienne.
+
+* **L’innovation économique et sociale** : permettre le développement de services innovants qui sont autant d’opportunités de création d’entreprises ou d’initiatives citoyennes.
+
+---
+
+### .red[3.2 Une obligation légale pour certains]
+
+La [loi pour une république numérique](https://www.vie-publique.fr/eclairage/20301-loi-republique-numerique-7-octobre-2016-loi-lemaire-quels-changements) du 7 octobre 2016 (dite loi Lemaire) oblige toute structure en charge d'un service public à publier et valoriser les données de gestion de ce service public.
+
+Cette obligation concerne **toutes les données par défaut**, à l'exclusion de données spécifiques protégées par la loi comme les données à caractère personnel.
+
+**Le cas des collectivités territoriales :**
+* Sont concernées par cette loi les collectivités territoriales de plus de 3500 habitants et 50 agents.
+* aujourd'hui environ 85% des collectivités territoriales concernées ne publient pas de données malgré l'obligation légale : elles manquent de temps, de moyens humains et aussi et surtout d'acculturation et de méthode.
+
+---
+
+### .red[3.3 Une volonté propre pour d'autres]
+
+Certaines entreprises mettent à disposition leurs données en open data.
+* Elles le font en général sur leur propre plateforme open data mais parfois aussi via des tiers. 
+* Elles ne partagent pas toutes leurs données mais une sélection d'entre elles et parfois à une maille agrégée.
+* Elles le font de manière volontaire, c’est à dire hors, ou au-delà, du cadre juridique  qui  impose  l’ouverture  de  certaines  données  du  secteur  privé (énergie, transport, délégataires de service public, etc.)
+
+Leurs objectifs :
+* Être reconnues comme leader ou en position de force
+* Pour faciliter la création de contrats ou de partenariats avec d'autres structures
+* Dans un but de communication, pour montrer qu'elles sont en phase avec les valeurs de la société (open data washing)
+
+---
+
+### .red[3.3 Une volonté propre pour d'autres]
+
+[Strava](https://www.strava.com/?hl=fr) publie en open data ses données de flux (voir le [module 1](https://datactivist.coop/SPoSGL/sections/5A_module1#11)) :
+
+* Le volume de données publiées montre la position dominante de Strava (près d'1 milliard d'utilisteurs)
+* Les données publiées peuvent servir de produits d'appel pour d'autres données non publiées (les données temps rééel par exemple) et donner envie à des collectivités de travailler avec Strava pour réfléchir aux mobilités et aux aménagements.
+* Strava argumente qu'en ouvrant ses données elle veut contribuer à améliorer les aménagement et la sécurité des piétons et des cyclistes.
+
+.center[<img src="./img/strava_metro.png" height="200"/>]
+
+---
+
+### .red[3.3 Une volonté propre pour d'autres]
+
+[Strava](https://www.strava.com/?hl=fr) publie en open data ses données de flux (voir le [module 1](https://datactivist.coop/SPoSGL/sections/5A_module1#11)) :
+
+.pull-left[
+* Strava utilise les données ouvertes d'[Open Street Map](https://www.openstreetmap.fr/) pour ses cartes. En publiant ses propres données elle permet d'améliorer les cartes d'OSM en identifiant des chemins non répertoriés empruntés par les coureurs par exemple. Elle améliore donc les données de son partenaire.
+]
+
+.pull-right[![](./img/strava_osm.png)]
+
+---
+
+### .red[3.3 Une volonté propre pour d'autres]
+
+Neuville-Saint-Remy a publié [quelques jeux de données en open data](https://www.data.gouv.fr/fr/organizations/commune-de-neuville-saint-remy/) avec l'accompagnement des étudiants de 4e année de Sciences Po Saint-Germain-en-Laye durant le Challenge Data. Par exemple :
+
+* Les actes d'état civil
+* Les prénoms des nouveaux nés
+* Les subventions accordées par la ville
+* La provenance géographique des élèves de primaire
+
+Neuville-Saint-Remy compte plus de 3500 habitants mais moins de 50 agents. La commune n'est pas obligée de publier ses données d'après la loi, mais elle y trouve aussi son intérêt :
+* le maire communique en transparence sur son action publique
+* les agents sont heureux de partager et de valoriser leur travail
+* la commune se positionne comme une commune moderne bien que petite et rurale
+
+---
+
+class: inverse, center, middle
+
+# 5 choses extraordinaires qui n'existeraient pas sans l'open data
+
+---
+
+#### .red[Pokemo GO]
+
+Depuis fin 2017, [l'application Pokemon Go utilise les cartes d'Open Street Map au lieu de celles de Google Maps](https://teamopendata.org/t/pokemon-go-migre-sur-openstreetmap/113).
+
+[OpenStreetMap](https://www.openstreetmap.fr/) est une carte coopérative libre. Les données sont obtenues grâce à la contribution de tous. N'importe qui peut [contribuer aux données d'OSM](https://www.openstreetmap.fr/contribuer/). Les données d'Open Street Map sont ainsi publiées en open data sous [licence ODbL](https://fr.wikipedia.org/wiki/Open_Database_License) etelles sont beaucoup plus précises que celles de Google Maps :
+
+.pull-left[![](https://datactivist.coop/dataweek/img/gmaps.png)]
+.pull-right[![](https://datactivist.coop/dataweek/img/osm.png)]
+
+---
+
+#### .red[Yuka]
+
+[Yuka](https://yuka.io/) est une application mobile qui décrypte les étiquettes des produits alimentaires et cosmétiques et analyse leur impact sur la santé.
+
+L'application est utilisée par 25 millions d'utilisateurs à travers 12 pays et son fonctionnement repose sur la base de données [Open food facts](https://fr.openfoodfacts.org/decouvrir), une base de données libre et contributive de produits alimentaires du monde entier. Les contributeurs utilisent leur appareil photo pour scanner les codes barres et envoyer des photos des produits et de leurs étiquettes afin d'alimenter la base.
+
+.center[<img src="https://datactivist.coop/dataweek/img/snapshot_off.png" height="300"/>]
+
+---
+
+#### .red[Citymapper]
+
+Citymapper est une application mobile de déplacements urbains et de calculs d'itinéraires créée en 2011 par Amat Yusuf, un ancien employé de Google. Elle est active dans de nombreuses villes à l'échelle nationale et internationale et concurrence largementles applications officielles de transporteurs comme la RATP à Paris par exemple.
+
+C'est l'ouverture des données de transport qui permet l'ajout de nouvelles villes dans l'application, comme celles des [réseaux de transport de la métropole Aix-Marseille](https://trouver.datasud.fr/dataset/reseaux-de-transports-en-commun-de-la-metropole-daix-marseille-provence-et-des-bouches-du-rhone).
+
+.pull-left[![](./img/citymapper_marseille.png)]
+.pull-right[![](./img/citymapper_bouchesdurhone.png)]
+
+---
+
+#### .red[La polémique sur les 80 km/h]
+
+En se basant sur [les données d'accidentologie publiées par le Ministère de l'Intérieur sur data.gouv.fr](https://www.data.gouv.fr/fr/datasets/bases-de-donnees-annuelles-des-accidents-corporels-de-la-circulation-routiere-annees-de-2005-a-2020/), l'association 40 millions d'automobilistes a comparé le nombre d'accidents avant et pendant l'expérimentation des 80 km/h sur trois tronçons de routes secondaires en France.
+
+> "La contre-expertise a montré que « la limitation de vitesse n’a en rien permis de réduire la mortalité routière sur ces axes : 2 accidents mortels sont à déplorer sur les 86 kilomètres de l’expérimentation en 2016, soit 5 fois plus que la moyenne nationale qui s’élevait la même année à 0,4 tué pour 86 km de routes. » Ces chiffres ont été repris par la presse pour remettre en cause le rapport qui a fondé une partie de l’argumentaire du gouvernement en faveur de la généralisation de la mesure de la limitation de vitesse." (Source : Samuel Goëta)
+
+---
+
+#### .red[Les demandes de valeurs foncières]
+
+Le site [meilleursagents.com](https://www.meilleursagents.com/prix-immobilier/dvf/)  permet de consulter les prix au m² à la localition et à la vente des biens immobiliers localisés autour d'une adresse ainsi que les prix de vente précis de biens géolocalisés et caractérisés vendus au cours des 5 dernières années.
+
+Ceci est rendu possible par l'ouverture de données publiques publiées sur data.gouv.fr
+
+![](https://datactivist.coop/dataweek/img/dvf_dgf.png)
+
+---
+
+class: inverse, center, middle
+# Podcast
+
+.center[Joël Gombin est le cofondateur de Datactivist.]
+.center[Dans ce podcast, il explique l’intérêt de l’open data et comment ce type de données peut être bénéfique à l’ensemble de la population.]
+
+.center[[<img src="./img/podcast_joel.png" height="200"/>](https://open.spotify.com/episode/5YiCozlkNY9C47YnjDqz72?si=h3ClmuJySMa7tEZX9RSNjg)]
+.center[écoutez sur [spotify](https://open.spotify.com/episode/5YiCozlkNY9C47YnjDqz72?si=h3ClmuJySMa7tEZX9RSNjg)]
+
+---
+
+class: inverse, center, middle
+
+# Merci !
+
+Contact : [julia@datactivist.coop](mailto:julia@datactivist.coop)
