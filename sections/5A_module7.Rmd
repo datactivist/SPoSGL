@@ -1,0 +1,203 @@
+---
+title: "Module 7 : Conquérir et/ou défendre une position stratégique"
+subtitle: "Modèle économique et métiers de la donnée"
+author: "Datactivist, 2021-2022"
+date: ""
+output:
+  SlidesDatactivist::moon_reader:
+    css: [default, datactivist, datactivist-fonts]
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+params:
+  event: Modèle économique et métiers de la donnée, Sciences Po Saint-Germain-en-Laye, module 7
+---
+
+layout: true
+  
+
+`r paste0("<div class='my-footer'><span>", params$event, "</span> <center><div class=logo><img src='", system.file('rmarkdown', 'templates', 'xaringan', 'resources', 'img', 'accidents.png', package='SlidesDatactivist'), "' width='100px'></center></span></div>")` 
+
+---
+
+class: center, middle
+
+Ces slides en ligne : http://datactivist.coop/SPoSGL/5A_module3.html
+
+Sources : https://github.com/datactivist/SPoSGL/
+
+
+Les productions de Datactivist sont librement réutilisables selon les termes de la licence [Creative Commons 4.0 BY-SA](https://creativecommons.org/licenses/by-sa/4.0/legalcode.fr).
+
+<BR>
+<BR>
+
+.center[<img src="./img/ccbysa.png" height="100"/>] 
+---
+
+.red[PARTIE 3 : LES DONNEES COMME ACTIFS STRATEGIQUES]
+
+### 7. Conquérir et/ou défendre une position stratégique
+
+#### 7.1 Constituer un patrimoine de données
+#### 7.2 Cartographier ses données
+#### 7.3 Construire un data pipeline performant
+
+#### Etude de cas : Netflix, de la distribution à la production de contenu
+
+---
+class: inverse, center, middle
+# Conquérir et/ou défendre une position stratégique
+
+Les données sont utilisées comme un moyen pour analyser les opportunités et y répondre. A ce titre, elles constituent un actif stratégique de la structure qui doit en prendre soin.
+
+---
+
+### .red[7.1 Constituer un patrimoine de données]
+
+Conquérir ou défendre une position stratégique avec les données nécessite dans un premier temps de constituer un véritable .red[**patrimoine de données**] pour analyser les opportunités.
+
+Les données dans les entreprises représentent une valeur considérable mais encore trop souvent méconnue. Certaines structures n'ont pas une connaissance exhaustive de toutes les données qu'elles produisent. Pour cela, elles peuvent réaliser une .red[cartographie des données].
+
+---
+
+### .red[7.2 Cartographier ses données]
+
+Cartographier ses données consiste à recenser toutes les données produites par une structure avec :
+* leur provenance
+* leur point d'entrée logiciel
+* les éléments qu'elles contiennent
+* leur fréquence de production et de mise à jour
+* leur qualité et les différents contrôles auxquelles elles sont soumises
+* leurs traitements
+* leurs usages
+* ...
+
+.center[<img src="./img/cartographie_donnees2.png" height="150"/>] 
+.center[[Cartographie des données des collectivités territoriales](https://airtable.com/shrgaLtdXiBqLcxil) réalisée par Datactivist]
+
+---
+
+### .red[7.3 Le data pipeline]
+
+Un .red[**data pipeline**] fait référence aux étapes du **cycle de vie de la donnée** au sein d'une structure :
+
+* **la collecte** : enregistrer et clôturer les données sur une période donnée
+* **la sécurisation** : pour éviter les risque de modification ou de suppression
+* **l'archivage** : figer et dater avec un dispositif technique garantissant l’intégrité des informations. Sans cela il sera impossible d'analyser les données sur la durée.
+* **le partage** : au sein des différents services de la structure et vers l'extérieur
+* **l'exploitation** : pour valoriser les données
+
+Une bonne maitrise de chaque étape du pipeline est indispensable à une réelle valorisation des données d'une structure. Si une étape est négligée, il sera difficile, voir impossible de construire une stratégie de développement basée sur les données.
+
+---
+
+class: inverse, center, middle
+
+# Etude de cas : Netflix, de la distribution à la production de contenu
+
+---
+
+#### .red[Produire les données de sa réussite]
+
+Absolument tout ce qui se passe côté utilisateur est loggé, stocké et utilisé pour personnaliser au maximum l'expérience. Les données sur lesquelles s'appuient les services de Netflix sont d'une grande richesse quantitative mais aussi qualitative.
+
+* notations des contenus par les abonnés
+* popularité des contenus (évaluée de multiples manières)
+* données de lecture des vidéos (durée, heure, matériel...)
+* listes d'attente
+* interactions des abonnés avec la présentation d'un contenu
+* termes de recherche
+...
+
+> *To properly learn how to personalize artwork we need to collect a lot of data to find signals that indicate when one piece of artwork is significantly better for a member.([source](https://medium.com/netflix-techblog/artwork-personalization-c589f074ad76))*
+
+---
+
+#### .red[Un algorithme de recommandation]
+
+La fonction principale de la page d'accueil est d'aider chaque membre à trouver facilement quelque chose à regarder. Le défi consiste à **sélectionner** les contenus les plus pertinents pour l'abonné et de les **organiser** tout aussi pertinemment sur la page d'accueil.
+
+L'algorithme de Netflix compose la page d'accueil de chaque abonné :
+* il sélectionne les contenus adaptés parmis des milliers de vidéos
+* il sélectionne les groupes thématiques adaptés à afficher (il existe 10000 groupes "rows" possibles)
+* il organise l'affichage des groupes thématiques pour optimiser leur agencement dans la page
+* il organise les vidéos dans un ordre pertinent au sein des groupes
+
+.center[<img src="https://datactivist.coop/dataculture/img/algo_homepage.png" height="200"/>] 
+
+---
+
+#### .red[Faire des choix]
+
+Chaque algorithme comporte un .red[scoring] qui lui permet de faire des choix. Celui de Netflix doit trouver le juste équilibre entre :
+* répondre aux goûts personnels de chaque abonné et veillez à couvrir tous ses centres d'intérêts
+* aider chaque abonné à trouver facilement le contenu qui va lui plaire mais aussi l'aider à explorer la diversité du catalogue et peut-être trouver de nouveaux centres d'intérêt
+* montrer les nouveautés et la richesse du catalogue tout en maintenant une certaine continuité afin que l'abonné garde des points de repère et puisse retrouver un contenu qu'il se souvient avoir vu su sa page d'accueil.
+
+---
+class: inverse, middle
+# Article
+
+Pour en savoir plus :
+Blog, Netflix Technology. [« Learning a Personalized Homepage »](https://netflixtechblog.com/learning-a-personalized-homepage-aa8ec670359a). Medium, 19 avril 2017.
+
+---
+
+#### .red[Une personnalisation très fine]
+
+Le saviez-vous ? Netflix va jusqu'à personnaliser les visuels qu'il présente à ses abonnés ! Si auparavant la firme recherchait le meilleur visuel d'illustration pour tous ses membres, elle adapte maintenant le visuel à chaque abonné en fonction de ses goûts. 
+
+.center[<img src="https://datactivist.coop/dataculture/img/artwork.png" height="300"/>] 
+
+Les illustrations personnalisées de Stranger Things couvrent toutes les facettes de la série (fantastique, vintage, angoisse, amitié, adolescence...) pour attirer un public plus varié vers ce programme.
+
+---
+
+#### .red[Une personnalisation très fine]
+
+> *Chloé, abonnée Netflix :
+"J'avais remarqué que sur le profil de mon copain, le visuel pour Lucifer était une image de combat alors que moi j'avais la version Lucifer torse nu ! Je rigole en imaginant comment l'algorithme m'a catégorisée !"*
+
+Cette personnalisation peut également se faire en fonction des acteurs et actrices que les abonnés apprécient d'après leurs données :
+
+.center[<img src="https://datactivist.coop/dataculture/img/artwork2.png" height="250"/>] 
+
+---
+class: inverse, middle
+# Article
+
+Pour en savoir plus :
+Blog, Netflix Technology. [« Artwork Personalization at Netflix »](https://netflixtechblog.com/artwork-personalization-c589f074ad76). Medium, 7 décembre 2017. https://netflixtechblog.com/artwork-personalization-c589f074ad76.
+
+---
+
+### .red[Une production de contenus basée sur les données]
+
+Dans une industrie historiquement influencée par l'intuition, Netflix revendique de faire du **"data driven programming"**.
+
+**La position de distributeur donne ainsi un avantage concurrentiel unique à Netflix en tant que producteur** : Netflix se base sur ses données d'activité de distrubtion pour prendre des décisions dans ses activités de production.
+
+> Netflix à Kevin Spacey :
+“We believe in you. We’ve run our data and it tells us that our audience would watch this series. We don’t need you to do a pilot. How many do you wanna do?” ([source](https://www.newyorker.com/business/currency/hollywoods-big-data-big-deal?intcid=mod-most-popular))
+
+(Mais le facteur humain reste significatif, même chez Netflix, d'après [ce meme article](https://www.newyorker.com/business/currency/hollywoods-big-data-big-deal?intcid=mod-most-popular))
+
+---
+
+class: inverse, middle
+# Video
+
+.center[
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cVyXtpJAOIk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+]
+
+---
+
+class: inverse, center, middle
+
+# Merci !
+
+Contact : [julia@datactivist.coop](mailto:julia@datactivist.coop)
