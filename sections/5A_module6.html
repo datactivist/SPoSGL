@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+  <head>
+    <title>Module 6 : Prendre des décisions</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Datactivist, 2021-2022" />
+    <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
+    <link href="libs/remark-css-0.0.1/datactivist.css" rel="stylesheet" />
+    <link href="libs/remark-css-0.0.1/datactivist-fonts.css" rel="stylesheet" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# Module 6 : Prendre des décisions
+## Modèle économique et métiers de la donnée
+### Datactivist, 2021-2022
+
+---
+
+
+layout: true
+  
+
+&lt;div class='my-footer'&gt;&lt;span&gt;Modèle économique et métiers de la donnée, Sciences Po Saint-Germain-en-Laye, module 6&lt;/span&gt; &lt;center&gt;&lt;div class=logo&gt;&lt;img src='' width='100px'&gt;&lt;/center&gt;&lt;/span&gt;&lt;/div&gt; 
+
+---
+
+class: center, middle
+
+Ces slides en ligne : http://datactivist.coop/SPoSGL/5A_module3.html
+
+Sources : https://github.com/datactivist/SPoSGL/
+
+
+Les productions de Datactivist sont librement réutilisables selon les termes de la licence [Creative Commons 4.0 BY-SA](https://creativecommons.org/licenses/by-sa/4.0/legalcode.fr).
+
+&lt;BR&gt;
+&lt;BR&gt;
+
+.center[&lt;img src="./img/ccbysa.png" height="100"/&gt;] 
+---
+
+.red[PARTIE 2 : LES DONNEES COMME LEVIERS D'OPPORTUNITES]
+
+### 6. Prendre des décisions
+
+#### 6.1 Les données comme source de connaissances
+#### 6.2 Pour des analyses de données fines et précises
+#### 6.3 Prévoir
+
+#### Etude de cas : Signaux Faibles, un algorithme pour éviter les faillites
+
+---
+class: inverse, center, middle
+# Prendre des décisions
+
+
+
+---
+
+### .red[6.1 Les données comme source de connaissances]
+
+Les données sont le plus petit élément de la connaissance. 
+
+.center[&lt;img src="./img/competence.png" height="250"/&gt;] 
+
+On appelle .red[**data driven**] une approche qui consiste à prendre des décisions stratégiques sur la base d’une analyse et d’une interprétation des données. Une entreprise est qualifiée de **data driven** lorsqu'elle se sert de technologies d'analyse des données pour son pilotage stratégique.
+
+---
+
+### .red[6.2 Pour des analyses de données fines et précises]
+
+Il peut être utile de croiser ses propres données avec des sources extérieures pour répondre à des problématiques et à des questions plus larges.
+
+Certaines de ces données sont en **open data** donc gratuites et réutilisables, d'autres peuvent être achetées auprès de **data brokers** par exemple.
+
+*Exemple :
+Les [données météorologiques de Météo France disponibles en open data](https://donneespubliques.meteofrance.fr/) permettent par exemple, d’analyser l’impact de la météo sur la fréquentation de la clientèle, le volume et la composition de ses achats.*
+
+Des **processus d'automatisation**  pour collecter et interroger les données en temps réel peuvent être mis en place via des interfaces de programmation .red[**API**].
+*Exemple : le logiciel de navigation d'un éhicule va calculer sa vitesse de déplacement en fonction de sa géolocalisation et des horaires, puis il va interroger via API une base de données pour connaitre la vitesse autorisée sur la portion de route sur laquelle le véhicule est géolocalisé. Ainsi il pourra afficher un message d'alerte pour indiquer de ralentir si nécessaire.*
+
+---
+
+### .red[6.3 Prévoir]
+
+L'.red[**analyse prédictive**] permet d'extraire des connaissances à partir de données et de faire des hypothèses sur des événements à venir. Ces hypothèses sont l'aboutissement de la création de **modèles prédictifs** établis à partir de liens entre les données. L'analyse de relations entre différents facteurs permet de prédire des réactions en chaîne pour évaluer des situations à risques ou à opportunités.
+
+Exemple :
+Le groupe Safran, constructeur aéronautique, utilise les données de vol pour prédire les usures des pièces et planifier les actions de maintenance :
+
+&gt; "Son expertise dans les données de vol permet à Safran Engineering Services de proposer de nouvelles solutions en matière de suivi de l'état de santé des pièces, notamment en ce qui concerne les roulements des turbopropulseurs, les trains d'atterrissage, les freins et roues, les moteurs d'hélicoptère, etc. La société accompagne également ses clients via l’optimisation des plans de maintenance opérationnelle relatifs à l'analyse de la flotte ou par la création d’analyse et de rapports d’indicateurs commerciaux représentatifs de la flotte." ([source](https://www.safran-group.com/fr/produits-services/analyse-donnees-maintenance-predictive))
+
+---
+
+class: inverse, center, middle
+
+# Etude de cas : Signaux Faibles, un algorithme pour éviter les faillites
+
+---
+
+#### .red[Prévenir pour mieux guérir]
+
+L'idée consiste à réunir toutes les données utiles pour les analyser et identifier les "signaux faibles" à partir de trajectoires d'entreprises ayant fait défaut. 
+
+&gt; L'outil permet de repérer les tendances et les fragilités, en tâchant de mettre en valeur les signes avant-coureurs de difficultés des entreprises.
+
+Le .red[modèle prédictif] peut identifier les **entreprises à risque** et fournir **une prédiction de défaillance à 18 mois**.
+
+.center[&lt;img src="./img/signauxfaibles_detection.png" height="200"/&gt;] 
+
+On obient ainsi une **liste d'entreprises potentiellement en difficulté**. Elle est transmise aux différentes administrations partenaires pour activer des aides et de l'accompagnement.
+
+---
+
+#### .red[Les données]
+
+* Les données des **URSSAF** sur les défaillance, les montants des cotisations, des dettes, les demandes de délais depaiements, les demandes préalables à l'embauche.
+* Les données des **DIRECCTE** : autorisations et consommations d'activité partielle, le recours à l'intérim, les délcaration des mouvements de main-d'oeuvre.
+* La base "paydex" d'**Altarès** sur les retards de paiements.
+* La [base SIRENE](https://www.data.gouv.fr/fr/datasets/base-sirene-des-entreprises-et-de-leurs-etablissements-siren-siret/) des entreprises
+* La [base Diane](https://www.bvdinfo.com/fr-fr/nos-produits/donnees/national/diane) de **Bureau Van Dijk** contient les comptes et les bilans des entreprises françaises ayant publié leurs comptes annuels auprès des Greffes des Tribunaux de Commerce.
+* Les données financières de la **Banque de France** avec 6 ratios financiers comme le délai estimé de paiement des fournisseurs ou le poids des des dettes fiscales et sociales sur la valeur ajoutée.
+
+.center[&lt;img src="./img/signauxfaibles_data.png" height="150"/&gt;] 
+
+---
+
+#### .red[Une construction par étape]
+
+**A l'origine une expérimentation locale** :
+Le projet a vu naissance en Bourgogne-France-Comté, il est né de la combinaison de données disponibles à l'échelle territoriale.
+* 2014 : naissance de l'idée à la DIRECCTE Bourgogne
+* 2014-2016 : premiers développements
+* 2016-2019 : mise en production en Bourgogne
+* 2019 : déploiement dans l'ensemble des régions métropolitaines
+
+**L'algorithme tourne désormais sur la France entière.** 
+
+Signaux Faibles est accompagné par [beta.gouv](https://beta.gouv.fr/), un programme d’incubation qui aide les administrations publiques à construire des services numériques utiles. L'équipe est portée par le Ministère de l'Économie, des Finances et de la Relance (Direction Générale des Entreprises) en partenariat avec le Ministère du Travail, de l'Emploi et de l'Insertion (Délégation générale à l'Emploi et à la Formation professionnelle), la Banque de France, l'ACOSS et la DINUM dans Incubateur du MEFR.
+
+---
+
+class: inverse, center, middle
+
+# Merci !
+
+Contact : [julia@datactivist.coop](mailto:julia@datactivist.coop)
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();</script>
+
+<script>
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
