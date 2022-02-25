@@ -42,7 +42,7 @@ Les productions de Datactivist sont librement réutilisables selon les termes de
 ### 6. Prendre des décisions
 
 #### 6.1 Les données comme source de connaissances
-#### 6.2 Pour des analyses de données fines et précises
+#### 6.2 Croiser les données
 #### 6.3 Prévoir
 
 #### Etude de cas : Signaux Faibles, un algorithme pour éviter les faillites
@@ -50,7 +50,6 @@ Les productions de Datactivist sont librement réutilisables selon les termes de
 ---
 class: inverse, center, middle
 # Prendre des décisions
-
 
 
 ---
@@ -65,9 +64,9 @@ On appelle .red[**data driven**] une approche qui consiste à prendre des décis
 
 ---
 
-### .red[6.2 Pour des analyses de données fines et précises]
+### .red[6.2 Croiser les données]
 
-Il peut être utile de croiser ses propres données avec des sources extérieures pour répondre à des problématiques et à des questions plus larges.
+Il peut être utile de croiser ses propres données avec des sources extérieures pour répondre à des problématiques et à des questions plus larges et obtenir des analyses plus fines et précises.
 
 Certaines de ces données sont en **open data** donc gratuites et réutilisables, d'autres peuvent être achetées auprès de **data brokers** par exemple.
 
@@ -75,6 +74,7 @@ Certaines de ces données sont en **open data** donc gratuites et réutilisables
 Les [données météorologiques de Météo France disponibles en open data](https://donneespubliques.meteofrance.fr/) permettent par exemple, d’analyser l’impact de la météo sur la fréquentation de la clientèle, le volume et la composition de ses achats.*
 
 Des **processus d'automatisation**  pour collecter et interroger les données en temps réel peuvent être mis en place via des interfaces de programmation .red[**API**].
+
 *Exemple : le logiciel de navigation d'un éhicule va calculer sa vitesse de déplacement en fonction de sa géolocalisation et des horaires, puis il va interroger via API une base de données pour connaitre la vitesse autorisée sur la portion de route sur laquelle le véhicule est géolocalisé. Ainsi il pourra afficher un message d'alerte pour indiquer de ralentir si nécessaire.*
 
 ---
