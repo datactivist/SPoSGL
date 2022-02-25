@@ -37,7 +37,7 @@ Les productions de Datactivist sont librement réutilisables selon les termes de
 .center[<img src="./img/ccbysa.png" height="100"/>] 
 ---
 
-.red[PARTIE 1 : LES DONNEES COMME LEVIERS D'OPPORTUNITES]
+.red[PARTIE 2 : LES DONNEES COMME LEVIERS D'OPPORTUNITES]
 
 ### 4. Améliorer les performances
 
