@@ -51,7 +51,7 @@ Les productions de Datactivist sont librement réutilisables selon les termes de
 class: inverse, center, middle
 # Conquérir et/ou défendre une position stratégique
 
-Les données sont utilisées comme un moyen pour analyser les opportunités et y répondre. A ce titre, elles constituent un actif stratégique de la structure qui doit en prendre soin.
+Les données sont utilisées comme un moyen pour analyser les opportunités et y répondre. À ce titre, elles constituent un actif stratégique de la structure qui doit en prendre soin.
 
 ---
 
