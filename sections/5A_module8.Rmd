@@ -46,7 +46,7 @@ Les productions de Datactivist sont librement réutilisables selon les termes de
 #### 8.3 Entreprendre avec les données
 #### 8.4 Être accompagnés
 
-#### Etude de cas : Les concours d'innovation pour explorer des opportunités d'activité
+#### Les concours d'innovation pour explorer des opportunités d'activité
 
 ---
 class: inverse, center, middle
@@ -129,7 +129,7 @@ U.R.B.S. a par exemple été accompagnée par cet incubateur dans le développem
 
 class: inverse, center, middle
 
-# Etude de cas : Les concours d'innovation pour explorer des opportunités d'activités
+# Les concours d'innovation pour explorer des opportunités d'activités
 
 ---
 
