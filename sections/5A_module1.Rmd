@@ -99,7 +99,7 @@ Pour avoir le droit de récupérer de traiter et de transmettre les informations
 .pull-left[Ceci freine grandement les activités de collecte au point par exemple que [Mark Zuckerberg menace régulièrement l'Europe de supprimer Facebook et Instagram du continent européen](https://www.demotivateur.fr/high-tech/mark-zuckerberg-agite-de-nouveau-la-menace-de-la-fermeture-de-facebook-et-instagram-en-europe-28077).]
 
 .pull-right[<img src="./img/RGPD_europe.png" height="250"/>]
-.pull-right[.center[Voir l'[infographie complète](https://ec.europa.eu/info/law/law-topic/data-protection/reform/rules-business-and-organisations/principles-gdpr_fr)]]
+.pull-right[.center[Voir l'[infographie complète](https://www.consilium.europa.eu/fr/infographics/data-protection-regulation-infographics/)]]
 
 ---
 
