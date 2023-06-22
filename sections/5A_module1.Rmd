@@ -1,7 +1,7 @@
 ---
 title: "Module 1 : Les vendeurs et les acheteurs de données"
 subtitle: "Modèle économique et métiers de la donnée"
-author: "Datactivist, 2021-2022"
+author: "Datactivist, 2022-2023"
 date: ""
 output:
   SlidesDatactivist::moon_reader:
@@ -204,4 +204,4 @@ class: inverse, center, middle
 
 # Merci !
 
-Contact : [julia@datactivist.coop](mailto:julia@datactivist.coop)
+Contact : [joel@datactivist.coop](mailto:joel@datactivist.coop)
