@@ -1,7 +1,7 @@
 ---
 title: "Section 1 : qu’est-ce qu’une donnée ? Petite histoire sociale des données et de leur exploitation "
 subtitle: "Culture générale des données"
-author: "Datactivist, 2022-2023"
+author: "Datactivist, 2023-2024"
 date: ""
 output:
   SlidesDatactivist::moon_reader:
@@ -247,6 +247,14 @@ Les sciences sont traversées par la promesse d’un **.red[quatrième paradigme
 
 ---
 
+### Les 4 paradigmes scentifiques
+
+<img src="./img/paradigms.png"/>
+
+**Source :** Kitchin, Rob. 2022. [The Data Revolution: A Critical Analysis of Big Data, Open Data & Data Infrastructures.](https://uk.sagepub.com/en-gb/eur/the-data-revolution/book269711) Second edition. Los Angeles, CA: Sage Publications.
+
+---
+
 ### Le risque : confondre corrélation et causalité
 
 Deux événements (appelons les X et Y) sont corrélés si l’on observe une relation entre les deux. Une erreur de raisonnement courante consiste à dire : « X et Y sont corrélés, donc X cause Y ». On .red[confond corrélation et causalité].
@@ -295,10 +303,13 @@ L'abondance des données amène à un renouvellement des techniques, ouvre de no
 .pull-right[
 > *L'indexation collaborative des fiches des soldats Morts pour la France sur le site Mémoire Des Hommes a permis de révéler que le jour de plus meurtrier de la Première Guerre mondiale pour les Français n'était pas le 22 août 1914.*]
 
+???
+Selon le site Mémoire des Hommes, le 25 septembre 1915p
+
 ---
 
 class: inverse, center, middle
 
 # Merci !
 
-Contact : [julia@datactivist.coop](mailto:julia@datactivist.coop)
+Contact : [clement@datactivist.coop](mailto:clement@datactivist.coop)
