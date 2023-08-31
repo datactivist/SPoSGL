@@ -1,11 +1,12 @@
 ---
-title: "Section 1 : qu’est-ce qu’une donnée ? Petite histoire sociale des données et de leur exploitation "
+title: "Section 1 : qu’est-ce qu’une donnée ? Petite histoire sociale des données et leur exploitation"
 subtitle: "Culture générale des données"
-author: "Datactivist, 2023-2024"
-date: ""
+author: "Datactivist"
+date: "2023-2024"
 output:
   SlidesDatactivist::moon_reader:
     css: [default, datactivist, datactivist-fonts]
+    seal: false
     lib_dir: libs
     nature:
       highlightStyle: github
@@ -19,6 +20,15 @@ layout: true
   
 
 `r paste0("<div class='my-footer'><span>", params$event, "</span> <center><div class=logo><img src='", system.file('rmarkdown', 'templates', 'xaringan', 'resources', 'img', 'accidents.png', package='SlidesDatactivist'), "' width='100px'></center></span></div>")` 
+
+---
+class: center, middle
+
+# .red[Section 1 : qu’est-ce qu’une donnée ? Petite histoire sociale des données et leur exploitation]
+
+## Culture générale des données
+
+### Datactivist, 2023-2024
 
 ---
 
@@ -68,6 +78,13 @@ class:center, middle, inverse
 <iframe width="560" height="315" src="https://www.youtube.com/embed/qqvsiTUJy7k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 ]
 
+???
+**1 idée forte** : avant on enrgistrait des données sur de l'argile, etc... Maintenant informatique en séquence de 0 et 1.  
+  Il faut des données + des outils pour traiter des données   
+  Analyse de données massives = big data  
+
+**Commentaires** : Exposition Cité des Sciences 2017-2018  
+
 ---
 Classe: middle
 
@@ -92,6 +109,13 @@ Classe: middle
 #### Identifiez 3 appareils qui collectent des données 
 
 .footnote[source : [The Economist](http://lazowska.cs.washington.edu/escience/Economist.big.data.pdf)]
+
+???
+
+smartphone, montre connectée, webcam, ordinateur
+étage, numéro de salle, taille des individus, sexe des individus, jauge de la salle, adresse, adresse IP, heure de démarrage, heure de fin (pas la durée qui est une mesure dérivée), volume bouteille d'eau, valeurs étiquettes vêtements, numéro de série téléphone, numéro SS sur carte vitale
+
+/!\ La donnée collectée doit être déjà produite. Les informations déclaratives, les appréciations subjectives, ne sont pas une donnée, comme “Ce mur est blanc”.
 
 ---
 
@@ -195,6 +219,10 @@ Son logiciel "Visicalc", .red[démocratise la production des données] en propos
 <iframe width="560" height="315" src="https://www.youtube.com/embed/2a5ex5QlocQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 ]
 
+???
+
+Vidéo à montrer jusqu'à 3'05''
+
 ---
 class:center, middle, inverse
 
@@ -234,6 +262,10 @@ Strasser, B. J. (2012). "[Data-driven sciences: From wonder cabinets to electron
 
 .pull-right[.reduite[[![deluge](./img/deluge.png)](https://www.medecinesciences.org/en/articles/medsci/full_html/2012/07/medsci2012282sp24/medsci2012282sp24.html)]]
 
+???
+
+Attention au présentisme
+
 ---
 
 ### La méthode scientifique est-elle obsolète ? 
@@ -249,7 +281,7 @@ Les sciences sont traversées par la promesse d’un **.red[quatrième paradigme
 
 ### Les 4 paradigmes scentifiques
 
-<img src="./img/paradigms.png"/>
+.center[![](./img/paradigms.png)]
 
 **Source :** Kitchin, Rob. 2022. [The Data Revolution: A Critical Analysis of Big Data, Open Data & Data Infrastructures.](https://uk.sagepub.com/en-gb/eur/the-data-revolution/book269711) Second edition. Los Angeles, CA: Sage Publications.
 
@@ -288,7 +320,7 @@ Lev Manovich ([2011](http://manovich.net/content/04-projects/067-trending-the-pr
 * elle favorise les chercheurs ayant des liens officiels avec les industriels des réseaux sociaux qui vont fournir les données (difficile alors de les critiquer) ; 
 * des évidences pour les sciences humaines vont être présentées comme nouvelles ; 
 * à l'inverse, certains enseignements majeurs de la littérature des sciences humaines sont ignorés ; 
-* les traces numériques des réseaux sociaux sont perçues comme authentiques ignorant les multiples stratégies de gestion des identités des individus ;
+* les traces numériques sont perçues comme authentiques ignorant les multiples stratégies de gestion des identités des individus ;
 * ces recherches disposent d'une force rhétorique bien supérieure en s'appuyant sur les données de plusieurs millions d’individus. 
 
 ---
