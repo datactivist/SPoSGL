@@ -1,11 +1,12 @@
 ---
 title: "Section 2 : La datafication ou les promesses de la mise en données du monde"
 subtitle: "Culture générale des données"
-author: "Datactivist, 2020-2021"
+author: "Datactivist, 2022-2023"
 date: ""
 output:
   SlidesDatactivist::moon_reader:
     css: [default, datactivist, datactivist-fonts]
+    seal: false
     lib_dir: libs
     nature:
       highlightStyle: github
@@ -19,6 +20,15 @@ layout: true
   
 
 `r paste0("<div class='my-footer'><span>", params$event, "</span> <center><div class=logo><img src='", system.file('rmarkdown', 'templates', 'xaringan', 'resources', 'img', 'accidents.png', package='SlidesDatactivist'), "' width='100px'></center></span></div>")` 
+
+---
+class: center, middle
+
+# .red[Section 2 : La datafication ou les promesses de la mise en données du monde]
+
+## Culture générale des données
+
+### Datactivist, 2023-2024
 
 ---
 
@@ -321,11 +331,11 @@ class: inverse, center, middle
 ---
 class: inverse, center, middle
 
-## quiz section 2 : rdv sur votre espace e-campus !
+## Quiz section 2 : rendez-vous sur votre espace e-campus !
 
 ---
 class: inverse, center, middle
 
 # Merci !
 
-Contact : [julia@datactivist.coop](mailto:julia@datactivist.coop)
+Contact : [clement@datactivist.coop](mailto:clement@datactivist.coop)
