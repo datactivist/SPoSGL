@@ -6,14 +6,15 @@ date: ""
 output:
   SlidesDatactivist::moon_reader:
     css: [default, datactivist, datactivist-fonts]
-    seal: false
     lib_dir: libs
+    seal: false
     nature:
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
 params:
   event: Culture générale des données, Sciences Po Saint-Germain-en-Laye, section 3
+  slug: SPoSGL/
 ---
 
 layout: true
