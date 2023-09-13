@@ -1,11 +1,12 @@
 ---
 title: "Section 3 : Données, données… quelles données ? Les différents types de données"
 subtitle: "Culture générale des données"
-author: "Datactivist, 2020-2021"
+author: "Datactivist, 2023-2024"
 date: ""
 output:
   SlidesDatactivist::moon_reader:
     css: [default, datactivist, datactivist-fonts]
+    seal: false
     lib_dir: libs
     nature:
       highlightStyle: github
@@ -21,7 +22,15 @@ layout: true
 `r paste0("<div class='my-footer'><span>", params$event, "</span> <center><div class=logo><img src='", system.file('rmarkdown', 'templates', 'xaringan', 'resources', 'img', 'accidents.png', package='SlidesDatactivist'), "' width='100px'></center></span></div>")` 
 
 ---
+class: center, middle
 
+# .red[Section 3 : Données, données… quelles données ? Les différents types de données]
+
+## Culture générale des données
+
+### Datactivist, 2023-2024
+
+---
 class: center, middle
 
 Ces slides en ligne : http://datactivist.coop/SPoSGL/sections/section3.html
@@ -357,11 +366,11 @@ Pour notre exemple précédent, les métadonnées (date de modification, product
 ---
 class: inverse, center, middle
 
-## Quiz section 3 : rdv sur votre espace e-campus !
+## Quiz section 3 : rendez-vous sur le campus numérique !
 
 ---
 class: inverse, center, middle
 
 # Merci !
 
-Contact : [timothee@datactivi.st](mailto:julia@datactivi.st)
+Contact : [clement@datactivist.coop](mailto:clement@datactivist.coop)
