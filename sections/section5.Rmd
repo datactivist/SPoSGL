@@ -6,6 +6,7 @@ date: ""
 output:
   SlidesDatactivist::moon_reader:
     css: [default, datactivist, datactivist-fonts]
+    seal: false
     lib_dir: libs
     nature:
       highlightStyle: github
@@ -21,6 +22,15 @@ layout: true
   
 
 `r paste0("<div class='my-footer'><span>", params$event, "</span> <center><div class=logo><img src='", system.file('rmarkdown', 'templates', 'xaringan', 'resources', 'img', 'accidents.png', package='SlidesDatactivist'), "' width='100px'></center></span></div>")`
+
+---
+class: center, middle
+
+# .red[Section 5 : Manipulation et représentation de données : éviter des écueils classiques]
+
+## Culture générale des données
+
+### Datactivist, 2023-2024
 
 ---
 
@@ -500,11 +510,11 @@ class: inverse, center, middle
 ---
 class: inverse, center, middle
 
-## Quiz section 5 : rdv sur votre espace e-campus !
+## Quiz section 5 : rdv sur le campus numérique !
 
 ---
 class: inverse, center, middle
 
 # Merci !
 
-Contact : [julia@datactivi.st](mailto:julia@datactivi.st)
+Contact : [clement@datactivist.coop](mailto:clement@datactivist.coop)
