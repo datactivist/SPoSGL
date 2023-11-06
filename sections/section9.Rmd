@@ -1,7 +1,7 @@
 ---
 title: "Section 9 : Qu'est-ce que la data science ?"
 subtitle: "Culture générale des données"
-author: "Datactivist, 2020-2021"
+author: "Datactivist, 2023-2024"
 date: ""
 output:
   SlidesDatactivist::moon_reader:
@@ -325,10 +325,14 @@ class: inverse, center, middle
 ## [Introduction à la data visualisation](https://datactivist.coop/odl_paca)
 
 
+---
+class: inverse, center, middle
 
+## Quiz section 9 : rdv sur le campus numérique !
 
 ---
 class: inverse, center, middle
 
 # Merci !
 
+Contact : [clement@datactivist.coop](mailto:clement@datactivist.coop)
