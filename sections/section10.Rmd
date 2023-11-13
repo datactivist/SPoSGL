@@ -415,7 +415,9 @@ Le deep learning permet de décomposer un problème complexe (reconnaissance fac
 
 ### 1- [Comment reconnaître un hot dog ?](https://medium.com/@jaimejcheng/hot-dog-or-not-a-lesson-on-image-classification-using-convolutional-neural-networks-a2b92e81f4ad) 
 
-### 2- [Ce qui se cache derrière le fonctionnement de ChatGPT - ScienceEtonnante](https://www.youtube.com/watch?v=7ell8KEbhJo) 
+### 2- [Ce qui se cache derrière le fonctionnement de ChatGPT - ScienceEtonnante](https://www.youtube.com/watch?v=7ell8KEbhJo)
+
+### 3- [ChatGPT ou la percée des modèles d’IA conversationnels](https://www.peren.gouv.fr/rapports/2023-04-06_Eclairage%20sur_CHATGPT_FR.pdf) - Rapport du Peren
 
 ---
 class: inverse, center, middle
