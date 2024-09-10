@@ -1,7 +1,7 @@
 ---
 title: "Module 3 : Les données ouvertes, un bien commun"
 subtitle: "Modèle économique et métiers de la donnée"
-author: "Datactivist, 2021-2022"
+author: "Datactivist, 2023-2024"
 date: ""
 output:
   SlidesDatactivist::moon_reader:

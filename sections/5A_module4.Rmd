@@ -1,7 +1,7 @@
 ---
 title: "Module 4 : Améliorer les performances"
 subtitle: "Modèle économique et métiers de la donnée"
-author: "Datactivist, 2021-2022"
+author: "Datactivist, 2023-2024"
 date: ""
 output:
   SlidesDatactivist::moon_reader:
@@ -137,9 +137,11 @@ De plus il faut concevoir un **algorithme de prise de décision** avec un **scor
 #### .red[Bénéfices]
 
 La mise en place du ship from store a permis de réduire le nombre de commandes en lignes non servies et de **satisfaire plus de clients**.
-.center[<img src="./img/arrow.png" height="40"/>]
+
+
 Ce qui a permis d'améliorer les chiffres des ventes car plus d'articles sont vendus et plus le sont avant les soldes.
-.center[<img src="./img/arrow.png" height="40"/>]
+
+
 Il y a de fait une **réduction des stocks** et des coûts qu'ils génèrent.
 
 

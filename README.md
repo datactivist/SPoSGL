@@ -3,7 +3,7 @@ Répertoire commun des modules de cours pour les étudiants de 1ère année et d
 
 Les productions de Datactivist sont librement réutilisables selon les termes de la licence [Creative Commons 4.0 BY-SA](https://creativecommons.org/licenses/by-sa/4.0/legalcode.fr).
 
-## Pour accéder aux modules du cours **1A - Culture générale des données** :
+## Sections du cours **1A - Culture générale des données** :
 
 _[Cliquez ici pour accéder aux versions PDF](https://github.com/datactivist/SPoSGL/tree/master/sections-pdf-1A)_
 
@@ -29,7 +29,7 @@ données publiques](https://docs.google.com/presentation/d/e/2PACX-1vSoJF4D-CBql
 [- **1A Section 10** : Analyse, modélisation, machine learning et algorithmes ](https://datactivist.coop/SPoSGL/sections/section10.html#1)
 
 
-## Pour accéder aux modules du cours **5A Modèle économique et métiers de la donnée** :
+## Modules du cours **5A Modèle économique et métiers de la donnée** :
 
 _[Cliquez ici pour accéder aux versions PDF](https://github.com/datactivist/SPoSGL/tree/master/sections-pdf-5A)_
 
