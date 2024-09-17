@@ -2,7 +2,7 @@
 title: "Section 1 : qu’est-ce qu’une donnée ? Petite histoire sociale des données et leur exploitation"
 subtitle: "Culture générale des données"
 author: "Datactivist"
-date: "2023-2024"
+date: "2024"
 output:
   SlidesDatactivist::moon_reader:
     css: [default, datactivist, datactivist-fonts]
@@ -28,7 +28,7 @@ class: center, middle
 
 ## Culture générale des données
 
-### Datactivist, 2024-2025
+### Datactivist, 2024
 
 ---
 

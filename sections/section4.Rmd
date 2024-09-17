@@ -1,7 +1,7 @@
 ---
 title: "Section 4: L’écosystème des sources de données publiques"
 subtitle: "Culture générale des données"
-author: "Datactivist, 2023-2024"
+author: "Datactivist, 2024"
 date: ""
 output:
   SlidesDatactivist::moon_reader:

@@ -1,7 +1,7 @@
 ---
 title: "Section 3 : Données, données… quelles données ? Les différents types de données"
 subtitle: "Culture générale des données"
-author: "Datactivist, 2023-2024"
+author: "Datactivist, 2024"
 date: ""
 output:
   SlidesDatactivist::moon_reader:
@@ -29,7 +29,7 @@ class: center, middle
 
 ## Culture générale des données
 
-### Datactivist, 2023-2024
+### Datactivist, 2024
 
 ---
 class: center, middle

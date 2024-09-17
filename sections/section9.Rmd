@@ -1,7 +1,7 @@
 ---
 title: "Section 9 : Qu'est-ce que la data science ?"
 subtitle: "Culture générale des données"
-author: "Datactivist, 2023-2024"
+author: "Datactivist, 2024"
 date: ""
 output:
   SlidesDatactivist::moon_reader:

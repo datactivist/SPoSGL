@@ -1,7 +1,7 @@
 ---
 title: "Section 2 : La datafication ou les promesses de la mise en données du monde"
 subtitle: "Culture générale des données"
-author: "Datactivist, 2022-2023"
+author: "Datactivist, 2024"
 date: ""
 output:
   SlidesDatactivist::moon_reader:
@@ -28,7 +28,7 @@ class: center, middle
 
 ## Culture générale des données
 
-### Datactivist, 2023-2024
+### Datactivist, 2024
 
 ---
 
