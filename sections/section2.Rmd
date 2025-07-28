@@ -28,7 +28,7 @@ class: center, middle
 
 ## Culture générale des données
 
-### Datactivist, 2024
+### Datactivist, 2025
 
 ---
 
@@ -338,4 +338,5 @@ class: inverse, center, middle
 
 # Merci !
 
-Contact : [clement@datactivist.coop](mailto:clement@datactivist.coop)
+Contact : [laurane@datactivist.coop](mailto:laurane@datactivist.coop)
+et [loup@datactivist.coop](mailto:loup@datactivist.coop)
