@@ -1,12 +1,11 @@
 ---
 title: "Section 10 : Analyse, modélisation, machine learning et algorithmes"
 subtitle: "Culture générale des données"
-author: "Datactivist, 2024"
-date: ""
 output:
   SlidesDatactivist::moon_reader:
     css: [default, datactivist, datactivist-fonts]
     lib_dir: libs
+    seal: false
     nature:
       highlightStyle: github
       highlightLines: true
@@ -14,13 +13,21 @@ output:
 params:
   event: Culture générale des données, Sciences Po Saint-Germain-en-Laye, section 10
   slug: SPoSGL/
-  
 ---
 
 layout: true
   
 
 `r paste0("<div class='my-footer'><span>", params$event, "</span> <center><div class=logo><img src='", system.file('rmarkdown', 'templates', 'xaringan', 'resources', 'img', 'accidents.png', package='SlidesDatactivist'), "' width='100px'></center></span></div>")`
+
+---
+class: center, middle
+
+# .red[Section 10 : Analyse, modélisation, machine learning et algorithmes]
+
+## Culture générale des données
+
+### Datactivist, `r format(as.Date(Sys.Date(), format="%Y/%m/%d"),"%Y")`
 
 ---
 
@@ -429,4 +436,4 @@ class: inverse, center, middle
 
 # Merci !
 
-Contact : [clement@datactivist.coop](mailto:clement@datactivist.coop)
+Contact : [laurane@datactivi.st](mailto:laurane@datactivi.st)

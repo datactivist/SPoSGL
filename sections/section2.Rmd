@@ -1,8 +1,6 @@
 ---
 title: "Section 2 : La datafication ou les promesses de la mise en données du monde"
 subtitle: "Culture générale des données"
-author: "Datactivist, 2024"
-date: ""
 output:
   SlidesDatactivist::moon_reader:
     css: [default, datactivist, datactivist-fonts]
@@ -28,7 +26,7 @@ class: center, middle
 
 ## Culture générale des données
 
-### Datactivist, 2025
+### Datactivist, `r format(as.Date(Sys.Date(), format="%Y/%m/%d"),"%Y")`
 
 ---
 
@@ -338,5 +336,4 @@ class: inverse, center, middle
 
 # Merci !
 
-Contact : [laurane@datactivist.coop](mailto:laurane@datactivist.coop)
-et [loup@datactivist.coop](mailto:loup@datactivist.coop)
+Contact : [laurane@datactivi.st](mailto:laurane@datactivi.st)

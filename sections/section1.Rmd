@@ -2,7 +2,6 @@
 title: "Section 1 : qu’est-ce qu’une donnée ? Petite histoire sociale des données et leur exploitation"
 subtitle: "Culture générale des données"
 author: "Datactivist"
-date: "2024"
 output:
   SlidesDatactivist::moon_reader:
     css: [default, datactivist, datactivist-fonts]
@@ -28,7 +27,7 @@ class: center, middle
 
 ## Culture générale des données
 
-### Datactivist, 2025
+### Datactivist, `r format(as.Date(Sys.Date(), format="%Y/%m/%d"),"%Y")`
 
 ---
 
@@ -368,4 +367,4 @@ class: inverse, center, middle
 
 # Merci !
 
-Contact : [clement@datactivist.coop](mailto:clement@datactivist.coop)
+Contact : [laurane@datactivi.st](mailto:laurane@datactivi.st)

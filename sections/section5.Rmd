@@ -1,8 +1,6 @@
 ---
 title: "Section 5: Manipulation et représentation de données : éviter des écueils classiques"
 subtitle: "Culture générale des données"
-author: "Datactivist, 2024"
-date: ""
 output:
   SlidesDatactivist::moon_reader:
     css: [default, datactivist, datactivist-fonts]
@@ -15,7 +13,6 @@ output:
 params:
   event: Culture générale des données, Sciences Po Saint-Germain-en-Laye, section 5
   slug: SPoSGL/
-  
 ---
 
 layout: true
@@ -30,7 +27,7 @@ class: center, middle
 
 ## Culture générale des données
 
-### Datactivist, 2024
+### Datactivist, `r format(as.Date(Sys.Date(), format="%Y/%m/%d"),"%Y")`
 
 ---
 
@@ -517,4 +514,4 @@ class: inverse, center, middle
 
 # Merci !
 
-Contact : [clement@datactivist.coop](mailto:clement@datactivist.coop)
+Contact : [laurane@datactivi.st](mailto:laurane@datactivi.st)

@@ -1,8 +1,6 @@
 ---
 title: "Section 3 : Données, données… quelles données ? Les différents types de données"
 subtitle: "Culture générale des données"
-author: "Datactivist, 2024"
-date: ""
 output:
   SlidesDatactivist::moon_reader:
     css: [default, datactivist, datactivist-fonts]
@@ -29,7 +27,7 @@ class: center, middle
 
 ## Culture générale des données
 
-### Datactivist, 2024
+### Datactivist, `r format(as.Date(Sys.Date(), format="%Y/%m/%d"),"%Y")`
 
 ---
 class: center, middle
@@ -374,4 +372,4 @@ class: inverse, center, middle
 
 # Merci !
 
-Contact : [clement@datactivist.coop](mailto:clement@datactivist.coop)
+Contact : [laurane@datactivi.st](mailto:laurane@datactivi.st)
