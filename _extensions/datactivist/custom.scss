@@ -1,0 +1,141 @@
+/*-- scss:defaults --*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+$headings-font-family: "Montserrat";
+$body-bg: white;
+$body-color: #173541;
+$link-color: #E95459;  
+$selection-bg: #FFF1EB;
+$presentation-heading-color: #173541;
+$headings-font-weight: 800;
+$presentation-title-slide-text-align: left;
+
+/*-- scss:rules --*/
+.reveal .slide-number {
+ color: #E95459;
+}
+
+.reveal .footer {
+ color: #173541;
+ font-family: "Open Sans";
+}
+
+.reveal .slide-logo {
+ max-height: 3rem;
+ margin-bottom: 1rem;
+}
+
+.reveal h1, 
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5,
+.reveal h6 {
+ font-family: "Montserrat" !important;
+}
+
+.reveal .title {
+ color: white;
+ font-family: "Montserrat" !important;
+}
+
+.title-slide h1 {
+ font-family: "Montserrat" !important;
+}
+
+.reveal p {
+ font-family: "Open Sans";
+}
+
+.reveal ul {
+ font-family: "Open Sans";
+}
+
+.reveal ol {
+ font-family: "Open Sans";
+}
+
+body {
+ font-family: "Open Sans";
+} 
+
+.left-column {
+  float: left;
+  width: 30%;
+}
+
+.right-column {
+  float: right;
+  width: 70%;
+}
+
+.pull-left{
+  float:left;
+  width:50%;
+}
+
+.pull-right{
+  float:right;
+  width:50%;
+}
+
+.reveal p {
+  font-family: "Open Sans";
+  font-size: 25px;
+}
+
+.reveal ul {
+  font-size: 25px;
+}
+
+.reveal ol {
+  font-size: 25px;
+}
+
+/* Couleur par défaut pour les liens et textes en bleu */
+.reveal a, 
+.reveal .text-blue {
+  color:#E95459; /* Turquoise de la charte */
+}
+
+/* Pour le texte des références/citations */
+.reveal .citation,
+.reveal .quote {
+  color: #E95459; /* Rouge de la charte */
+}
+
+/* Pour assurer la cohérence des textes */
+.reveal p {
+  color: #173541; /* Nuit de la charte */
+}
+
+/* Pour le texte en blanc sur fond sombre */
+.reveal .text-white,
+.reveal .text-white h1,
+.reveal .text-white h2,
+.reveal .text-white h3,
+.reveal .text-white p,
+.reveal .text-white li {
+  color: white !important;
+}
+
+/* Pour les liens en blanc sur fond sombre */
+.reveal .text-white a {
+  color: white;
+  text-decoration: underline;
+}
+
+/* Pour assurer la cohérence des textes */
+.reveal p {
+  color: #173541; /* Nuit de la charte */
+}
+
+/* Pour le texte en rouge */
+.reveal .red {
+  color: #E95459; /* Rouge de la charte */
+}
+
+/* Pour le texte en rouge dans les spans */
+.red {
+  color: #E95459;
+}

@@ -1,0 +1,25 @@
+title: Datactivist
+author: Your Name
+version: 1.0.0
+contributes:
+  formats:
+    revealjs:
+      theme: [default, custom.scss]
+      slide-number: true 
+      show-slide-number: all
+      logo: logo.png
+      footer: ""
+      title-slide-attributes:
+        data-background-color: "#173541"
+      mainfont: "Open Sans"
+      mainfontoptions:
+        - Extension=.ttf
+        - UprightFont=*-Regular
+        - BoldFont=*-Bold
+      headingfont: "Montserrat"
+      colors:
+        datactivist:
+          main: "#173541"     # Nuit
+          accent: "#E95459"   # Rouge  
+          light: "#FFF1EB"    # Rosé
+          secondary: "#4ED9CC" # Turquoise
