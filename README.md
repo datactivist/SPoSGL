@@ -24,7 +24,7 @@ données publiques](https://docs.google.com/presentation/d/e/2PACX-1vSoJF4D-CBql
 
 [- **1A Section 8** : Le cadre juridique autour de l'open data et de la protection des données personnelles](https://docs.google.com/presentation/d/e/2PACX-1vTXhJh2yXB2Y-OHns3aXf9Fn8MS7ahp208ZTwj_9WSrE6cCpjDI4gXaPcoWz2_UATtFtFht00kctvbX/pub?start=false&loop=false&delayms=30000)
 
-[- **1A Section 9** : Qu'est-ce que la data science ? ](https://datactivist.coop/SPoSGL/sections/section9.html#1)
+[- **1A Section 9** : Qu'est-ce que la data science ? ](https://docs.google.com/presentation/d/1D94yKF6-hZ16oSvRZ-L_TX23N0Axj7r6Tdw-vTICOWk/present#slide=id.g4afb82a2b1_0_192)
 
 [- **1A Section 10** : Analyse, modélisation, machine learning et algorithmes ](https://datactivist.coop/SPoSGL/sections/section10.html#1)
 
