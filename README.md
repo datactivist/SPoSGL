@@ -26,7 +26,7 @@ données publiques](https://docs.google.com/presentation/d/e/2PACX-1vSoJF4D-CBql
 
 [- **1A Section 9** : Qu'est-ce que la data science ? ](https://docs.google.com/presentation/d/1D94yKF6-hZ16oSvRZ-L_TX23N0Axj7r6Tdw-vTICOWk/present#slide=id.g4afb82a2b1_0_192)
 
-[- **1A Section 10** : Analyse, modélisation, machine learning et algorithmes ](https://datactivist.coop/SPoSGL/sections/section10.html#1)
+[- **1A Section 10** : Analyse, modélisation, machine learning et algorithmes ](https://docs.google.com/presentation/d/1Pa0weoxBiguabJ0vmUXRA48TZmj6iJ3jNYm3E0EuPYU/present)
 
 
 ## Modules du cours **5A Modèle économique et métiers de la donnée** :
